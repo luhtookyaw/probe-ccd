@@ -1,0 +1,6 @@
+You are generating the next client response.
+
+Dialogue History:
+{dialogue_history}
+
+Write only the client's next reply.
