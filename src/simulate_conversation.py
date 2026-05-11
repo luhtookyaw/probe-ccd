@@ -1,5 +1,6 @@
 import argparse
 import json
+import random
 import re
 from pathlib import Path
 from typing import Any
@@ -9,12 +10,25 @@ PROJECT_ROOT = Path(__file__).resolve().parents[1]
 PROMPTS_DIR = PROJECT_ROOT / "prompts"
 JUDGES_DIR = PROMPTS_DIR / "judges"
 DATASET_PATH = PROJECT_ROOT / "data" / "Patient_Psi_CM_Dataset.json"
+OPENNESS_GUIDELINE_PATH = PROJECT_ROOT / "data" / "openness_guideline.json"
 OPENNESS_CADENCE_BY_DIFFICULTY = {
     "easy": 2,
     "normal": 4,
     "hard": 6,
 }
 EXPLORATION_CADENCE = 4
+EXTERNAL_FIELD_LABELS = {
+    "situation": "Situation",
+    "behavior": "Behavior",
+    "automatic_thoughts": "Automatic Thoughts",
+    "emotions": "Emotions",
+}
+INTERNAL_FIELD_LABELS = {
+    "intermediate_beliefs": "Intermediate Beliefs",
+    "coping_strategies": "Coping Strategies",
+    "core_beliefs": "Core Beliefs",
+    "relevant_history": "Relevant History",
+}
 
 
 def read_text(path: Path) -> str:
@@ -23,6 +37,10 @@ def read_text(path: Path) -> str:
 
 def load_cases(path: Path = DATASET_PATH) -> list[dict[str, Any]]:
     return json.loads(path.read_text(encoding="utf-8"))
+
+
+def load_guidelines(path: Path, root_key: str) -> dict[str, dict[str, str]]:
+    return json.loads(path.read_text(encoding="utf-8"))[root_key]
 
 
 def get_case(cases: list[dict[str, Any]], case_id: str | None, case_index: int) -> dict[str, Any]:
@@ -57,25 +75,90 @@ def build_core_beliefs(case: dict[str, Any]) -> str:
     return "\n".join(beliefs) if beliefs else "Not specified"
 
 
+def format_revealed_diagram(fields: list[tuple[str, str]]) -> str:
+    visible_fields = [
+        f"- {label}: {value}"
+        for label, value in fields
+        if value
+    ]
+    return "\n".join(visible_fields) if visible_fields else "- None revealed yet"
+
+
+def score_to_revealed_count(score: int, total_fields: int) -> int:
+    return min(max(score - 1, 0), total_fields)
+
+
+def build_external_reveal_order(rng: random.Random) -> list[str]:
+    remaining_fields = [
+        field
+        for field in EXTERNAL_FIELD_LABELS
+        if field != "situation"
+    ]
+    rng.shuffle(remaining_fields)
+    return ["situation", *remaining_fields]
+
+
+def get_external_field_value(case: dict[str, Any], field: str) -> str:
+    values = {
+        "situation": case.get("situation", ""),
+        "behavior": case.get("behavior", ""),
+        "automatic_thoughts": case.get("auto_thought", ""),
+        "emotions": join_list(case.get("emotion")),
+    }
+    return values[field]
+
+
+def get_internal_field_value(case: dict[str, Any], field: str) -> str:
+    values = {
+        "intermediate_beliefs": case.get("intermediate_belief", ""),
+        "coping_strategies": case.get("coping_strategies", ""),
+        "core_beliefs": build_core_beliefs(case),
+        "relevant_history": case.get("history", ""),
+    }
+    return values[field]
+
+
+def build_external_diagram(case: dict[str, Any], revealed_fields: list[str]) -> str:
+    fields = [
+        (EXTERNAL_FIELD_LABELS[field], get_external_field_value(case, field))
+        for field in revealed_fields
+    ]
+    return format_revealed_diagram(fields)
+
+
+def build_internal_diagram(case: dict[str, Any], revealed_fields: list[str]) -> str:
+    fields = [
+        (INTERNAL_FIELD_LABELS[field], get_internal_field_value(case, field))
+        for field in revealed_fields
+    ]
+    return format_revealed_diagram(fields)
+
+
+def get_score_guideline(guidelines: dict[str, dict[str, str]], score: int) -> str:
+    guideline = guidelines[str(score)]
+    return guideline["guideline"]
+
+
 def format_client_system_prompt(
     template: str,
     case: dict[str, Any],
     openness_score: int,
     exploration_score: int,
+    external_reveal_order: list[str],
+    internal_reveal_order: list[str],
+    openness_guidelines: dict[str, dict[str, str]],
 ) -> str:
+    external_count = score_to_revealed_count(openness_score, len(external_reveal_order))
+    internal_count = score_to_revealed_count(exploration_score, len(internal_reveal_order))
+
     return template.format(
         name=case.get("name", ""),
         traits=join_list(case.get("type")),
-        situation=case.get("situation", ""),
-        automatic_thoughts=case.get("auto_thought", ""),
-        emotions=join_list(case.get("emotion")),
-        behavior=case.get("behavior", ""),
-        intermediate_beliefs=case.get("intermediate_belief", ""),
-        coping_strategies=case.get("coping_strategies", ""),
-        core_beliefs=build_core_beliefs(case),
-        relevant_history=case.get("history", ""),
+        external_diagram=build_external_diagram(case, external_reveal_order[:external_count]),
+        internal_diagram=build_internal_diagram(case, internal_reveal_order[:internal_count]),
         openness_score=openness_score,
         exploration_score=exploration_score,
+        openness_guideline=get_score_guideline(openness_guidelines, openness_score),
     )
 
 
@@ -168,6 +251,12 @@ def format_score_source(judge_ran: bool) -> str:
     return "judged" if judge_ran else "reused"
 
 
+def get_reveal_seed(case: dict[str, Any], random_seed: int | None) -> int | str:
+    if random_seed is not None:
+        return random_seed
+    return str(case.get("id", ""))
+
+
 def simulate_conversation(
     case: dict[str, Any],
     turn_pairs: int,
@@ -175,11 +264,19 @@ def simulate_conversation(
     judge_model: str,
     temperature: float,
     difficulty: str,
+    random_seed: int | None = None,
 ) -> list[dict[str, Any]]:
     client_system_template = read_text(PROMPTS_DIR / "client_system.txt")
     client_user_template = read_text(PROMPTS_DIR / "client_user.txt")
     therapist_system_prompt = read_text(PROMPTS_DIR / "therapist_system.txt")
     therapist_user_template = read_text(PROMPTS_DIR / "therapist_user.txt")
+    openness_guidelines = load_guidelines(OPENNESS_GUIDELINE_PATH, "openness_guidelines")
+
+    reveal_seed = get_reveal_seed(case, random_seed)
+    rng = random.Random(reveal_seed)
+    external_reveal_order = build_external_reveal_order(rng)
+    internal_reveal_order = list(INTERNAL_FIELD_LABELS)
+    rng.shuffle(internal_reveal_order)
 
     dialogue: list[dict[str, Any]] = []
     openness_score = 1
@@ -211,12 +308,27 @@ def simulate_conversation(
             f"openness={openness_score}, exploration={exploration_score}",
             flush=True,
         )
+        external_count = score_to_revealed_count(openness_score, len(external_reveal_order))
+        internal_count = score_to_revealed_count(exploration_score, len(internal_reveal_order))
+        revealed_external_fields = external_reveal_order[:external_count]
+        revealed_internal_fields = internal_reveal_order[:internal_count]
+        print(
+            "\nRevealed External Diagram:\n"
+            f"{build_external_diagram(case, revealed_external_fields)}"
+            "\n\nRevealed Internal Diagram:\n"
+            f"{build_internal_diagram(case, revealed_internal_fields)}",
+            flush=True,
+        )
         client_system_prompt = format_client_system_prompt(
             client_system_template,
             case,
             openness_score,
             exploration_score,
+            external_reveal_order,
+            internal_reveal_order,
+            openness_guidelines,
         )
+
         client_reply = generate_next_reply(
             system_prompt=client_system_prompt,
             user_template=client_user_template,
@@ -276,6 +388,7 @@ def write_output(path: Path, case: dict[str, Any], dialogue: list[dict[str, Any]
         "exploration_judge_cadence": EXPLORATION_CADENCE,
         "initial_openness_score": 1,
         "initial_exploration_score": 1,
+        "random_seed": get_reveal_seed(case, args.random_seed),
         "dialogue": dialogue,
     }
     path.parent.mkdir(parents=True, exist_ok=True)
@@ -311,6 +424,11 @@ def parse_args() -> argparse.Namespace:
     )
     parser.add_argument("--temperature", type=float, default=0.7)
     parser.add_argument(
+        "--random-seed",
+        type=int,
+        help="Optional seed for reproducible random CCD reveal order. Defaults to the case id.",
+    )
+    parser.add_argument(
         "--difficulty",
         choices=list(OPENNESS_CADENCE_BY_DIFFICULTY.keys()),
         default="normal",
@@ -339,6 +457,7 @@ def main() -> None:
         judge_model=args.judge_model,
         temperature=args.temperature,
         difficulty=args.difficulty,
+        random_seed=args.random_seed,
     )
 
     if args.output:
