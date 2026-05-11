@@ -22,4 +22,3 @@ Currently, your openness is {openness}
 - If openness is medium, you should balance between resisting and openness
 - If openness is high, you should mostly open with little resistance
 
-Currently, you metacognition level is {metacognition}
