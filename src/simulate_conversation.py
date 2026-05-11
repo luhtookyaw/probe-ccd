@@ -419,7 +419,7 @@ def parse_args() -> argparse.Namespace:
     )
     parser.add_argument(
         "--judge-model",
-        default="gpt-4o",
+        default="gpt-4o-mini",
         help="OpenAI model for openness and exploration judges.",
     )
     parser.add_argument("--temperature", type=float, default=0.7)

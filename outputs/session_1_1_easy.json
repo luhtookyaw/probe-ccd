@@ -2,7 +2,7 @@
   "case_id": "1-1",
   "case_name": "Alex",
   "conversation_model": "gpt-4o-mini",
-  "judge_model": "gpt-4o",
+  "judge_model": "gpt-4o-mini",
   "temperature": 0.7,
   "turn_pairs": 25,
   "total_messages": 50,
@@ -16,12 +16,12 @@
     {
       "turn": 1,
       "speaker": "Therapist",
-      "text": "I'm glad you're here today. What’s been on your mind lately that feels important to talk about?"
+      "text": "Welcome! I’m really glad you’re here today. What feels most important for you to talk about right now?"
     },
     {
       "turn": 1,
       "speaker": "Client",
-      "text": "Uh, I don’t know. I guess... just the usual stuff? Life, work, whatever. Nothing really stands out, you know? Just trying to get through the day, I suppose. Not sure if that's important or... I mean, it feels like everyone has something more significant going on.",
+      "text": "I don't know, I guess there's a lot on my mind, but it doesn't really feel important. Just the usual stuff, I suppose. It's hard to pin down what matters.",
       "openness_score": 1,
       "exploration_score": 1,
       "post_client_openness_score": 1,
@@ -32,12 +32,12 @@
     {
       "turn": 2,
       "speaker": "Therapist",
-      "text": "It sounds like you’re feeling a bit overwhelmed with the day-to-day and maybe even questioning the significance of what you're experiencing. That can be tough. What do you think it is about the usual stuff that feels heavy for you right now?"
+      "text": "It sounds like you’re experiencing a lot of thoughts and feelings, but it’s challenging to identify what feels significant to you right now. That can be overwhelming. Can you share a little more about what those \"usual stuff\" thoughts are?"
     },
     {
       "turn": 2,
       "speaker": "Client",
-      "text": "Yeah, I guess heavy is one way to put it. I mean, it’s just... everything feels kind of monotonous, I suppose? Work is just... work. I don’t know. It's like I'm just going through the motions. I don't want to make it seem like I'm complaining, though. Everyone has their own stuff, right? So, I don’t really know if I should even be talking about it.",
+      "text": "It's just, you know, the same things that always come up. Work, relationships, trying to figure out what I'm supposed to do. But I don't think any of it really matters, honestly. It's just... noise, I guess.",
       "openness_score": 1,
       "exploration_score": 1,
       "post_client_openness_score": 2,
@@ -48,12 +48,12 @@
     {
       "turn": 3,
       "speaker": "Therapist",
-      "text": "It sounds like you're in a place where the routine of life feels a bit dull and maybe even draining, and that brings up some uncertainty about whether it's okay to share those feelings. It's completely valid to talk about what you're experiencing, even if it feels small compared to what others might be facing. Can you tell me more about what that monotony looks like for you in your daily life?"
+      "text": "Therapist: It sounds like you’re feeling a bit disconnected from what’s on your mind, almost like it’s just background noise rather than something that truly matters to you. That must be a frustrating experience. When you think about work, relationships, or your direction in life, what emotions come up for you?"
     },
     {
       "turn": 3,
       "speaker": "Client",
-      "text": "I mean, I guess it's just the same old routine, you know? Wake up, go to work, come home, and then... what? Maybe watch something on TV or scroll through my phone—nothing really exciting. I don’t want to sound like I’m whining about it, but it feels like... like I’m stuck in a loop or something. It’s just... I don’t know, kind of boring? And then I hear about my cousin's wedding, and I’m like, great, another thing to go to where everyone else is living their lives while I’m just... here, doing the same old thing. It’s hard to shake that feeling of being left out, I guess.",
+      "text": "I guess it just feels... heavy? Like I’m carrying around a backpack full of bricks, and I don’t even know why. But then again, I’m not sure if that’s how I really feel—maybe I'm just saying that because it sounds dramatic. Relationships can be exhausting, and work is just... work. It's all just kind of boring, I guess.",
       "openness_score": 2,
       "exploration_score": 1,
       "post_client_openness_score": 2,
@@ -64,15 +64,15 @@
     {
       "turn": 4,
       "speaker": "Therapist",
-      "text": "It sounds like you’re feeling really stuck in this cycle of routine, and it’s bringing up feelings of boredom and maybe even a sense of being left behind compared to others. It’s understandable to feel that way, especially when you’re hearing about significant life events like your cousin’s wedding. Can you share more about what it feels like for you when you think about those moments of connection that you might be missing out on?"
+      "text": "It sounds like you're feeling a sense of heaviness, like there's a weight you’re carrying that feels somewhat undefined. You mentioned relationships being exhausting and work feeling boring—there’s a bit of a mix of fatigue and disconnection in what you’re saying. Can you tell me more about what makes relationships feel exhausting for you?"
     },
     {
       "turn": 4,
       "speaker": "Client",
-      "text": "I mean, I guess it just feels... isolating? Like, everyone else is moving forward, and I’m just stuck in place. I don’t want to be a downer, but when I think about it, it's frustrating. Weddings are supposed to be happy, but they just remind me of what I might be missing, you know? I don’t know if I really want to go, but I also don’t want to be that person who skips out on family stuff. It’s just... complicated, I guess?",
+      "text": "I mean, it’s just... people can be so demanding, you know? Like, they expect all this energy from you, and it’s exhausting to keep up. I don’t know if I have the patience for it anymore. I guess it’s just easier to keep things at arm’s length, but then it feels lonely, too. It's kind of a mess, honestly.",
       "openness_score": 2,
       "exploration_score": 1,
-      "post_client_openness_score": 2,
+      "post_client_openness_score": 3,
       "post_client_exploration_score": 3,
       "openness_judge_ran": true,
       "exploration_judge_ran": true
@@ -80,15 +80,15 @@
     {
       "turn": 5,
       "speaker": "Therapist",
-      "text": "It sounds like you're feeling a mix of frustration and isolation when it comes to these family events, and that creates a real conflict for you. Wanting to be part of the celebrations while also feeling like you're in a different place can be really challenging. Can you tell me more about what specifically feels complicated for you regarding attending the wedding?"
+      "text": "It sounds like you’re feeling a push and pull between wanting to maintain connections and the exhaustion that comes from those demands. Keeping people at arm’s length feels like a way to protect yourself, but it also brings about a sense of loneliness. That sounds really difficult to navigate. Can you share more about what you feel when you think about keeping those connections at a distance?"
     },
     {
       "turn": 5,
       "speaker": "Client",
-      "text": "I mean, I guess it's just... the whole idea of being around family, you know? It can be really overwhelming sometimes. Like, I want to support my cousin and all, but then there’s all that small talk, and I just... I don't know, it feels like everyone has their lives figured out while I’m just... here. It’s like, do I even belong there? I keep thinking about how it’ll just remind me of everything I'm not doing. I don’t want to be a downer, but it feels... complicated, like I’m caught between wanting to be there and wanting to hide away.",
-      "openness_score": 2,
+      "text": "I guess when I think about keeping those connections at a distance, it feels like... I don’t know, a bit of relief? Like, if I don't have to deal with the questions or the expectations, then maybe I can just breathe. But then there's this nagging feeling that I'm missing out on something important, you know? Like, maybe they really do care, but I just... can’t shake the thought that nobody really wants me around.",
+      "openness_score": 3,
       "exploration_score": 3,
-      "post_client_openness_score": 2,
+      "post_client_openness_score": 3,
       "post_client_exploration_score": 3,
       "openness_judge_ran": false,
       "exploration_judge_ran": false
@@ -96,13 +96,13 @@
     {
       "turn": 6,
       "speaker": "Therapist",
-      "text": "It sounds like being around your family at the wedding brings up a lot of mixed feelings for you. On one hand, you want to show support for your cousin, but on the other hand, the idea of small talk and comparisons to others' lives feels overwhelming and makes you question your own place in that setting. It’s understandable to feel caught between wanting to connect and wanting to retreat. How do you usually cope with these feelings when they come up?"
+      "text": "It sounds like there’s a mix of relief and longing when you consider keeping connections at a distance. The relief comes from avoiding the pressure and expectations, while the nagging feeling hints at a deeper desire for connection and belonging. It must be tough to feel caught between wanting to breathe freely and fearing that you might be missing out on something meaningful. What do you think it is that makes you feel like nobody really wants you around?"
     },
     {
       "turn": 6,
       "speaker": "Client",
-      "text": "I mean, I guess I try to avoid those situations as much as possible. Just... distancing myself from family helps, you know? It reduces the negativity and conflict, or at least I think it does. I’ve started planning out my days, scheduling little things that make me feel good, just to keep some control over my emotions. But then, it feels like I’m just hiding from everything. It's like a double-edged sword, really. I don’t know if that’s healthy or... just a way to keep things from getting worse.",
-      "openness_score": 2,
+      "text": "I don't know, maybe it’s just... the way things have always been in my family. Like, my mum is always critical, and I can’t shake that feeling that she would be ashamed of me. It’s like I can hear her voice in my head saying I don't measure up. And then there’s this wedding coming up, and I can’t help but think that nobody really wants me there anyway. It’s just this cycle of feeling unwanted, I guess.",
+      "openness_score": 3,
       "exploration_score": 3,
       "post_client_openness_score": 3,
       "post_client_exploration_score": 3,
@@ -112,12 +112,12 @@
     {
       "turn": 7,
       "speaker": "Therapist",
-      "text": "It sounds like you’re using distancing as a way to manage the overwhelming feelings that arise in these situations, which is understandable. At the same time, it seems like you’re aware that this might also lead to feeling more isolated. Planning activities that bring you joy shows that you’re trying to find balance, but it also raises questions about whether you’re fully engaging with what’s bothering you. What do you think it would mean for you to find a different way to cope with these feelings?"
+      "text": "It sounds like your feelings of being unwanted are tied to some deep-seated messages from your family, particularly from your mum. It must be painful to feel that critical voice in your head, especially with the upcoming wedding bringing those feelings to the surface. The combination of past experiences and current events seems to be intensifying that sense of not measuring up. Can you tell me more about how those feelings from your family have influenced your relationships and how you see yourself?"
     },
     {
       "turn": 7,
       "speaker": "Client",
-      "text": "I don’t know, I guess it would mean... facing things head-on? But that sounds a bit scary, doesn’t it? I mean, if I tried to cope differently, like actually engaging with the feelings, I'd probably just end up feeling worse, right? I just... I don’t want to feel trapped in that cycle of negativity. I mean, I’ve gotten used to avoiding things to keep the peace, but then it feels like I’m just digging a deeper hole for myself. It's just... complicated, you know? Like, how do you even start to change that without making everything worse?",
+      "text": "I guess it’s just hard to shake off that feeling, you know? Like, I try not to let it influence me too much, but it seeps in anyway. My relationships feel... strained because I expect people to judge me, like how my mum does. It’s like I’m always waiting for someone to point out my flaws or question my choices. It makes me hesitant to really connect, because I’m worried about that critical voice coming from someone else. It’s just a mess.",
       "openness_score": 3,
       "exploration_score": 3,
       "post_client_openness_score": 3,
@@ -128,78 +128,78 @@
     {
       "turn": 8,
       "speaker": "Therapist",
-      "text": "It sounds like you're really grappling with the fear of facing those feelings directly, and it's understandable to worry about what that might bring up. The idea of change can feel daunting, especially when you’ve found ways to cope that, while not perfect, have helped you maintain some sense of peace. It seems like there's a tension between wanting to break free from that cycle and the concern that doing so might lead to more pain. What do you think you might need in order to feel a bit more prepared to explore those feelings?"
+      "text": "It sounds like that critical voice from your mum has created a kind of filter through which you view your relationships, leading to a sense of strain and hesitation. It must be really challenging to feel like you’re constantly on guard, expecting judgment from others. It’s understandable that this would make connecting with people feel difficult. When you think about trying to break that cycle or challenge that critical voice, what comes to mind for you?"
     },
     {
       "turn": 8,
       "speaker": "Client",
-      "text": "I don’t know. Maybe... some reassurance? Like, it’s okay to feel this way and that it’s normal to struggle with these kinds of feelings? I just... I worry that if I start digging into it, I’ll just get lost in it all. I mean, I’ve been avoiding family stuff for a reason, right? But then, if I keep doing that, it just feels like I’m stuck in this loop. But, yeah, reassurance sounds nice. Just... not sure how to find it.",
+      "text": "I don't know if I can really break that cycle. It feels so ingrained, like I'm just stuck in this loop. I mean, I avoid my family for a reason, right? It’s easier to just keep my distance and plan my days without worrying about their expectations or judgments. I guess I’m just afraid that if I try to challenge that voice, it’ll only get louder, you know? But then again, I don’t want to feel this lonely either. It’s... complicated, I guess.",
       "openness_score": 3,
       "exploration_score": 3,
       "post_client_openness_score": 3,
-      "post_client_exploration_score": 3,
+      "post_client_exploration_score": 4,
       "openness_judge_ran": true,
       "exploration_judge_ran": true
     },
     {
       "turn": 9,
       "speaker": "Therapist",
-      "text": "It makes sense that you'd want reassurance in this situation, especially when it feels like you're on the edge of exploring some tough emotions. It’s completely normal to struggle with feelings of isolation and the desire to avoid discomfort. It sounds like you’re aware that avoiding these feelings might not lead to the change you want, but the thought of facing them feels intimidating. What do you think would help you feel more comfortable taking that first step, even if it’s just a small one?"
+      "text": "It sounds like you’re feeling quite trapped in this cycle, where distancing yourself from your family feels like a protective measure, yet it also contributes to your loneliness. The fear of that critical voice getting louder if you challenge it adds another layer of complexity. It’s understandable to feel hesitant about making any changes. I appreciate your honesty in sharing how complicated this feels for you. Given all of this, what do you think it might look like to take even a small step towards addressing those feelings of loneliness, while still maintaining your boundaries?"
     },
     {
       "turn": 9,
       "speaker": "Client",
-      "text": "I mean, I guess a small step might be... I don’t know, just acknowledging that it's okay to feel how I feel? Like, maybe just admitting that the idea of going to the wedding is stressful, and it’s okay to be anxious about it. But then there’s that nagging voice in my head that says I shouldn’t feel that way—everyone else seems fine, right? It’s just... confusing, I suppose. I want to be okay with my feelings, but I also don’t want to spiral into more negativity. It’s like, how do I even start balancing that?",
+      "text": "I mean, I guess a small step could be just... not avoiding the wedding entirely. But then I think about all the questions I might get, and I just... I don't know if I can handle that. It feels like a big risk, and I’m not sure it would really change anything. Maybe I’d just feel even more alone, you know? It's hard to see how anything would really improve.",
       "openness_score": 3,
-      "exploration_score": 3,
+      "exploration_score": 4,
       "post_client_openness_score": 3,
-      "post_client_exploration_score": 3,
+      "post_client_exploration_score": 4,
       "openness_judge_ran": false,
       "exploration_judge_ran": false
     },
     {
       "turn": 10,
       "speaker": "Therapist",
-      "text": "It sounds like you're recognizing the importance of acknowledging your feelings, which is a valuable first step. It’s completely okay to feel anxious about the wedding, especially given everything you’ve shared. That inner voice telling you how you \"should\" feel can be really loud and confusing. It seems like you’re caught between wanting to honor your feelings and the fear of spiraling into negativity. What do you think it might look like to give yourself permission to feel that anxiety without judgment?"
+      "text": "It sounds like attending the wedding feels like a big step, and you’re weighing the potential risks and discomfort against the possibility of connection. The fear of being questioned or feeling even more alone is really understandable. It must be tough to consider how to navigate that space while still wanting to feel connected. When you think about the idea of attending, what emotions or thoughts come up for you, and how do you think you might prepare for those potential challenges?"
     },
     {
       "turn": 10,
       "speaker": "Client",
-      "text": "I mean, I guess it would just mean... letting myself feel anxious without trying to push it away, right? But then I worry that if I start doing that, it’ll just snowball into something worse, like I’ll end up spiraling, and I really don't want to go down that path. It’s just... easier to brush it off and pretend it’s not there. But then, I’m stuck feeling like I’m hiding, and that’s not really fair to myself or anyone else. It’s just... frustrating, I suppose? I don’t know how to give myself that permission and still feel like I’m not just wallowing in it.",
+      "text": "I don't know, honestly. I mean, part of me thinks it could be nice to see some family, but then there's this other part that just wants to hide away and not deal with any of it. I can already hear the questions in my head, the pressure to explain myself or justify my choices. It just feels like a setup for disappointment, you know? Like, even if I go, I might still just feel... alone. It’s like trying to balance on a tightrope, and I’m not even sure it’s worth the risk.",
       "openness_score": 3,
-      "exploration_score": 3,
+      "exploration_score": 4,
       "post_client_openness_score": 3,
-      "post_client_exploration_score": 3,
+      "post_client_exploration_score": 4,
       "openness_judge_ran": true,
       "exploration_judge_ran": false
     },
     {
       "turn": 11,
       "speaker": "Therapist",
-      "text": "It sounds like you're acknowledging the difficulty of letting yourself feel anxious while also fearing that it might lead to a downward spiral. That tension between wanting to be honest with yourself and worrying about getting lost in those feelings is really understandable. It seems like you're caught in a cycle of wanting to avoid pain but also recognizing that this avoidance might not be serving you well. What would it look like to practice small moments of self-compassion when those feelings arise, even if it feels a bit uncomfortable at first?"
+      "text": "It sounds like you're feeling a real tug-of-war between the desire for connection and the instinct to protect yourself from potential disappointment and judgment. The imagery of balancing on a tightrope captures how precarious this feels for you. It’s understandable to want to avoid those uncomfortable questions and pressures. If you were to imagine a way to attend the wedding that felt a bit safer or more manageable, what might that look like for you?"
     },
     {
       "turn": 11,
       "speaker": "Client",
-      "text": "I mean, self-compassion sounds nice, but it feels a bit... foreign, I guess? Like, what does that even look like? I don’t know if I’m good at being nice to myself. I usually just push through and hope it’ll get better on its own. But then, that just leads to feeling more stuck. Maybe if I could just... recognize that it’s okay to feel anxious and not beat myself up about it? But then I worry I’ll just end up spiraling into a pit of negativity, and that’s not really what I want. It's just... frustrating, you know? I don’t want to drown in it all.",
+      "text": "I don’t know if I can really imagine a way to make it feel safer. I mean, I guess I could just keep my answers short and avoid any deep conversations? But then I worry that just makes me look... distant or uninterested. And what if they notice I'm not fully engaged? It feels like whatever I do, there's no way to win. It's just... exhausting to think about.",
       "openness_score": 3,
-      "exploration_score": 3,
+      "exploration_score": 4,
       "post_client_openness_score": 3,
-      "post_client_exploration_score": 3,
+      "post_client_exploration_score": 4,
       "openness_judge_ran": false,
       "exploration_judge_ran": false
     },
     {
       "turn": 12,
       "speaker": "Therapist",
-      "text": "It sounds like you’re feeling quite unsure about what self-compassion really means and how to practice it, especially given your worry about spiraling into negativity. It’s understandable to feel apprehensive about allowing yourself to sit with those feelings without judgment. Recognizing that it’s okay to feel anxious is a significant step. What if, instead of trying to force yourself into self-compassion, you started by simply noticing when those feelings arise and allowing yourself a moment of gentle acknowledgment? What might that look like for you?"
+      "text": "It sounds like you're feeling really stuck, where even the idea of managing your responses at the wedding feels like a difficult balancing act. The worry about being perceived as distant or uninterested adds another layer of pressure. It must be exhausting to think about navigating all those potential dynamics. What do you think would help you feel a bit more grounded or in control as you consider this situation?"
     },
     {
       "turn": 12,
       "speaker": "Client",
-      "text": "I mean, I guess just noticing when those feelings come up might be... a start? But then there's that nagging thought, like, is it really going to help? It's hard to picture myself just acknowledging it without feeling like I'm getting sucked into it. I guess it feels like a tightrope walk between being aware of my feelings and not letting them take over. I don’t know, maybe if I could just... let it be there for a moment and not jump to push it away? But it feels risky, you know? Just... complicated.",
+      "text": "I don't know, maybe just... having a plan in place? Like, if I could figure out what to say ahead of time or even just have a way to excuse myself if things get too overwhelming. But then I think, what if that just feels like I'm hiding? I guess it’s just all this pressure to be... something I’m not, and I’m not sure how to deal with it. It’s like I’m stuck in this loop, you know?",
       "openness_score": 3,
-      "exploration_score": 3,
+      "exploration_score": 4,
       "post_client_openness_score": 3,
       "post_client_exploration_score": 3,
       "openness_judge_ran": true,
@@ -208,12 +208,12 @@
     {
       "turn": 13,
       "speaker": "Therapist",
-      "text": "It sounds like you’re recognizing the potential value in simply noticing your feelings without trying to push them away. That does feel like a delicate balance, and it's completely normal to feel apprehensive about it. Allowing yourself to sit with those feelings, even for just a moment, can be a big step. What do you think might help you create that space to acknowledge your feelings without feeling overwhelmed by them?"
+      "text": "It sounds like having a plan could provide you with a sense of control and security, which makes a lot of sense given how overwhelming this situation feels. At the same time, there’s a concern about whether that might feel like hiding or being inauthentic. It’s clear that you’re navigating a lot of pressure to meet expectations while also wanting to stay true to yourself. As you think about what a plan might look like, what specific strategies or boundaries come to mind that could help you feel more comfortable and authentic in that setting?"
     },
     {
       "turn": 13,
       "speaker": "Client",
-      "text": "I mean, I guess creating that space could just mean... taking a moment for myself, right? But then I worry about what that moment might bring, like... what if it just opens the floodgates? It's like, I can’t help but think about how I’ve avoided these feelings for so long. Making space feels risky, and I don’t want to feel overwhelmed. I suppose it could be as simple as just sitting with it for a second and saying, \"Okay, this is how I feel,\" but then that voice comes back and says that I shouldn't feel that way. It's just... frustrating, like I'm caught in this push and pull, you know?",
+      "text": "I guess I could think about having a few go-to responses ready, you know? Just something simple to deflect the questions without getting too deep. But then I worry about how that’ll come off, like I’m just playing a part or something. It feels so artificial, and I don’t want to be that person who pretends everything is fine when it isn't. It's just... exhausting to think about all the angles, and I don't know if I really have the energy to keep up that kind of facade.",
       "openness_score": 3,
       "exploration_score": 3,
       "post_client_openness_score": 3,
@@ -224,12 +224,12 @@
     {
       "turn": 14,
       "speaker": "Therapist",
-      "text": "It sounds like the idea of creating space for your feelings feels both necessary and intimidating at the same time. That push and pull between wanting to acknowledge your emotions and the fear of being overwhelmed by them is really understandable. It seems like you’re aware that simply sitting with your feelings could be a potential starting point, even if it feels risky. What do you think might help you navigate that push and pull, so you can feel a bit more secure in allowing yourself those moments of acknowledgment?"
+      "text": "It sounds like you're feeling really torn between wanting to protect yourself with some prepared responses and the fear that it might come off as inauthentic. That sense of exhaustion from trying to navigate how to present yourself in a way that feels true to you is completely understandable. It’s a lot to carry. As you consider these go-to responses, what do you think would help you feel like you’re being genuine while still maintaining your boundaries?"
     },
     {
       "turn": 14,
       "speaker": "Client",
-      "text": "I mean, navigating that push and pull feels like... I don't know, walking on eggshells or something? Like, I want to allow myself to feel what I feel, but there's this constant worry that if I let it in even a little, it’ll just take over. Maybe I could set a tiny limit on how long I let myself sit with those feelings? Just a few minutes or something, so it doesn’t feel like I’m diving into a deep end I can't swim in. But then again, that nagging voice creeps in, reminding me that it might just lead me to spiral. It’s just... frustrating, like I’m stuck in a loop of wanting to break free but feeling too scared to do it.",
+      "text": "I don't know if I can really think of anything that feels genuine right now. It’s like, no matter what I say, it just feels like a performance. I mean, I could try something simple, but then I’d still be worried about how it comes across, like I’m just dodging everything. It’s exhausting, and I just wish I could be honest without feeling like I’m setting myself up for disappointment. It's just so complicated.",
       "openness_score": 3,
       "exploration_score": 3,
       "post_client_openness_score": 3,
@@ -240,12 +240,12 @@
     {
       "turn": 15,
       "speaker": "Therapist",
-      "text": "It sounds like you’re really trying to find a way to approach your feelings without feeling overwhelmed, and setting a small time limit could be a helpful strategy to create that sense of safety. It’s understandable to worry about diving too deep, especially when you’ve been avoiding these feelings for a while. That internal struggle between wanting to break free and feeling scared is very real. What kind of support or tools do you think might help you during those few minutes of sitting with your feelings, so it feels a bit more manageable?"
+      "text": "It sounds like the struggle to find a genuine way to express yourself is weighing heavily on you. The idea of feeling like you're performing rather than being honest is understandably frustrating. It must feel exhausting to navigate those complexities and the worry about how you'll be perceived. If you were to imagine a space where you could express yourself without that pressure, even for just a moment, what would that look like for you?"
     },
     {
       "turn": 15,
       "speaker": "Client",
-      "text": "I mean, I guess some support would be nice, but I’m not really sure what that looks like for me. Maybe just... reminding myself that it’s okay to feel what I feel? I don’t know if I can rely on anyone else, though. It’s just hard to shake that feeling that if I let those emotions in, they might just take over. I could try to think of a few calming things or maybe even have a plan for what to do if it gets too much? But then again, I worry that I’ll just end up avoiding it all again. It's just... frustrating, I suppose. Like, I want to break the cycle, but it feels like I’m just stuck in it.",
+      "text": "I guess if I could find that space, it would be somewhere quiet, away from all the noise and questions. But I don’t really know if that exists, you know? I mean, even at the wedding, I’d probably still feel that pressure looming over me. It’s just hard to picture a moment where I could express myself freely without feeling like I’m about to be judged or criticized. I don’t know, it just feels impossible right now.",
       "openness_score": 3,
       "exploration_score": 3,
       "post_client_openness_score": 3,
@@ -256,12 +256,12 @@
     {
       "turn": 16,
       "speaker": "Therapist",
-      "text": "It sounds like you're feeling a lot of frustration around wanting to break the cycle but also being concerned about how to handle those emotions when they arise. You’re thinking about ways to support yourself, like reminding yourself that it’s okay to feel what you feel and having a plan in place for when things feel overwhelming. That awareness is really important. What do you think would be a helpful first step in creating that plan for yourself, even if it feels small?"
+      "text": "It sounds like you're yearning for a space where you can truly be yourself, free from the pressure of judgment and expectations, but it feels elusive and almost impossible to envision right now. That must be a really heavy feeling to carry. It’s understandable to want a moment of relief from that pressure, especially in a setting where you anticipate scrutiny. If you could create even a small moment of that quiet space for yourself, perhaps a brief escape during the wedding, what might that look like?"
     },
     {
       "turn": 16,
       "speaker": "Client",
-      "text": "I guess a first step could be... thinking about what makes me feel a bit calmer when I'm anxious? But then I wonder, what if I can't even remember those things in the moment? It feels like I’m trying to hold onto sand—it just slips away. Maybe I could write down a few things that help? But then again, that voice pops up, telling me it’s silly or that I shouldn’t need reminders. It’s frustrating, like I want to make a plan, but the doubt just keeps creeping in. I don’t know... it’s complicated, you know?",
+      "text": "I mean, I guess if I could carve out a moment, it would just be... stepping outside for a bit or finding a quiet corner somewhere. But then again, I can't shake the thought that even that might feel awkward, like people would notice I'm not there and start wondering what's wrong with me. It’s just all these layers of pressure, and I don’t know if I could actually find that quiet space, even if I wanted to. It all feels so tangled up.",
       "openness_score": 3,
       "exploration_score": 3,
       "post_client_openness_score": 3,
@@ -272,12 +272,12 @@
     {
       "turn": 17,
       "speaker": "Therapist",
-      "text": "It sounds like you're feeling a combination of frustration and doubt about creating a plan for yourself, especially with that inner voice questioning the need for reminders. Writing down what helps you feel calmer could be a really valuable step, even if it feels silly at times. It seems like you’re aware of the potential benefits, but that nagging voice makes it harder to commit. What do you think might help you quiet that voice just enough to allow yourself to explore this idea of writing things down?"
+      "text": "It sounds like even the idea of finding a quiet moment feels tangled in worries about how others might perceive you. The thought of stepping away to create that space is appealing, yet the fear of being noticed or judged adds another layer of pressure. It’s understandable to feel overwhelmed by all those layers. In the midst of this complexity, what do you think would help you acknowledge your own needs in that moment, even if it feels difficult to carve out that space?"
     },
     {
       "turn": 17,
       "speaker": "Client",
-      "text": "I mean, I guess quieting that voice feels like... a tall order, you know? It’s always there, telling me I shouldn't need reminders or that I’m just being silly. Maybe I could try to remind myself that it’s okay to need those things, but then it feels like I’m just arguing with myself. I don’t know if I can really silence it; it’s like trying to ignore a buzzing fly. I suppose if I could just let it be there without letting it take over, that might help? But, yeah, it’s frustrating... like I’m stuck in this mental tug-of-war.",
+      "text": "I guess acknowledging my needs feels like... I don’t know, kind of selfish? I mean, I want to avoid making a scene or drawing attention to myself. It’s like, if I step away, what if people think I’m being rude or that I can’t handle it? I just don’t know how to balance it all. I want to find that quiet space, but then I spiral into worrying about what everyone else might think. It’s just... a lot, you know?",
       "openness_score": 3,
       "exploration_score": 3,
       "post_client_openness_score": 3,
@@ -288,12 +288,12 @@
     {
       "turn": 18,
       "speaker": "Therapist",
-      "text": "It sounds like you're feeling quite overwhelmed by that persistent inner voice, almost like it’s an ongoing battle. Acknowledging that it’s there without letting it dictate your actions could be a valuable approach. It’s understandable to feel frustrated by that internal struggle. What if, instead of trying to silence it completely, you allowed yourself to recognize its presence while gently reminding yourself that it’s okay to need support? How might that shift your perspective on writing down what helps you feel calmer?"
+      "text": "It sounds like you're grappling with some conflicting feelings about your needs and how they might be perceived by others. The fear of being seen as selfish or drawing attention to yourself is weighing heavily on you, making it difficult to even consider taking that much-needed quiet moment. It’s a lot to hold, and it’s understandable to feel overwhelmed by the pressure to balance your own well-being with the expectations of those around you. As you reflect on these feelings, what do you think might help you find a way to honor your own needs without feeling like you're being rude or drawing negative attention?"
     },
     {
       "turn": 18,
       "speaker": "Client",
-      "text": "I mean, I guess acknowledging its presence without letting it take over sounds... possible? But it still feels like a tightrope walk, you know? Like, I want to remind myself it’s okay to need support, but then there’s that voice saying I shouldn’t need it. It’s just frustrating—like I’m trying to be kind to myself, but I end up feeling like I’m just giving in to weakness or something. Maybe if I could just... let it be there without making it the main event, that could help? But, yeah, it's still complicated.",
+      "text": "I don’t know, it just feels so hard to think about honoring my needs without feeling like I’m causing trouble. I mean, I guess I could tell myself it’s okay to step away for a moment, but then I start panicking about how that would look to everyone else. It's like I'm stuck in this loop where I want to be kind and not draw attention, but then I’m also feeling this weight of needing to take care of myself. It’s just exhausting, and I don’t really see a way out.",
       "openness_score": 3,
       "exploration_score": 3,
       "post_client_openness_score": 3,
@@ -304,12 +304,12 @@
     {
       "turn": 19,
       "speaker": "Therapist",
-      "text": "It sounds like you're recognizing the possibility of acknowledging that inner voice without letting it dominate your feelings and actions. That does feel like a delicate balance, and it's completely normal to feel frustrated by the process. Allowing it to be present without making it the focus could create some space for self-compassion instead of judgment. What might it look like for you to practice that kind of gentle acknowledgment, even in small moments?"
+      "text": "It sounds like you're really feeling the weight of those expectations, where wanting to be kind and considerate of others is clashing with your need for self-care. That internal conflict can be incredibly exhausting and frustrating. It’s understandable to feel trapped in that loop, especially when you’re trying to navigate how to prioritize your own needs without feeling like you’re causing trouble. As you sit with these feelings, what do you think would help you even begin to explore the idea of taking care of yourself in that moment, without the pressure of how others might perceive it?"
     },
     {
       "turn": 19,
       "speaker": "Client",
-      "text": "I mean, gentle acknowledgment sounds nice, but it feels a bit... vague, you know? Like, what does that even look like in practice? I guess it could be as simple as taking a moment to say, \"Okay, I feel anxious,\" and letting that sit for a bit. But then, I worry about how long that moment might stretch out. It’s like I’m stuck between wanting to be kind to myself and fearing that I’ll just end up spiraling. I don’t want to dwell on it too long, but... maybe if I could just give myself a few seconds to recognize it without judgment, that might be a start? It’s just... frustrating, like I’m tiptoeing around my own feelings.",
+      "text": "I guess... I could try telling myself it’s okay to need that moment, but then I get stuck thinking about how everyone else would react. It’s like I don’t want to make a fuss or appear like I can’t handle things. I just feel so tangled up in all these worries and expectations. It’s hard to even start thinking about taking care of myself when it feels like it would be a big deal. Maybe I just... don’t know how to find that balance.",
       "openness_score": 3,
       "exploration_score": 3,
       "post_client_openness_score": 3,
@@ -320,12 +320,12 @@
     {
       "turn": 20,
       "speaker": "Therapist",
-      "text": "It sounds like you’re beginning to find a way to practice that gentle acknowledgment, even if it feels a bit vague right now. Taking a moment to recognize your feelings without judgment, even if it’s just for a few seconds, could indeed be a meaningful start. That act of simply saying, “Okay, I feel anxious,” might help you create a little more space for yourself. It’s completely understandable to feel frustrated while navigating this process. What do you think would make those few seconds of acknowledgment feel more comfortable for you?"
+      "text": "It sounds like you’re feeling really tangled in those worries about how others might react to your needs, which makes it hard to even consider taking that step for yourself. The fear of making a fuss or appearing as if you can't handle things adds to the weight of those expectations. It’s completely understandable to feel stuck in trying to find that balance. If you were to take a moment to breathe and acknowledge your feelings, what do you think that moment might look like for you, even if it feels small?"
     },
     {
       "turn": 20,
       "speaker": "Client",
-      "text": "I mean, I guess making those few seconds more comfortable could just be... I don’t know, maybe reminding myself that it’s okay to feel anxious and that I’m not alone in it? But then again, that voice pops up again, telling me I shouldn't need that kind of reassurance. It feels like I’m constantly battling with myself. I suppose if I could just focus on the moment and not think too much about it, that might help? But then I worry I’ll lose track of time and just end up spiraling anyway. It’s just... frustrating, you know? Like, I want to make it work, but it feels like such a tightrope walk.",
+      "text": "I don't know, maybe just... taking a deep breath or something? But even that feels like a lot, you know? I mean, it’s like I could try to remind myself that I’m allowed to step back for a moment, but then I worry about how others will see it. It’s just all these layers of anxiety, and I can’t seem to shake them off. It feels overwhelming to even think about finding that space, let alone actually doing it.",
       "openness_score": 3,
       "exploration_score": 3,
       "post_client_openness_score": 3,
@@ -336,12 +336,12 @@
     {
       "turn": 21,
       "speaker": "Therapist",
-      "text": "It sounds like you’re feeling the weight of that internal battle, wanting reassurance while also grappling with the voice that tells you it’s unnecessary. It’s understandable to want to focus on the moment without overthinking it, but that worry about losing track of time adds another layer of complexity. What if, instead of worrying about time, you started with just a few deep breaths to ground yourself before acknowledging your feelings? How might that small practice help you feel more centered in those moments?"
+      "text": "It sounds like even the idea of taking a deep breath feels like a challenge amidst all those layers of anxiety and worries about how others might perceive you. It’s understandable to feel overwhelmed when trying to navigate those feelings. Acknowledging that you’re allowed to step back for a moment is a significant insight, even if it feels difficult to put into practice. As you reflect on these layers of anxiety, what do you think might help you begin to untangle some of those feelings, even just a little bit?"
     },
     {
       "turn": 21,
       "speaker": "Client",
-      "text": "I mean, deep breaths sound... okay, I guess? But then there's still that nagging feeling, like, is it really going to help? It feels like a bit of a cliché, you know? I suppose if I could just take a moment to breathe before diving into the feelings, that might be better. But then my mind races, thinking about everything else. It’s just... frustrating, like I’m stuck between wanting to try something new and feeling like it won’t make a difference. I don’t know... it's complicated.",
+      "text": "I guess... maybe just acknowledging that it’s okay to feel anxious? I mean, I don’t know if that would really help, but at least it might remind me that I’m not alone in feeling this way. But honestly, it still feels like a lot to even think about. I don’t know how to start untangling it all when it just feels like this heavy mess in my mind. It’s like I’m stuck in this cycle and can’t see a way out.",
       "openness_score": 3,
       "exploration_score": 3,
       "post_client_openness_score": 3,
@@ -352,12 +352,12 @@
     {
       "turn": 22,
       "speaker": "Therapist",
-      "text": "It sounds like you’re feeling a bit skeptical about the effectiveness of deep breathing, which is completely understandable. It’s common to question whether certain techniques will actually make a difference, especially when you're dealing with racing thoughts. The idea of taking a moment to breathe before facing those feelings could help create a little more space for yourself, but I can see how it feels complicated. What if, instead of seeing it as a solution, you viewed deep breathing as just a way to pause and check in with yourself? How does that shift in perspective feel for you?"
+      "text": "It sounds like recognizing that it's okay to feel anxious is a helpful step, even if it still feels overwhelming. Acknowledging those feelings can sometimes create a little space, but it’s understandable to feel stuck in that heavy cycle. It’s a lot to navigate, and it’s normal to feel that way when things feel tangled. As you sit with this heaviness, what do you think would be a first small step you could take to begin untangling those feelings or to create a little bit of that space for yourself?"
     },
     {
       "turn": 22,
       "speaker": "Client",
-      "text": "I mean, viewing it as just a pause does sound a bit less intimidating, I guess? It feels like I could try to do that without the pressure of it being some big solution. But then, that voice still worries that I’m not really doing enough or that it’s just a waste of time. It’s like, can I really just take a moment for myself without feeling guilty about it? It’s frustrating, like I want to give it a shot, but there’s always that nagging feeling that it won’t really help like I hope. I don’t know... it’s just complicated, you know?",
+      "text": "I don’t know, honestly. It feels like taking a first step is... I mean, it sounds simple, but I can’t shake the thought that it just wouldn’t matter, you know? Like, even if I tried to create a little space for myself, I’d just end up feeling the same weight of anxiety and judgment. It’s hard to see how any small step would actually lead to something different. I guess I’m just... stuck.",
       "openness_score": 3,
       "exploration_score": 3,
       "post_client_openness_score": 3,
@@ -368,12 +368,12 @@
     {
       "turn": 23,
       "speaker": "Therapist",
-      "text": "It sounds like you're starting to see the potential value in taking a moment for yourself without the pressure of it needing to be a big solution. That nagging feeling of guilt about taking time for yourself is really common, especially when you’re used to pushing through. It’s understandable to feel frustrated with that inner dialogue. What do you think might help you feel a bit more at ease about giving yourself permission to just pause, even if it feels small?"
+      "text": "It sounds like you're feeling really stuck, where the idea of taking even a small step feels daunting and possibly ineffective. The weight of that anxiety and the fear of judgment can be really heavy, making it hard to envision any change. It’s completely understandable to feel this way, especially when you’ve been carrying so much. As you reflect on this sense of being stuck, what do you think would help you feel just a tiny bit lighter or more open to the possibility of change, even if it seems small?"
     },
     {
       "turn": 23,
       "speaker": "Client",
-      "text": "I mean, I guess feeling at ease with just pausing would be... I don’t know, maybe reminding myself that it’s okay to take those moments without judging myself? But then there’s that voice again, saying I shouldn’t need that. It’s frustrating because I want to believe it’s okay to just... exist for a little while, but I keep second-guessing it. I suppose if I could just let go of that guilt for a moment and try to focus on the breath, that might help? But, yeah, it feels complicated, like I’m constantly battling with myself over something so simple.",
+      "text": "I don't know, maybe if I could just remind myself that it’s okay to feel this way? But then I think, what’s the point? I mean, it just feels like a cycle where I’m stuck in my head, and nothing really changes. I guess I just want to feel lighter, but I can’t see how any of this would lead to that. It’s all so heavy and confusing, and I don’t really know what to do about it.",
       "openness_score": 3,
       "exploration_score": 3,
       "post_client_openness_score": 3,
@@ -384,32 +384,32 @@
     {
       "turn": 24,
       "speaker": "Therapist",
-      "text": "It sounds like you're recognizing that letting go of guilt and allowing yourself to just exist for a moment could be really beneficial, even if it feels complicated. That internal conflict between wanting to pause and that voice of judgment is something many people struggle with. What do you think would help you gently remind yourself that it's okay to take those moments for yourself, without getting caught up in the guilt?"
+      "text": "It sounds like you're really yearning for a sense of relief and lightness, but the heaviness of feeling stuck in your thoughts makes it hard to see a way forward. Acknowledging that it's okay to feel this way is a meaningful step, yet it feels overshadowed by the idea that nothing will change. That must be incredibly frustrating. If you could picture a moment in the future where you do feel a bit lighter, even if it's just a small glimpse, what do you think that might look like for you?"
     },
     {
       "turn": 24,
       "speaker": "Client",
-      "text": "I guess gently reminding myself that it’s okay to take those moments could be... like, trying to think of it as a little gift to myself? But then there's that nagging voice again, saying it’s not really necessary or that I’m just being lazy. It’s frustrating because I know I want to be kinder to myself, but it feels like I’m fighting against this wall of judgment every time I try. Maybe if I could just remind myself that everyone needs a break sometimes? But then I worry about getting stuck in that cycle of overthinking. It’s just... complicated, you know?",
+      "text": "I don't know, honestly. I mean, picturing a moment where I feel lighter just seems so far away. It’s like trying to see through a fog, and I can’t quite grasp what that would even look like. Maybe it’s just... not feeling that weight all the time, you know? But then I think, what if it’s just wishful thinking? It feels like there's no real path to that, and I’m just stuck here with all this heaviness.",
       "openness_score": 3,
       "exploration_score": 3,
       "post_client_openness_score": 3,
-      "post_client_exploration_score": 3,
+      "post_client_exploration_score": 4,
       "openness_judge_ran": true,
       "exploration_judge_ran": true
     },
     {
       "turn": 25,
       "speaker": "Therapist",
-      "text": "It sounds like you’re starting to see the idea of taking a moment for yourself as a gift, which is a beautiful perspective. That nagging voice of judgment can feel really heavy, especially when you’re trying to be kinder to yourself. It’s understandable to worry about overthinking and getting stuck. Perhaps when those thoughts come up, you could try gently countering them with a reminder that everyone deserves a break, just like you mentioned. What do you think it might feel like to practice that kind of self-compassion in those moments, even if it’s just for a short time?"
+      "text": "It sounds like you're feeling a sense of hopelessness when you try to envision what feeling lighter could look like, almost like you’re facing a fog that makes it hard to see a way forward. That heaviness can be really suffocating, and it's completely understandable to feel that way. It’s okay to not have all the answers right now. As you sit with this fog, what do you think might help you acknowledge those feelings without expecting immediate change?"
     },
     {
       "turn": 25,
       "speaker": "Client",
-      "text": "I mean, practicing self-compassion sounds... nice in theory, but then there's that voice again, telling me I shouldn't need it. It's like, can I really let myself take a break without feeling guilty? I guess if I could remind myself that it's okay to be kind to myself, it might feel a bit lighter. But then I worry I'll just spiral into overthinking it all. It’s frustrating, you know? I want to believe I deserve that kindness, but it feels like I’m constantly fighting against that wall of judgment. It’s just... complicated.",
+      "text": "I guess... just trying to sit with it? I mean, it feels weird to just acknowledge that heaviness without thinking I should do something about it. But then again, the pressure to fix everything makes it worse. It's like I want to scream, but I don’t know if that would even help. I just feel... stuck, and it’s frustrating that I can’t see a way to move forward.",
       "openness_score": 3,
-      "exploration_score": 3,
+      "exploration_score": 4,
       "post_client_openness_score": 3,
-      "post_client_exploration_score": 3,
+      "post_client_exploration_score": 4,
       "openness_judge_ran": false,
       "exploration_judge_ran": false
     }
