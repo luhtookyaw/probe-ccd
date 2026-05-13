@@ -7,6 +7,11 @@ from typing import Any
 PROJECT_ROOT = Path(__file__).resolve().parents[1]
 PROMPTS_DIR = PROJECT_ROOT / "prompts"
 DATASET_PATH = PROJECT_ROOT / "data" / "Patient_Psi_CM_Dataset.json"
+CLIENT_PROMPT_BY_DIFFICULTY = {
+    "easy": PROMPTS_DIR / "difficulty" / "easy_client.txt",
+    "normal": PROMPTS_DIR / "difficulty" / "normal_client.txt",
+    "hard": PROMPTS_DIR / "difficulty" / "hard_client.txt",
+}
 DIFFICULTY_STATE_BY_DIFFICULTY = {
     "easy": {
         "openness": "high",
@@ -25,6 +30,10 @@ DIFFICULTY_STATE_BY_DIFFICULTY = {
 
 def read_text(path: Path) -> str:
     return path.read_text(encoding="utf-8").strip()
+
+
+def load_client_system_template(difficulty: str) -> str:
+    return read_text(CLIENT_PROMPT_BY_DIFFICULTY[difficulty])
 
 
 def load_cases(path: Path = DATASET_PATH) -> list[dict[str, Any]]:
@@ -105,7 +114,7 @@ def simulate_conversation(
     temperature: float,
     difficulty: str,
 ) -> list[dict[str, Any]]:
-    client_system_template = read_text(PROMPTS_DIR / "client_system.txt")
+    client_system_template = load_client_system_template(difficulty)
     client_user_template = read_text(PROMPTS_DIR / "client_user.txt")
     therapist_system_prompt = read_text(PROMPTS_DIR / "therapist_system.txt")
     therapist_user_template = read_text(PROMPTS_DIR / "therapist_user.txt")

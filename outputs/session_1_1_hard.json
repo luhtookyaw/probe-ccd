@@ -3,8 +3,8 @@
   "case_name": "Alex",
   "conversation_model": "gpt-4o-mini",
   "temperature": 0.7,
-  "turn_pairs": 12,
-  "total_messages": 24,
+  "turn_pairs": 15,
+  "total_messages": 30,
   "difficulty": "hard",
   "openness": "low",
   "metacognition": "low",
@@ -12,144 +12,180 @@
     {
       "turn": 1,
       "speaker": "Therapist",
-      "text": "Thank you for being here today. What feels most important for you to talk about right now?"
+      "text": "I'm glad you're here today. What feels most important for you to talk about right now?"
     },
     {
       "turn": 1,
       "speaker": "Client",
-      "text": "I guess, um, I don't know... maybe we could talk about this wedding my cousin invited me to? I mean, I didn’t even respond to the invitation. It just feels like a lot of stress and I can imagine all the questions people would ask. It’s just not something I want to deal with, you know? And it’s like, do they even really want me there? I don’t want to be the odd one out in the family, feeling all awkward and out of place.",
+      "text": "Uh, I don’t know. I guess I’m just thinking about that wedding my cousin invited me to. I mean, it’s not like I’m going to go. Too much stress for no reason, right? People asking questions, probably judging me, and my mum... well, she never really makes anything easier, does she? So, yeah, that’s on my mind, I guess.",
       "openness": "low",
       "metacognition": "low"
     },
     {
       "turn": 2,
       "speaker": "Therapist",
-      "text": "It sounds like you're feeling quite overwhelmed by the idea of attending the wedding, and there’s a lot of anxiety around how you might be perceived by your family. You mentioned not wanting to feel like the odd one out and worrying about the questions people might ask. Can you share a bit more about what specifically feels stressful for you about this situation?"
+      "text": "Therapist: It sounds like the wedding is weighing on you, and there’s a lot of stress connected to the expectations and interactions you anticipate, especially with your cousin and your mum. I can sense that you’re feeling hesitant about going. Can you share a bit more about what specifically worries you about the questions or judgments you might face?"
     },
     {
       "turn": 2,
       "speaker": "Client",
-      "text": "Yeah, I mean, it’s just the whole thing feels like a lot, you know? Like, I can already picture myself sitting there, and people would probably start asking questions about what I’m doing with my life, or why I’m still single, or whatever. And honestly, I don’t really have great answers for that, so it just feels like I'm setting myself up for failure. Plus, I can’t shake this feeling that they don’t really want me there anyway. Like, maybe they’re just being polite by inviting me. It’s just... stressful. I don’t know, it makes me feel really anxious thinking about it.",
+      "text": "I mean, it's just the usual stuff, you know? Like, people always want to know what I'm doing with my life, and I don’t have a great answer for that. Plus, there’s always that feeling that they're just waiting for me to mess up or something. And my mum? She’s probably got a whole list of things she’ll criticize me about. I don’t need that kind of pressure. It's just easier to avoid it all.",
       "openness": "low",
       "metacognition": "low"
     },
     {
       "turn": 3,
       "speaker": "Therapist",
-      "text": "It sounds like you're feeling a lot of pressure around the expectations that might come from attending the wedding, especially regarding personal questions about your life and relationship status. I hear that this concern makes you feel anxious and possibly even unwelcome. Can you tell me more about what those questions bring up for you? What kind of feelings or thoughts do they stir?"
+      "text": "Therapist: It sounds like you’re feeling a lot of pressure to have everything figured out, especially with the expectations from family and your mum. I can see how that would make the idea of attending the wedding feel overwhelming. When you think about those questions and judgments, how does that make you feel inside?"
     },
     {
       "turn": 3,
       "speaker": "Client",
-      "text": "I don’t know, it’s just like... those questions make me feel really small, you know? Like, I can imagine them looking at me with that judgmental look, and I just get this wave of embarrassment. It’s like I’m supposed to have everything figured out, but I don’t. I mean, I can’t even tell my family the truth about how I feel or what’s going on with me. I just feel like I’m going to disappoint them, and that’s a feeling I really don’t want to deal with. So it’s easier just to avoid the whole thing. Less stress that way, right?",
+      "text": "I guess it just makes me feel... tight, you know? Like my chest is all knotted up. It’s just a lot of pressure and I really don’t want to deal with it. I mean, who enjoys being judged? It’s like, people are just waiting to pounce with their opinions. I don’t know, maybe I’m just overthinking it. It’s not like anyone actually cares about me being there, right?",
       "openness": "low",
       "metacognition": "low"
     },
     {
       "turn": 4,
       "speaker": "Therapist",
-      "text": "It sounds like those potential questions really amplify feelings of shame and embarrassment for you, almost as if you're carrying the weight of expectations that feel impossible to meet. I can hear how much you want to avoid that disappointment, both for yourself and for your family. You mentioned feeling small and judged—can you share more about what it feels like to carry that sense of pressure?"
+      "text": "Therapist: It sounds like the anticipation of judgment and pressure is really affecting you, causing that tightness in your chest. You mentioned feeling like you're overthinking it, but it seems like these feelings of being scrutinized are quite real for you. Can you tell me more about how you typically cope with those feelings when they arise?"
     },
     {
       "turn": 4,
       "speaker": "Client",
-      "text": "I don’t know, it just feels heavy, you know? Like, I’m supposed to be this person who has it all together, but I just feel... lost. When I think about my family looking at me with those judgmental eyes, it makes me want to shrink away, like I’m not even worthy of being there. And then there’s this nagging thought that if I don’t have a good answer, they’ll think I’m a failure or something. It’s like, I already feel that way a lot, and I just don’t want to put myself in a situation where it’s going to be thrown in my face. So yeah, avoiding it feels way easier, less chance of feeling judged or ashamed.",
+      "text": "I don’t know. I guess I just try to avoid situations like this altogether. If I don’t go, then I don’t have to deal with any of that. I mean, it’s like a simple solution, right? Just stay away from the drama. I’ve got my routine, and it keeps things... manageable, I guess. I don’t know if that really counts as coping, but it works for me.",
       "openness": "low",
       "metacognition": "low"
     },
     {
       "turn": 5,
       "speaker": "Therapist",
-      "text": "It sounds like the pressure to present yourself in a certain way is really weighing on you, and the thought of being judged by your family intensifies that feeling of being lost and unworthy. It must be really difficult to navigate those emotions, especially when you’re already feeling vulnerable. I wonder, what do you think it would take for you to feel more at ease with the idea of attending, or even just responding to the invitation?"
+      "text": "Therapist: It sounds like avoiding situations like this feels like the most manageable choice for you right now, and it seems to bring you a sense of control. I can understand why sticking to your routine feels safer. But I'm curious, when you think about avoiding these kinds of events, how does that impact you in the long run? Do you notice any feelings or thoughts that come up about that choice?"
     },
     {
       "turn": 5,
       "speaker": "Client",
-      "text": "I don’t really know what it would take, honestly. It just feels like too much right now. Like, even the thought of having to respond to the invitation makes my stomach churn. I guess if I could just go and not have to answer any questions, that would help. But that seems impossible, you know? I mean, who can just show up to a wedding and not talk to anyone? I just wish I could disappear into the background or something. But then I think, maybe they’d notice I wasn’t there, and then it’s like, what’s the point? I don’t know, it’s all just too overwhelming.",
+      "text": "I mean, I guess it just feels like I'm missing out on things, right? But then again, I think, what's the point of being there if I'm just going to feel uncomfortable and judged? It's like a catch-22. I’d rather stick to what I know and avoid the awkwardness. I don’t want to put myself out there just to feel like a failure or something. So yeah, it’s easier this way.",
       "openness": "low",
       "metacognition": "low"
     },
     {
       "turn": 6,
       "speaker": "Therapist",
-      "text": "It sounds like the idea of responding to the invitation feels really daunting for you, and you wish you could simply blend into the background to avoid the pressure of social interactions. I can sense that there's a conflict between wanting to be there for your family and the fear of being put on the spot. What do you think it would feel like if you could express that desire to be there while also setting some boundaries for yourself?"
+      "text": "Therapist: It sounds like you're caught in a tough situation where avoiding these events feels safer, but at the same time, there's a sense of missing out on opportunities to connect. That catch-22 must be really frustrating. I hear you saying that the fear of feeling judged or uncomfortable holds you back from putting yourself out there. What do you think it would feel like if you did decide to go to an event like the wedding, despite those fears?"
     },
     {
       "turn": 6,
       "speaker": "Client",
-      "text": "I don’t know, I guess it would feel... weird? Like, I can’t just show up and be like, \"Hey, I want to be here, but don’t ask me anything.\" That just feels like it would raise more eyebrows or make it awkward. I mean, I’d love to be there for my cousin, but I just can’t shake this feeling that nobody really wants me there anyway. Setting boundaries sounds nice in theory, but in reality, it just feels like I’d be inviting more scrutiny. I don’t want to make things worse; it’s just easier to avoid it all together.",
+      "text": "I guess if I went, it would feel like I’m just setting myself up for disappointment, you know? Like, I’d be walking into a minefield of awkward questions and expectations. I can already picture it—everyone's looking at me, and I’m just trying to blend in, feeling like I don't belong. It sounds dramatic, but I just don’t want to feel that way again. So, yeah, I’d probably just end up feeling worse about myself. It's just not worth it.",
       "openness": "low",
       "metacognition": "low"
     },
     {
       "turn": 7,
       "speaker": "Therapist",
-      "text": "It sounds like you’re feeling caught between wanting to support your cousin and the fear that expressing your needs would only draw more attention to you. I hear how difficult it is to imagine navigating that situation without feeling overwhelmed. You mentioned that setting boundaries feels like it could invite more scrutiny, which adds to your hesitance. Can you tell me more about where that feeling of being unwanted comes from? Has this been a recurring theme in your experiences with family or in other areas of your life?"
+      "text": "Therapist: It sounds like the idea of going makes you feel really anxious, as if you'd be stepping into a situation where you might not feel accepted or comfortable. I can sense that the fear of feeling out of place and judged is quite strong for you. I'm wondering, what past experiences might be influencing how you view these kinds of gatherings? Have there been moments in the past that have shaped how you feel about them now?"
     },
     {
       "turn": 7,
       "speaker": "Client",
-      "text": "I don’t know, it just feels like I've always been on the outside looking in, you know? Like, I can't really remember a time when I felt, I don’t know, genuinely wanted or included. With my family, it’s like there's this expectation to fit into a mold, and I just never have. I mean, I’ve always felt different, especially with my weight and everything. It’s like they’ve got their lives together, and then there’s me, still trying to figure things out. I guess maybe that's where this feeling of being unwanted comes from? It’s just easier to think they don’t really care if I’m there or not. I don’t know, maybe I’m just overthinking it all.",
+      "text": "I don't know, it's just... I guess I've had my fair share of bad experiences, you know? Family gatherings can get pretty awkward, and I just never felt like I fit in. It’s like everyone else was in their own little world, and I was just there, trying not to draw attention to myself. I mean, I can’t even remember a time where I felt truly accepted, so why would I expect it to be different now? It's all just a blur of discomfort and feeling out of place. So yeah, I’d rather skip it.",
       "openness": "low",
       "metacognition": "low"
     },
     {
       "turn": 8,
       "speaker": "Therapist",
-      "text": "It sounds like there’s a long history of feeling like you’ve been on the outside, and that sense of not fitting into the family mold contributes to your feelings of being unwanted. I can see how that would make the idea of attending a family event feel even more daunting. You mentioned your weight and how that might play into these feelings—can you share more about how that has affected your sense of belonging or how you see yourself in relation to your family?"
+      "text": "Therapist: It sounds like those past experiences at family gatherings have really shaped your feelings about these situations, leading to a sense of not fitting in or feeling accepted. That must be really tough to carry with you. I'm curious, when you reflect on those moments of discomfort, what beliefs or thoughts do you notice coming up for you about yourself or your place in those gatherings?"
     },
     {
       "turn": 8,
       "speaker": "Client",
-      "text": "I don't know, it just feels like... my weight has always been this thing that sets me apart, you know? Like, I can picture family gatherings where everyone is just... normal, and then there's me. It makes me feel like I don't belong, like I'm just this extra person in the room. I mean, I can’t help but think that they see me differently, and that makes it hard to connect. It’s like I’m always worried about being judged, and it just reinforces that feeling of being unwanted. I guess I just try to keep my distance to avoid that pain. It's easier that way, but it still hurts, you know?",
+      "text": "I don’t know, it’s just... I guess I think I’m not really good enough, you know? Like, it’s just easier to feel like I’m not meant to be there at all. I mean, there’s always that voice in my head saying, “Why would they want you around?” It’s like I’m just waiting for the moment someone points it out. So, I guess I just avoid it because who needs that kind of negativity? It’s just not worth it.",
       "openness": "low",
       "metacognition": "low"
     },
     {
       "turn": 9,
       "speaker": "Therapist",
-      "text": "It sounds like your weight has become a significant part of how you perceive your place within the family, leading to feelings of isolation and the fear of being judged. I hear that trying to keep your distance feels like a way to protect yourself from that pain, even though it still hurts. It’s understandable to want to avoid situations where you feel vulnerable. Can you tell me more about how this has shaped your relationships with family members or how you connect with them?"
+      "text": "Therapist: It sounds like there's a deep belief in you that you're not good enough to be part of those gatherings, which creates a strong urge to protect yourself by avoiding them altogether. That voice in your head seems to carry a lot of weight, and it makes sense that you would want to shield yourself from negativity. I'm curious, where do you think that belief comes from? Are there experiences or messages in your life that have contributed to feeling this way about yourself?"
     },
     {
       "turn": 9,
       "speaker": "Client",
-      "text": "I guess it’s just hard to connect with them, you know? Like, I feel like I’m always on the defensive, trying to protect myself from whatever judgment might come my way. I mean, I don’t really share much about my life, and it’s like this wall I’ve built up. I don’t want to be the person who brings the family down or makes things awkward. So, I tend to just keep to myself, and that makes it feel like I’m not really part of the family at all. It’s frustrating, but at the same time, it feels like the safest option. I don’t know if that makes sense, but it’s just... complicated.",
+      "text": "I mean, I guess it just feels like it comes from a lot of places, you know? Like, I’ve always felt different, and I can’t help but think that my mum has her own ideas about what’s acceptable, and I just... don’t fit that mold. It’s just easier to keep my head down and not draw any attention, right? I don’t know if I can point to one specific thing, but it’s like this constant background noise that tells me I’m not enough. It's exhausting, really. So I just avoid it all.",
       "openness": "low",
       "metacognition": "low"
     },
     {
       "turn": 10,
       "speaker": "Therapist",
-      "text": "It sounds like you're navigating a really tough balance between wanting to feel connected to your family and protecting yourself from potential judgment. The wall you’ve built seems like a coping mechanism to help you avoid feeling vulnerable, but it also leaves you feeling disconnected and frustrated. I can sense the complexity of wanting to belong while also feeling like you need to shield yourself. How do you think this wall affects your relationship with your family, and what do you wish could be different in those connections?"
+      "text": "Therapist: It sounds like that constant feeling of being different and not fitting into your mum's expectations has really contributed to your belief that you're not enough. It must be exhausting to carry that background noise with you all the time. I can see how that leads you to want to keep your head down and avoid situations where you might feel judged. When you think about this feeling of not being enough, how does it impact your day-to-day life or your relationships with others?"
     },
     {
       "turn": 10,
       "speaker": "Client",
-      "text": "I don’t know, it just feels like it keeps me at a distance, you know? Like, I can’t really engage with them or share what’s going on in my life because I’m always worried about what they’ll think. It’s frustrating because I want to feel connected, but then I build up this wall to protect myself, and it just ends up making things worse. I guess if I could just be more open, it might help, but then I think about all the judgment and just... I don’t know, it feels safer to keep it all in. I wish things could be different, but I just don’t know how to break that barrier.",
+      "text": "I don't know, it's just... I guess it makes things harder, you know? Like, I find myself not really connecting with people because I’m always second-guessing if they actually want me around. I just kind of keep to myself, and it’s not like that’s a bad thing, right? I mean, who wants to deal with all that pressure? It’s easier to just retreat into my own little bubble instead of risking feeling like I don’t belong. So, yeah, I don’t really think about it too much.",
       "openness": "low",
       "metacognition": "low"
     },
     {
       "turn": 11,
       "speaker": "Therapist",
-      "text": "It sounds like you're feeling really stuck between the desire for connection and the instinct to protect yourself from judgment. I can hear how much you wish things could be different, and that desire to be more open is there, but the fear of judgment makes it feel so challenging. It must be exhausting to carry that tension. What do you think might help you explore that barrier a little more? What would it feel like to take small steps toward being more open, even if it's just in your thoughts right now?"
+      "text": "Therapist: It sounds like this belief of not being enough really affects how you connect with others and can make it challenging to open up or feel included in relationships. Retreating into your own bubble seems like a way to protect yourself from that pressure, but I wonder if there are moments where you wish things could be different. Do you ever find yourself longing for deeper connections or feeling like you want to step out of that bubble?"
     },
     {
       "turn": 11,
       "speaker": "Client",
-      "text": "I don’t know, it just feels like a lot to think about, you know? Like, being open sounds nice in theory, but it’s like, what if I try and it just leads to more judgment? I mean, I can imagine just saying something and then everyone’s looking at me like I’m crazy or something. I guess maybe I could start with just thinking about what I want to say, but even that feels overwhelming. I just... I don’t want to set myself up for disappointment. It’s easier to just keep things to myself and avoid all that pressure. I don’t know if I’m ready to take any steps right now.",
+      "text": "I don’t know, maybe sometimes. But then I think about how hard it is to really connect with people, and it just feels like a lot of work. I mean, who has the energy for that? It’s like, I see people having fun, but I just can’t shake off that feeling of being an outsider. So I guess I just stick to what I know. It’s safer, you know? I don’t want to feel that disappointment again.",
       "openness": "low",
       "metacognition": "low"
     },
     {
       "turn": 12,
       "speaker": "Therapist",
-      "text": "It sounds like the idea of being open feels really daunting and brings up a lot of fear about potential judgment, which makes it hard to even consider taking steps in that direction. I hear you when you say that keeping things to yourself feels like the safer option right now. It’s completely understandable to feel that way, especially given everything you’ve shared about your experiences. What do you think it would feel like to simply acknowledge that fear without needing to act on it just yet? How might that shift your perspective?"
+      "text": "Therapist: It sounds like you do have moments where you wish for deeper connections, but the fear of the effort and potential disappointment keeps you from pursuing them. That feeling of being an outsider seems really strong for you, and it makes sense that you’d want to stay in a place that feels safer. I can sense the weight of that longing and the exhaustion that comes with it. When you think about what it would take to feel more comfortable reaching out or connecting, what comes to mind for you?"
     },
     {
       "turn": 12,
       "speaker": "Client",
-      "text": "I guess acknowledging the fear sounds... reasonable? But it’s hard to even think about it without feeling that knot in my stomach. Like, I can see why I’d want to avoid it, but just sitting with that fear feels heavy too. I mean, it’s like, I know it’s there, but the idea of facing it or even just admitting it feels like a big deal. I don’t know if I want to go there right now. It’s just... I don’t know, overwhelming. It’s like I’m stuck in this loop of trying to protect myself, but I also want to feel connected. I just wish there was an easier way to navigate all of this.",
+      "text": "I don't know. I mean, it just seems like a lot, you know? Like, connecting with people means being vulnerable, and that’s just not my thing. I guess I’d have to be willing to put myself out there, but then I just think about all the ways it could go wrong. It's easier to just keep doing what I'm doing. I don’t want to deal with another disappointment or feel like I don’t belong. It’s just... it’s complicated.",
+      "openness": "low",
+      "metacognition": "low"
+    },
+    {
+      "turn": 13,
+      "speaker": "Therapist",
+      "text": "Therapist: It sounds like vulnerability feels really daunting for you, and the thought of putting yourself out there brings up a lot of fear about potential disappointment. I can see how staying in your comfort zone feels like the safer option. It must be frustrating to feel caught between the desire for connection and the fear of what that might entail. If you were to imagine a small step toward connecting with someone, what might that look like for you?"
+    },
+    {
+      "turn": 13,
+      "speaker": "Client",
+      "text": "I don't know. It just seems like a lot of pressure, you know? Maybe I could text someone or something, but then I'd start overthinking it, like, what if they don’t respond or think I’m weird for reaching out? It’s just... I don’t want to put myself in a situation where I feel rejected. It’s easier to just stick to what I know, really. I guess I’m just not ready to shake things up yet.",
+      "openness": "low",
+      "metacognition": "low"
+    },
+    {
+      "turn": 14,
+      "speaker": "Therapist",
+      "text": "Therapist: It sounds like even the thought of reaching out feels heavy with pressure, and you're worried about how it might be received. It’s understandable to feel hesitant, especially when the fear of rejection is so strong. I hear you saying you’re not quite ready to shake things up. What do you think would help you feel more comfortable or ready to take that small step, even if it feels challenging?"
+    },
+    {
+      "turn": 14,
+      "speaker": "Client",
+      "text": "I don’t know, it’s just... I guess I’d have to really feel like it’s worth it, you know? Like, maybe if I had a solid reason or if I knew it wouldn’t lead to disappointment, but that’s just wishful thinking. I mean, I keep telling myself it’s easier to just stay in my bubble, and I don’t want to mess with that. It’s like, if I don’t try, then I don’t have to deal with failing. So, yeah, I don’t even know what would make me feel comfortable enough to reach out.",
+      "openness": "low",
+      "metacognition": "low"
+    },
+    {
+      "turn": 15,
+      "speaker": "Therapist",
+      "text": "Therapist: It sounds like you're looking for a sense of certainty or assurance before considering any steps toward connecting with others. The idea of failure feels like a significant barrier, and I can see how that makes it easier to stay in your bubble. It’s completely understandable to want to protect yourself from disappointment. When you think about your bubble, what does it provide for you that feels comforting or safe?"
+    },
+    {
+      "turn": 15,
+      "speaker": "Client",
+      "text": "I don't know, I guess it just feels like a barrier, you know? Like, my bubble keeps things predictable and manageable. I don’t have to worry about judgment or the pressure to fit in. It’s like a shield, I suppose. I mean, I’m not saying it’s the best way to live, but it’s familiar, and that feels safer than stepping out and risking all that disappointment again. So yeah, I guess it just provides this sense of control, even if it’s not really living, you know?",
       "openness": "low",
       "metacognition": "low"
     }
