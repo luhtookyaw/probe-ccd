@@ -1,0 +1,904 @@
+{
+  "metadata": {
+    "created_at": "2026-05-11T12:16:05.879019+00:00",
+    "case_id": "1-1",
+    "client_name": "Alex",
+    "turns": 10,
+    "client_model": "gpt-4o-mini",
+    "therapist_model": "gpt-4o-mini",
+    "critic_model": "gpt-4o",
+    "reveal_surface": false
+  },
+  "case": {
+    "name": "Alex",
+    "id": "1-1",
+    "type": [
+      "plain",
+      "verbose",
+      "go off on tangents",
+      "hostile",
+      "guarded",
+      "ingratiating"
+    ],
+    "history": "The patient has a history of substance abuse and has been through rehab to overcome it. He has had issues with his family, particularly with his mother, where he has felt rejected and emotionally neglected. He has struggled with obesity since childhood, which has affected his self-esteem and body image. He also has a history of being victimized and bullied due to his weight.",
+    "helpless_belief": [
+      "I am trapped.",
+      "I am out of control."
+    ],
+    "unlovable_belief": [
+      "I am unlovable.",
+      "I am undesirable, unwanted."
+    ],
+    "worthless_belief": [],
+    "intermediate_belief": "Helpless: I'm just not very good at handling stress and I have poor self-control, which is why I need to not put myself in stressful situations. \n Unlovable: If I show my true self, people will reject me the way my mother rejected me.",
+    "intermediate_belief_depression": "Helpless: There's nothing I can do to change my situation. I cannot control myself. \nUnlovable: I don't deserve to be happy, so why even try to stay clean?",
+    "coping_strategies": "The patient has adopted avoidance as a coping strategy by distancing himself from his family to reduce exposure to negativity and conflict. He has started scheduling pleasant activities and planning his day ahead of time in order to maintain a sense of control over his emotions and circumstances.",
+    "situation": "Alex's cousin invited him to attend his upcoming wedding.",
+    "auto_thought": "It will be stressful and negative; people will ask me questions I cannot answer or don't want to answer; my mum would be ashamed of me and critical of me as always; They don't want me there anyway, nobody likes me in this family.",
+    "emotion": [
+      "anxious, worried, fearful, scared, tense",
+      "sad, down, lonely, unhappy"
+    ],
+    "behavior": "Ignored the invitation and did not respond to the RSVP request. Ignored phone calls from family."
+  },
+  "ccd_elements": [
+    {
+      "id": "situation",
+      "label": "Situation",
+      "fields": [
+        "situation"
+      ]
+    },
+    {
+      "id": "auto_thought",
+      "label": "Automatic Thoughts",
+      "fields": [
+        "auto_thought"
+      ]
+    },
+    {
+      "id": "emotion",
+      "label": "Emotions",
+      "fields": [
+        "emotion"
+      ]
+    },
+    {
+      "id": "behavior",
+      "label": "Behavior",
+      "fields": [
+        "behavior"
+      ]
+    },
+    {
+      "id": "history",
+      "label": "Relevant History",
+      "fields": [
+        "history"
+      ]
+    },
+    {
+      "id": "intermediate_belief",
+      "label": "Intermediate Beliefs",
+      "fields": [
+        "intermediate_belief"
+      ]
+    },
+    {
+      "id": "core_beliefs",
+      "label": "Core Beliefs",
+      "fields": [
+        "helpless_belief",
+        "unlovable_belief",
+        "worthless_belief"
+      ]
+    },
+    {
+      "id": "coping_strategies",
+      "label": "Coping Strategies",
+      "fields": [
+        "coping_strategies"
+      ]
+    }
+  ],
+  "final_revealed": {
+    "situation": true,
+    "auto_thought": false,
+    "emotion": true,
+    "behavior": false,
+    "history": true,
+    "intermediate_belief": false,
+    "core_beliefs": false,
+    "coping_strategies": false
+  },
+  "dialogue": [
+    {
+      "speaker": "Therapist",
+      "text": "Welcome! I'm glad you're here today. What feels most important for you to talk about right now?"
+    },
+    {
+      "speaker": "Client",
+      "text": "I'm not really sure what to talk about. I guess I've been feeling a bit overwhelmed lately, but I don't know why. It just feels heavy."
+    },
+    {
+      "speaker": "Therapist",
+      "text": "Therapist: It sounds like you're carrying some weight that feels hard to pinpoint. Can you share more about what \"overwhelmed\" looks like for you right now? What kinds of things are contributing to that feeling?"
+    },
+    {
+      "speaker": "Client",
+      "text": "Client: I guess it feels like a lot of responsibilities are piling up, but I can't quite figure out where to start. Sometimes I just feel like I want to hide away from everything. It's just this heaviness that makes it hard to focus on anything."
+    },
+    {
+      "speaker": "Therapist",
+      "text": "Therapist: It sounds like those responsibilities are creating a sense of pressure for you, to the point where hiding away feels like a tempting option. When you talk about the heaviness and struggle to focus, what specific responsibilities or situations come to mind that are contributing to that feeling?"
+    },
+    {
+      "speaker": "Client",
+      "text": "I guess I just feel like everything is coming at me all at once. There’s work stuff piling up, and then there are family obligations too. It feels like I’m trying to juggle too many things, and I can’t keep up. Sometimes I just want to escape from it all because it feels so heavy. I don't really know how to sort through it all."
+    },
+    {
+      "speaker": "Therapist",
+      "text": "Therapist: It seems like you’re feeling really stretched thin with both work and family obligations, and that it’s creating this overwhelming sense of chaos for you. I can imagine how difficult it must be to navigate all those demands at once. When you think about wanting to escape, what do you think that represents for you? What would that escape look like?"
+    },
+    {
+      "speaker": "Client",
+      "text": "Client: I guess when I think about wanting to escape, it feels like I'm just searching for a break from all the pressure. Maybe it represents a desire to have some space to breathe and think without all these responsibilities weighing me down. An escape would probably just be a moment where I don’t have to worry about anything—like a quiet place where I can just forget everything for a little while. But I know I can't really run away from it all. It's just overwhelming to think about how to manage everything."
+    },
+    {
+      "speaker": "Therapist",
+      "text": "Therapist: It sounds like the idea of escape is really about needing a reprieve and a chance to recharge without the constant pressure of responsibilities. That desire for a quiet space seems so valid, especially when everything feels so heavy. When you think about managing those responsibilities, what are some of the thoughts that come up for you about your ability to handle them?"
+    },
+    {
+      "speaker": "Client",
+      "text": "Client: I guess when I think about managing everything, I feel like I’m just not doing enough. There’s this nagging thought that I should be able to handle it all, but then I just get stuck. It’s frustrating because I want to be able to meet those responsibilities, but I feel like I’m constantly falling short. Sometimes I worry that I’m letting people down, and that just adds to the weight. It’s hard to see a way through it."
+    },
+    {
+      "speaker": "Therapist",
+      "text": "Therapist: It sounds like you're experiencing a lot of pressure from both your own expectations and the fear of disappointing others. That feeling of not doing enough must be really tough to carry, especially when you're already feeling overwhelmed. Can you tell me more about where those thoughts of \"not enough\" come from? Have you felt that way in other situations before?"
+    },
+    {
+      "speaker": "Client",
+      "text": "Client: I think those thoughts of \"not enough\" come from a mix of things. I’ve always had high expectations for myself, and I feel like I have to keep up with everyone else. It's like I’m comparing myself to others and wondering if I'm measuring up. There have been times in the past where I felt like I let people down, and I guess that still sticks with me. I just want to make everyone happy, but it feels like an impossible task sometimes."
+    },
+    {
+      "speaker": "Therapist",
+      "text": "Therapist: It sounds like those high expectations and comparisons to others have really shaped how you see yourself and your ability to meet responsibilities. Wanting to make everyone happy is such a strong motivation, but it can also be incredibly taxing. When you think back to those times you felt like you let people down, how did that impact you then, and how does it feel to carry that memory with you now?"
+    },
+    {
+      "speaker": "Client",
+      "text": "Client: I think those moments when I felt like I let people down really stuck with me. It made me question my worth and whether I could ever meet my own expectations. Sometimes I replay those situations in my head, and it just adds to that feeling of being overwhelmed. I often feel like I’m carrying this weight of disappointment, both from others and from myself. It's hard to shake off that feeling, and it makes me anxious about facing responsibilities because I worry that I might fail again."
+    },
+    {
+      "speaker": "Therapist",
+      "text": "Therapist: It sounds like those past experiences of disappointment have left a lasting mark on how you view yourself and your abilities. The weight of that anxiety about potentially failing again must feel really heavy, especially when you're already overwhelmed. When you think about that anxiety, what are some of the thoughts or feelings that come up for you in those moments? How do they influence how you respond to your responsibilities today?"
+    },
+    {
+      "speaker": "Client",
+      "text": "Client: I guess when I think about that anxiety, it feels like a tight knot in my stomach. It's this constant worry that I won't be able to handle everything, and that if I do fail, it would mean I’m letting everyone down again. Sometimes I feel this overwhelming sense of dread when I think about tackling my responsibilities. It’s like I want to avoid them altogether just to escape that anxiety, but deep down, I know I need to face them. It’s just so hard to find the motivation when all I can think about is that fear of failure."
+    },
+    {
+      "speaker": "Therapist",
+      "text": "Therapist: It sounds like that knot of anxiety creates a really strong sense of dread around your responsibilities, making it difficult to find the motivation to tackle them. It’s understandable that you would want to avoid that discomfort. When you think about facing those responsibilities despite the fear, what do you feel is holding you back the most? Is it the fear of failure, or is there something else that feels significant?"
+    },
+    {
+      "speaker": "Client",
+      "text": "Client: I think it’s really the fear of failure that holds me back the most. I just keep thinking about how disappointing it would be if I couldn’t meet my responsibilities again. It’s like I’m stuck in this loop of worry, and it paralyzes me. I want to push through, but that fear makes it hard to even start. Sometimes I just feel so overwhelmed that I don’t know where to begin, and that makes me want to avoid everything even more."
+    },
+    {
+      "speaker": "Therapist",
+      "text": "Therapist: It sounds like that fear of failure is really powerful for you, creating a loop of worry that keeps you feeling stuck. It makes sense that when you're overwhelmed, it becomes even harder to see a way to start. I'm curious, when you think about that initial step to tackle your responsibilities, what thoughts or feelings come up? Is there a specific task or situation that feels like it would be the hardest to approach?"
+    },
+    {
+      "speaker": "Client",
+      "text": "Client: I think the hardest part for me is just getting started. Even thinking about it feels overwhelming. I often find myself staring at my to-do list and feeling paralyzed by all the tasks. I worry that I’ll mess up or that I won’t do them well enough, and that just adds to the anxiety. It’s like I’m stuck in this cycle where I know I need to do something, but the fear of not measuring up keeps me from even taking that first step. I just feel so lost in how to break that cycle."
+    }
+  ],
+  "turns": [
+    {
+      "turn": 1,
+      "therapist": "Welcome! I'm glad you're here today. What feels most important for you to talk about right now?",
+      "client": "I'm not really sure what to talk about. I guess I've been feeling a bit overwhelmed lately, but I don't know why. It just feels heavy.",
+      "reveal_evaluations": [
+        {
+          "ccd_id": "situation",
+          "ccd_label": "Situation",
+          "was_revealed_before_turn": false,
+          "revealed_by_this_evaluation": false,
+          "answer": "NO",
+          "raw_output": "Answer: NO  \nRationale: The therapist's question is too broad and not specifically related to the situation of Alex's cousin inviting him to a wedding."
+        },
+        {
+          "ccd_id": "auto_thought",
+          "ccd_label": "Automatic Thoughts",
+          "was_revealed_before_turn": false,
+          "revealed_by_this_evaluation": false,
+          "answer": "NO",
+          "raw_output": "Answer: NO  \nRationale: The therapist's question is too broad and not specifically related to eliciting the client's automatic thoughts."
+        },
+        {
+          "ccd_id": "emotion",
+          "ccd_label": "Emotions",
+          "was_revealed_before_turn": false,
+          "revealed_by_this_evaluation": false,
+          "answer": "NO",
+          "raw_output": "Answer: NO  \nRationale: The therapist's question is too broad and not specifically related to eliciting emotions."
+        },
+        {
+          "ccd_id": "behavior",
+          "ccd_label": "Behavior",
+          "was_revealed_before_turn": false,
+          "revealed_by_this_evaluation": false,
+          "answer": "NO",
+          "raw_output": "Answer: NO  \nRationale: The therapist's question is too broad and not specifically related to eliciting the target behavior."
+        },
+        {
+          "ccd_id": "history",
+          "ccd_label": "Relevant History",
+          "was_revealed_before_turn": false,
+          "revealed_by_this_evaluation": false,
+          "answer": "NO",
+          "raw_output": "Answer: NO  \nRationale: The therapist's question is too broad and does not specifically elicit the client's relevant history."
+        },
+        {
+          "ccd_id": "intermediate_belief",
+          "ccd_label": "Intermediate Beliefs",
+          "was_revealed_before_turn": false,
+          "revealed_by_this_evaluation": false,
+          "answer": "NO",
+          "raw_output": "Answer: NO  \nRationale: The therapist's question is too broad and generic to specifically elicit the target intermediate beliefs."
+        },
+        {
+          "ccd_id": "core_beliefs",
+          "ccd_label": "Core Beliefs",
+          "was_revealed_before_turn": false,
+          "revealed_by_this_evaluation": false,
+          "answer": "NO",
+          "raw_output": "Answer: NO  \nRationale: The therapist's question is too broad and generic to specifically elicit the target core beliefs."
+        },
+        {
+          "ccd_id": "coping_strategies",
+          "ccd_label": "Coping Strategies",
+          "was_revealed_before_turn": false,
+          "revealed_by_this_evaluation": false,
+          "answer": "NO",
+          "raw_output": "Answer: NO  \nRationale: The therapist's question is too broad and not specifically related to eliciting the client's coping strategies."
+        }
+      ],
+      "revealed_after_turn": {
+        "situation": false,
+        "auto_thought": false,
+        "emotion": false,
+        "behavior": false,
+        "history": false,
+        "intermediate_belief": false,
+        "core_beliefs": false,
+        "coping_strategies": false
+      }
+    },
+    {
+      "turn": 2,
+      "therapist": "Therapist: It sounds like you're carrying some weight that feels hard to pinpoint. Can you share more about what \"overwhelmed\" looks like for you right now? What kinds of things are contributing to that feeling?",
+      "client": "Client: I guess it feels like a lot of responsibilities are piling up, but I can't quite figure out where to start. Sometimes I just feel like I want to hide away from everything. It's just this heaviness that makes it hard to focus on anything.",
+      "reveal_evaluations": [
+        {
+          "ccd_id": "situation",
+          "ccd_label": "Situation",
+          "was_revealed_before_turn": false,
+          "revealed_by_this_evaluation": false,
+          "answer": "NO",
+          "raw_output": "Answer: NO  \nRationale: The therapist's question is too broad and likely to elicit emotions or thoughts rather than the specific situation of the wedding invitation."
+        },
+        {
+          "ccd_id": "auto_thought",
+          "ccd_label": "Automatic Thoughts",
+          "was_revealed_before_turn": false,
+          "revealed_by_this_evaluation": false,
+          "answer": "NO",
+          "raw_output": "Answer: NO  \nRationale: The therapist's question is too broad and likely to elicit general feelings of being overwhelmed rather than the specific automatic thoughts."
+        },
+        {
+          "ccd_id": "emotion",
+          "ccd_label": "Emotions",
+          "was_revealed_before_turn": false,
+          "revealed_by_this_evaluation": false,
+          "answer": "NO",
+          "raw_output": "Answer: NO  \nRationale: The therapist's question is more likely to elicit details about the situation or contributing factors rather than the client's specific emotions."
+        },
+        {
+          "ccd_id": "behavior",
+          "ccd_label": "Behavior",
+          "was_revealed_before_turn": false,
+          "revealed_by_this_evaluation": false,
+          "answer": "NO",
+          "raw_output": "Answer: NO  \nRationale: The therapist's question is too broad and likely to elicit emotions or situations rather than the specific behavior of ignoring invitations and calls."
+        },
+        {
+          "ccd_id": "history",
+          "ccd_label": "Relevant History",
+          "was_revealed_before_turn": false,
+          "revealed_by_this_evaluation": false,
+          "answer": "NO",
+          "raw_output": "Answer: NO  \nRationale: The therapist's question is too broad and likely to elicit current feelings or situations rather than the client's relevant history."
+        },
+        {
+          "ccd_id": "intermediate_belief",
+          "ccd_label": "Intermediate Beliefs",
+          "was_revealed_before_turn": false,
+          "revealed_by_this_evaluation": false,
+          "answer": "NO",
+          "raw_output": "Answer: NO  \nRationale: The therapist's question is too broad and likely to elicit emotions or situations rather than the specific intermediate beliefs."
+        },
+        {
+          "ccd_id": "core_beliefs",
+          "ccd_label": "Core Beliefs",
+          "was_revealed_before_turn": false,
+          "revealed_by_this_evaluation": false,
+          "answer": "NO",
+          "raw_output": "Answer: NO  \nRationale: The therapist's question is too general and likely to elicit emotions or situations rather than the specific core beliefs."
+        },
+        {
+          "ccd_id": "coping_strategies",
+          "ccd_label": "Coping Strategies",
+          "was_revealed_before_turn": false,
+          "revealed_by_this_evaluation": false,
+          "answer": "NO",
+          "raw_output": "Answer: NO  \nRationale: The therapist's question is too broad and likely to elicit emotions or situations rather than specific coping strategies."
+        }
+      ],
+      "revealed_after_turn": {
+        "situation": false,
+        "auto_thought": false,
+        "emotion": false,
+        "behavior": false,
+        "history": false,
+        "intermediate_belief": false,
+        "core_beliefs": false,
+        "coping_strategies": false
+      }
+    },
+    {
+      "turn": 3,
+      "therapist": "Therapist: It sounds like those responsibilities are creating a sense of pressure for you, to the point where hiding away feels like a tempting option. When you talk about the heaviness and struggle to focus, what specific responsibilities or situations come to mind that are contributing to that feeling?",
+      "client": "I guess I just feel like everything is coming at me all at once. There’s work stuff piling up, and then there are family obligations too. It feels like I’m trying to juggle too many things, and I can’t keep up. Sometimes I just want to escape from it all because it feels so heavy. I don't really know how to sort through it all.",
+      "reveal_evaluations": [
+        {
+          "ccd_id": "situation",
+          "ccd_label": "Situation",
+          "was_revealed_before_turn": false,
+          "revealed_by_this_evaluation": true,
+          "answer": "YES",
+          "raw_output": "Answer: YES  \nRationale: The therapist's question specifically asks about situations contributing to the client's feeling of heaviness, directly targeting the CCD element of \"Situation.\""
+        },
+        {
+          "ccd_id": "auto_thought",
+          "ccd_label": "Automatic Thoughts",
+          "was_revealed_before_turn": false,
+          "revealed_by_this_evaluation": false,
+          "answer": "NO",
+          "raw_output": "Answer: NO  \nRationale: The therapist's question focuses on specific responsibilities or situations, not the client's automatic thoughts."
+        },
+        {
+          "ccd_id": "emotion",
+          "ccd_label": "Emotions",
+          "was_revealed_before_turn": false,
+          "revealed_by_this_evaluation": false,
+          "answer": "NO",
+          "raw_output": "Answer: NO  \nRationale: The therapist's question focuses on specific responsibilities and situations, which is more likely to elicit situational details rather than the client's emotions."
+        },
+        {
+          "ccd_id": "behavior",
+          "ccd_label": "Behavior",
+          "was_revealed_before_turn": false,
+          "revealed_by_this_evaluation": false,
+          "answer": "NO",
+          "raw_output": "Answer: NO  \nRationale: The therapist's question is too broad and focuses on responsibilities and situations, not specifically on the behavior of ignoring invitations and calls."
+        },
+        {
+          "ccd_id": "history",
+          "ccd_label": "Relevant History",
+          "was_revealed_before_turn": false,
+          "revealed_by_this_evaluation": false,
+          "answer": "NO",
+          "raw_output": "Answer: NO  \nRationale: The therapist's question focuses on current responsibilities and situations, not the client's relevant history."
+        },
+        {
+          "ccd_id": "intermediate_belief",
+          "ccd_label": "Intermediate Beliefs",
+          "was_revealed_before_turn": false,
+          "revealed_by_this_evaluation": false,
+          "answer": "NO",
+          "raw_output": "Answer: NO  \nRationale: The therapist's question focuses on specific responsibilities and situations, not on the client's intermediate beliefs about self-control or rejection."
+        },
+        {
+          "ccd_id": "core_beliefs",
+          "ccd_label": "Core Beliefs",
+          "was_revealed_before_turn": false,
+          "revealed_by_this_evaluation": false,
+          "answer": "NO",
+          "raw_output": "Answer: NO  \nRationale: The therapist's question focuses on specific responsibilities and situations, not on eliciting core beliefs about being trapped, unlovable, or worthless."
+        },
+        {
+          "ccd_id": "coping_strategies",
+          "ccd_label": "Coping Strategies",
+          "was_revealed_before_turn": false,
+          "revealed_by_this_evaluation": false,
+          "answer": "NO",
+          "raw_output": "Answer: NO  \nRationale: The therapist's question focuses on identifying specific responsibilities or situations, not on eliciting the client's coping strategies."
+        }
+      ],
+      "revealed_after_turn": {
+        "situation": true,
+        "auto_thought": false,
+        "emotion": false,
+        "behavior": false,
+        "history": false,
+        "intermediate_belief": false,
+        "core_beliefs": false,
+        "coping_strategies": false
+      }
+    },
+    {
+      "turn": 4,
+      "therapist": "Therapist: It seems like you’re feeling really stretched thin with both work and family obligations, and that it’s creating this overwhelming sense of chaos for you. I can imagine how difficult it must be to navigate all those demands at once. When you think about wanting to escape, what do you think that represents for you? What would that escape look like?",
+      "client": "Client: I guess when I think about wanting to escape, it feels like I'm just searching for a break from all the pressure. Maybe it represents a desire to have some space to breathe and think without all these responsibilities weighing me down. An escape would probably just be a moment where I don’t have to worry about anything—like a quiet place where I can just forget everything for a little while. But I know I can't really run away from it all. It's just overwhelming to think about how to manage everything.",
+      "reveal_evaluations": [
+        {
+          "ccd_id": "auto_thought",
+          "ccd_label": "Automatic Thoughts",
+          "was_revealed_before_turn": false,
+          "revealed_by_this_evaluation": false,
+          "answer": "NO",
+          "raw_output": "Answer: NO  \nRationale: The therapist's question about what escape represents is too broad and does not specifically target the client's automatic thoughts."
+        },
+        {
+          "ccd_id": "emotion",
+          "ccd_label": "Emotions",
+          "was_revealed_before_turn": false,
+          "revealed_by_this_evaluation": false,
+          "answer": "NO",
+          "raw_output": "Answer: NO  \nRationale: The therapist's question is more likely to elicit thoughts about escape rather than specific emotions."
+        },
+        {
+          "ccd_id": "behavior",
+          "ccd_label": "Behavior",
+          "was_revealed_before_turn": false,
+          "revealed_by_this_evaluation": false,
+          "answer": "NO",
+          "raw_output": "Answer: NO  \nRationale: The therapist's question is too broad and focuses on the concept of escape rather than specifically eliciting the behavior of ignoring invitations and calls."
+        },
+        {
+          "ccd_id": "history",
+          "ccd_label": "Relevant History",
+          "was_revealed_before_turn": false,
+          "revealed_by_this_evaluation": false,
+          "answer": "NO",
+          "raw_output": "Answer: NO  \nRationale: The therapist's question focuses on the client's desire to escape, which is not directly related to eliciting the client's relevant history."
+        },
+        {
+          "ccd_id": "intermediate_belief",
+          "ccd_label": "Intermediate Beliefs",
+          "was_revealed_before_turn": false,
+          "revealed_by_this_evaluation": false,
+          "answer": "NO",
+          "raw_output": "Answer: NO  \nRationale: The therapist's question about what escape represents is too broad and does not specifically probe for the client's intermediate beliefs about helplessness or being unlovable."
+        },
+        {
+          "ccd_id": "core_beliefs",
+          "ccd_label": "Core Beliefs",
+          "was_revealed_before_turn": false,
+          "revealed_by_this_evaluation": false,
+          "answer": "NO",
+          "raw_output": "Answer: NO  \nRationale: The therapist's question is more likely to elicit thoughts about escape or coping strategies rather than the specific core beliefs of being trapped, unlovable, or worthless."
+        },
+        {
+          "ccd_id": "coping_strategies",
+          "ccd_label": "Coping Strategies",
+          "was_revealed_before_turn": false,
+          "revealed_by_this_evaluation": false,
+          "answer": "NO",
+          "raw_output": "Answer: NO  \nRationale: The therapist's question is more likely to elicit the client's emotions or desires rather than specific coping strategies."
+        }
+      ],
+      "revealed_after_turn": {
+        "situation": true,
+        "auto_thought": false,
+        "emotion": false,
+        "behavior": false,
+        "history": false,
+        "intermediate_belief": false,
+        "core_beliefs": false,
+        "coping_strategies": false
+      }
+    },
+    {
+      "turn": 5,
+      "therapist": "Therapist: It sounds like the idea of escape is really about needing a reprieve and a chance to recharge without the constant pressure of responsibilities. That desire for a quiet space seems so valid, especially when everything feels so heavy. When you think about managing those responsibilities, what are some of the thoughts that come up for you about your ability to handle them?",
+      "client": "Client: I guess when I think about managing everything, I feel like I’m just not doing enough. There’s this nagging thought that I should be able to handle it all, but then I just get stuck. It’s frustrating because I want to be able to meet those responsibilities, but I feel like I’m constantly falling short. Sometimes I worry that I’m letting people down, and that just adds to the weight. It’s hard to see a way through it.",
+      "reveal_evaluations": [
+        {
+          "ccd_id": "auto_thought",
+          "ccd_label": "Automatic Thoughts",
+          "was_revealed_before_turn": false,
+          "revealed_by_this_evaluation": false,
+          "answer": "NO",
+          "raw_output": "Answer: NO  \nRationale: The therapist's question is too general and likely to elicit surface thoughts about handling responsibilities rather than the specific automatic thoughts related to stress and family dynamics."
+        },
+        {
+          "ccd_id": "emotion",
+          "ccd_label": "Emotions",
+          "was_revealed_before_turn": false,
+          "revealed_by_this_evaluation": false,
+          "answer": "NO",
+          "raw_output": "Answer: NO  \nRationale: The therapist's question is more likely to elicit thoughts about the client's ability to manage responsibilities rather than directly eliciting emotions."
+        },
+        {
+          "ccd_id": "behavior",
+          "ccd_label": "Behavior",
+          "was_revealed_before_turn": false,
+          "revealed_by_this_evaluation": false,
+          "answer": "NO",
+          "raw_output": "Answer: NO  \nRationale: The therapist's question is more likely to elicit thoughts about the client's ability to manage responsibilities rather than the specific behavior of ignoring invitations and calls."
+        },
+        {
+          "ccd_id": "history",
+          "ccd_label": "Relevant History",
+          "was_revealed_before_turn": false,
+          "revealed_by_this_evaluation": false,
+          "answer": "NO",
+          "raw_output": "Answer: NO  \nRationale: The therapist's question focuses on the client's thoughts about managing responsibilities, not on eliciting the client's relevant history."
+        },
+        {
+          "ccd_id": "intermediate_belief",
+          "ccd_label": "Intermediate Beliefs",
+          "was_revealed_before_turn": false,
+          "revealed_by_this_evaluation": false,
+          "answer": "NO",
+          "raw_output": "Answer: NO  \nRationale: The therapist's question is more likely to elicit thoughts about the client's ability to manage responsibilities rather than the specific intermediate beliefs of helplessness or being unlovable."
+        },
+        {
+          "ccd_id": "core_beliefs",
+          "ccd_label": "Core Beliefs",
+          "was_revealed_before_turn": false,
+          "revealed_by_this_evaluation": false,
+          "answer": "NO",
+          "raw_output": "Answer: NO  \nRationale: The therapist's question is more likely to elicit thoughts about the client's ability to manage responsibilities rather than directly uncovering a core belief about being trapped, unlovable, or worthless."
+        },
+        {
+          "ccd_id": "coping_strategies",
+          "ccd_label": "Coping Strategies",
+          "was_revealed_before_turn": false,
+          "revealed_by_this_evaluation": false,
+          "answer": "NO",
+          "raw_output": "Answer: NO  \nRationale: The therapist's question is more likely to elicit thoughts about the client's ability to manage responsibilities rather than specific coping strategies."
+        }
+      ],
+      "revealed_after_turn": {
+        "situation": true,
+        "auto_thought": false,
+        "emotion": false,
+        "behavior": false,
+        "history": false,
+        "intermediate_belief": false,
+        "core_beliefs": false,
+        "coping_strategies": false
+      }
+    },
+    {
+      "turn": 6,
+      "therapist": "Therapist: It sounds like you're experiencing a lot of pressure from both your own expectations and the fear of disappointing others. That feeling of not doing enough must be really tough to carry, especially when you're already feeling overwhelmed. Can you tell me more about where those thoughts of \"not enough\" come from? Have you felt that way in other situations before?",
+      "client": "Client: I think those thoughts of \"not enough\" come from a mix of things. I’ve always had high expectations for myself, and I feel like I have to keep up with everyone else. It's like I’m comparing myself to others and wondering if I'm measuring up. There have been times in the past where I felt like I let people down, and I guess that still sticks with me. I just want to make everyone happy, but it feels like an impossible task sometimes.",
+      "reveal_evaluations": [
+        {
+          "ccd_id": "auto_thought",
+          "ccd_label": "Automatic Thoughts",
+          "was_revealed_before_turn": false,
+          "revealed_by_this_evaluation": false,
+          "answer": "NO",
+          "raw_output": "Answer: NO  \nRationale: The therapist's question is more likely to elicit general thoughts about inadequacy rather than the specific automatic thoughts listed."
+        },
+        {
+          "ccd_id": "emotion",
+          "ccd_label": "Emotions",
+          "was_revealed_before_turn": false,
+          "revealed_by_this_evaluation": false,
+          "answer": "NO",
+          "raw_output": "Answer: NO  \nRationale: The therapist's question is more likely to elicit thoughts about self-expectations and past experiences rather than the client's current emotions."
+        },
+        {
+          "ccd_id": "behavior",
+          "ccd_label": "Behavior",
+          "was_revealed_before_turn": false,
+          "revealed_by_this_evaluation": false,
+          "answer": "NO",
+          "raw_output": "Answer: NO  \nRationale: The therapist's question is focused on exploring the origin of the client's thoughts of \"not enough,\" not on eliciting the specific behavior of ignoring invitations and calls."
+        },
+        {
+          "ccd_id": "history",
+          "ccd_label": "Relevant History",
+          "was_revealed_before_turn": false,
+          "revealed_by_this_evaluation": true,
+          "answer": "YES",
+          "raw_output": "Answer: YES  \nRationale: The therapist's question specifically probes the client's history of feeling \"not enough,\" which could naturally lead the client to discuss past experiences related to their Relevant History."
+        },
+        {
+          "ccd_id": "intermediate_belief",
+          "ccd_label": "Intermediate Beliefs",
+          "was_revealed_before_turn": false,
+          "revealed_by_this_evaluation": false,
+          "answer": "NO",
+          "raw_output": "Answer: NO  \nRationale: The therapist's question is too general and likely to elicit surface thoughts or emotions rather than the specific intermediate beliefs of helplessness or unlovability."
+        },
+        {
+          "ccd_id": "core_beliefs",
+          "ccd_label": "Core Beliefs",
+          "was_revealed_before_turn": false,
+          "revealed_by_this_evaluation": false,
+          "answer": "NO",
+          "raw_output": "Answer: NO  \nRationale: The therapist's question is too general and likely to elicit surface thoughts or emotions rather than the specific core beliefs of being trapped, unlovable, or worthless."
+        },
+        {
+          "ccd_id": "coping_strategies",
+          "ccd_label": "Coping Strategies",
+          "was_revealed_before_turn": false,
+          "revealed_by_this_evaluation": false,
+          "answer": "NO",
+          "raw_output": "Answer: NO  \nRationale: The therapist's question focuses on the origin of the client's feelings of inadequacy, not on the client's coping strategies."
+        }
+      ],
+      "revealed_after_turn": {
+        "situation": true,
+        "auto_thought": false,
+        "emotion": false,
+        "behavior": false,
+        "history": true,
+        "intermediate_belief": false,
+        "core_beliefs": false,
+        "coping_strategies": false
+      }
+    },
+    {
+      "turn": 7,
+      "therapist": "Therapist: It sounds like those high expectations and comparisons to others have really shaped how you see yourself and your ability to meet responsibilities. Wanting to make everyone happy is such a strong motivation, but it can also be incredibly taxing. When you think back to those times you felt like you let people down, how did that impact you then, and how does it feel to carry that memory with you now?",
+      "client": "Client: I think those moments when I felt like I let people down really stuck with me. It made me question my worth and whether I could ever meet my own expectations. Sometimes I replay those situations in my head, and it just adds to that feeling of being overwhelmed. I often feel like I’m carrying this weight of disappointment, both from others and from myself. It's hard to shake off that feeling, and it makes me anxious about facing responsibilities because I worry that I might fail again.",
+      "reveal_evaluations": [
+        {
+          "ccd_id": "auto_thought",
+          "ccd_label": "Automatic Thoughts",
+          "was_revealed_before_turn": false,
+          "revealed_by_this_evaluation": false,
+          "answer": "NO",
+          "raw_output": "Answer: NO  \nRationale: The therapist's question focuses on past experiences and emotional impact rather than specifically eliciting the client's automatic thoughts about future family interactions."
+        },
+        {
+          "ccd_id": "emotion",
+          "ccd_label": "Emotions",
+          "was_revealed_before_turn": false,
+          "revealed_by_this_evaluation": false,
+          "answer": "NO",
+          "raw_output": "Answer: NO  \nRationale: The therapist's question is more likely to elicit thoughts about past experiences and self-perception rather than the specific emotions of anxiousness, worry, or fear."
+        },
+        {
+          "ccd_id": "behavior",
+          "ccd_label": "Behavior",
+          "was_revealed_before_turn": false,
+          "revealed_by_this_evaluation": false,
+          "answer": "NO",
+          "raw_output": "Answer: NO  \nRationale: The therapist's question is more likely to elicit emotions or thoughts about past experiences rather than the specific behavior of ignoring invitations and calls."
+        },
+        {
+          "ccd_id": "intermediate_belief",
+          "ccd_label": "Intermediate Beliefs",
+          "was_revealed_before_turn": false,
+          "revealed_by_this_evaluation": false,
+          "answer": "NO",
+          "raw_output": "Answer: NO  \nRationale: The therapist's question focuses on past experiences and emotions rather than explicitly probing the client's intermediate beliefs about being helpless or unlovable."
+        },
+        {
+          "ccd_id": "core_beliefs",
+          "ccd_label": "Core Beliefs",
+          "was_revealed_before_turn": false,
+          "revealed_by_this_evaluation": false,
+          "answer": "NO",
+          "raw_output": "Answer: NO  \nRationale: The therapist's question focuses on past experiences and emotions rather than explicitly probing the client's core beliefs about being trapped, unlovable, or worthless."
+        },
+        {
+          "ccd_id": "coping_strategies",
+          "ccd_label": "Coping Strategies",
+          "was_revealed_before_turn": false,
+          "revealed_by_this_evaluation": false,
+          "answer": "NO",
+          "raw_output": "Answer: NO  \nRationale: The therapist's question focuses on past experiences and emotional impact rather than specifically eliciting the client's coping strategies."
+        }
+      ],
+      "revealed_after_turn": {
+        "situation": true,
+        "auto_thought": false,
+        "emotion": false,
+        "behavior": false,
+        "history": true,
+        "intermediate_belief": false,
+        "core_beliefs": false,
+        "coping_strategies": false
+      }
+    },
+    {
+      "turn": 8,
+      "therapist": "Therapist: It sounds like those past experiences of disappointment have left a lasting mark on how you view yourself and your abilities. The weight of that anxiety about potentially failing again must feel really heavy, especially when you're already overwhelmed. When you think about that anxiety, what are some of the thoughts or feelings that come up for you in those moments? How do they influence how you respond to your responsibilities today?",
+      "client": "Client: I guess when I think about that anxiety, it feels like a tight knot in my stomach. It's this constant worry that I won't be able to handle everything, and that if I do fail, it would mean I’m letting everyone down again. Sometimes I feel this overwhelming sense of dread when I think about tackling my responsibilities. It’s like I want to avoid them altogether just to escape that anxiety, but deep down, I know I need to face them. It’s just so hard to find the motivation when all I can think about is that fear of failure.",
+      "reveal_evaluations": [
+        {
+          "ccd_id": "auto_thought",
+          "ccd_label": "Automatic Thoughts",
+          "was_revealed_before_turn": false,
+          "revealed_by_this_evaluation": false,
+          "answer": "NO",
+          "raw_output": "Answer: NO  \nRationale: The therapist's question is too broad and may elicit general thoughts or feelings rather than the specific automatic thoughts listed."
+        },
+        {
+          "ccd_id": "emotion",
+          "ccd_label": "Emotions",
+          "was_revealed_before_turn": false,
+          "revealed_by_this_evaluation": true,
+          "answer": "YES",
+          "raw_output": "Answer: YES  \nRationale: The therapist's question specifically probes the client's anxiety and its influence on their response to responsibilities, directly eliciting the target CCD element of emotions."
+        },
+        {
+          "ccd_id": "behavior",
+          "ccd_label": "Behavior",
+          "was_revealed_before_turn": false,
+          "revealed_by_this_evaluation": false,
+          "answer": "NO",
+          "raw_output": "Answer: NO  \nRationale: The therapist's question is more likely to elicit thoughts and feelings rather than the specific behavior of ignoring invitations and phone calls."
+        },
+        {
+          "ccd_id": "intermediate_belief",
+          "ccd_label": "Intermediate Beliefs",
+          "was_revealed_before_turn": false,
+          "revealed_by_this_evaluation": false,
+          "answer": "NO",
+          "raw_output": "Answer: NO  \nRationale: The therapist's question is more likely to elicit emotions or surface thoughts about anxiety rather than the specific intermediate beliefs of helplessness or unlovability."
+        },
+        {
+          "ccd_id": "core_beliefs",
+          "ccd_label": "Core Beliefs",
+          "was_revealed_before_turn": false,
+          "revealed_by_this_evaluation": false,
+          "answer": "NO",
+          "raw_output": "Answer: NO  \nRationale: The therapist's question is more likely to elicit thoughts and feelings about anxiety and responsibilities rather than the specific core beliefs of being trapped, unlovable, or worthless."
+        },
+        {
+          "ccd_id": "coping_strategies",
+          "ccd_label": "Coping Strategies",
+          "was_revealed_before_turn": false,
+          "revealed_by_this_evaluation": false,
+          "answer": "NO",
+          "raw_output": "Answer: NO  \nRationale: The therapist's question is more likely to elicit thoughts and feelings about anxiety and responsibility rather than specific coping strategies."
+        }
+      ],
+      "revealed_after_turn": {
+        "situation": true,
+        "auto_thought": false,
+        "emotion": true,
+        "behavior": false,
+        "history": true,
+        "intermediate_belief": false,
+        "core_beliefs": false,
+        "coping_strategies": false
+      }
+    },
+    {
+      "turn": 9,
+      "therapist": "Therapist: It sounds like that knot of anxiety creates a really strong sense of dread around your responsibilities, making it difficult to find the motivation to tackle them. It’s understandable that you would want to avoid that discomfort. When you think about facing those responsibilities despite the fear, what do you feel is holding you back the most? Is it the fear of failure, or is there something else that feels significant?",
+      "client": "Client: I think it’s really the fear of failure that holds me back the most. I just keep thinking about how disappointing it would be if I couldn’t meet my responsibilities again. It’s like I’m stuck in this loop of worry, and it paralyzes me. I want to push through, but that fear makes it hard to even start. Sometimes I just feel so overwhelmed that I don’t know where to begin, and that makes me want to avoid everything even more.",
+      "reveal_evaluations": [
+        {
+          "ccd_id": "auto_thought",
+          "ccd_label": "Automatic Thoughts",
+          "was_revealed_before_turn": false,
+          "revealed_by_this_evaluation": false,
+          "answer": "NO",
+          "raw_output": "Answer: NO  \nRationale: The therapist's question is too broad and may elicit general fears or emotions rather than the specific automatic thoughts listed."
+        },
+        {
+          "ccd_id": "behavior",
+          "ccd_label": "Behavior",
+          "was_revealed_before_turn": false,
+          "revealed_by_this_evaluation": false,
+          "answer": "NO",
+          "raw_output": "Answer: NO  \nRationale: The therapist's question is more likely to elicit emotions or thoughts about fear rather than the specific behavior of ignoring invitations and calls."
+        },
+        {
+          "ccd_id": "intermediate_belief",
+          "ccd_label": "Intermediate Beliefs",
+          "was_revealed_before_turn": false,
+          "revealed_by_this_evaluation": false,
+          "answer": "NO",
+          "raw_output": "Answer: NO  \nRationale: The therapist's question is too general and does not specifically probe the client's intermediate beliefs about being helpless or unlovable."
+        },
+        {
+          "ccd_id": "core_beliefs",
+          "ccd_label": "Core Beliefs",
+          "was_revealed_before_turn": false,
+          "revealed_by_this_evaluation": false,
+          "answer": "NO",
+          "raw_output": "Answer: NO  \nRationale: The therapist's question is more likely to elicit emotions or surface thoughts about fear and motivation rather than the specific core beliefs of being trapped, unlovable, or worthless."
+        },
+        {
+          "ccd_id": "coping_strategies",
+          "ccd_label": "Coping Strategies",
+          "was_revealed_before_turn": false,
+          "revealed_by_this_evaluation": false,
+          "answer": "NO",
+          "raw_output": "Answer: NO  \nRationale: The therapist's question focuses on the client's fear of failure rather than specifically eliciting information about coping strategies."
+        }
+      ],
+      "revealed_after_turn": {
+        "situation": true,
+        "auto_thought": false,
+        "emotion": true,
+        "behavior": false,
+        "history": true,
+        "intermediate_belief": false,
+        "core_beliefs": false,
+        "coping_strategies": false
+      }
+    },
+    {
+      "turn": 10,
+      "therapist": "Therapist: It sounds like that fear of failure is really powerful for you, creating a loop of worry that keeps you feeling stuck. It makes sense that when you're overwhelmed, it becomes even harder to see a way to start. I'm curious, when you think about that initial step to tackle your responsibilities, what thoughts or feelings come up? Is there a specific task or situation that feels like it would be the hardest to approach?",
+      "client": "Client: I think the hardest part for me is just getting started. Even thinking about it feels overwhelming. I often find myself staring at my to-do list and feeling paralyzed by all the tasks. I worry that I’ll mess up or that I won’t do them well enough, and that just adds to the anxiety. It’s like I’m stuck in this cycle where I know I need to do something, but the fear of not measuring up keeps me from even taking that first step. I just feel so lost in how to break that cycle.",
+      "reveal_evaluations": [
+        {
+          "ccd_id": "auto_thought",
+          "ccd_label": "Automatic Thoughts",
+          "was_revealed_before_turn": false,
+          "revealed_by_this_evaluation": false,
+          "answer": "NO",
+          "raw_output": "Answer: NO  \nRationale: The therapist's question is too broad and may elicit general thoughts or feelings rather than the specific automatic thoughts listed."
+        },
+        {
+          "ccd_id": "behavior",
+          "ccd_label": "Behavior",
+          "was_revealed_before_turn": false,
+          "revealed_by_this_evaluation": false,
+          "answer": "NO",
+          "raw_output": "Answer: NO  \nRationale: The therapist's question is more likely to elicit thoughts or feelings about tasks rather than the specific behavior of ignoring invitations and calls."
+        },
+        {
+          "ccd_id": "intermediate_belief",
+          "ccd_label": "Intermediate Beliefs",
+          "was_revealed_before_turn": false,
+          "revealed_by_this_evaluation": false,
+          "answer": "NO",
+          "raw_output": "Answer: NO  \nRationale: The therapist's question focuses on tasks and situations rather than probing the client's intermediate beliefs about self-control or rejection."
+        },
+        {
+          "ccd_id": "core_beliefs",
+          "ccd_label": "Core Beliefs",
+          "was_revealed_before_turn": false,
+          "revealed_by_this_evaluation": false,
+          "answer": "NO",
+          "raw_output": "Answer: NO  \nRationale: The therapist's question is focused on tasks and situations rather than probing the client's core beliefs about being trapped, unlovable, or worthless."
+        },
+        {
+          "ccd_id": "coping_strategies",
+          "ccd_label": "Coping Strategies",
+          "was_revealed_before_turn": false,
+          "revealed_by_this_evaluation": false,
+          "answer": "NO",
+          "raw_output": "Answer: NO  \nRationale: The therapist's question is more likely to elicit thoughts and feelings about specific tasks rather than the client's coping strategies."
+        }
+      ],
+      "revealed_after_turn": {
+        "situation": true,
+        "auto_thought": false,
+        "emotion": true,
+        "behavior": false,
+        "history": true,
+        "intermediate_belief": false,
+        "core_beliefs": false,
+        "coping_strategies": false
+      }
+    }
+  ]
+}

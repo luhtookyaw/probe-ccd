@@ -1,0 +1,997 @@
+{
+  "metadata": {
+    "created_at": "2026-05-11T11:58:27.640957+00:00",
+    "case_id": "1-1",
+    "client_name": "Alex",
+    "turns": 15,
+    "client_model": "gpt-4o-mini",
+    "therapist_model": "gpt-4o-mini",
+    "critic_model": "gpt-4o",
+    "reveal_surface": false
+  },
+  "case": {
+    "name": "Alex",
+    "id": "1-1",
+    "type": [
+      "plain",
+      "verbose",
+      "go off on tangents",
+      "hostile",
+      "guarded",
+      "ingratiating"
+    ],
+    "history": "The patient has a history of substance abuse and has been through rehab to overcome it. He has had issues with his family, particularly with his mother, where he has felt rejected and emotionally neglected. He has struggled with obesity since childhood, which has affected his self-esteem and body image. He also has a history of being victimized and bullied due to his weight.",
+    "helpless_belief": [
+      "I am trapped.",
+      "I am out of control."
+    ],
+    "unlovable_belief": [
+      "I am unlovable.",
+      "I am undesirable, unwanted."
+    ],
+    "worthless_belief": [],
+    "intermediate_belief": "Helpless: I'm just not very good at handling stress and I have poor self-control, which is why I need to not put myself in stressful situations. \n Unlovable: If I show my true self, people will reject me the way my mother rejected me.",
+    "intermediate_belief_depression": "Helpless: There's nothing I can do to change my situation. I cannot control myself. \nUnlovable: I don't deserve to be happy, so why even try to stay clean?",
+    "coping_strategies": "The patient has adopted avoidance as a coping strategy by distancing himself from his family to reduce exposure to negativity and conflict. He has started scheduling pleasant activities and planning his day ahead of time in order to maintain a sense of control over his emotions and circumstances.",
+    "situation": "Alex's cousin invited him to attend his upcoming wedding.",
+    "auto_thought": "It will be stressful and negative; people will ask me questions I cannot answer or don't want to answer; my mum would be ashamed of me and critical of me as always; They don't want me there anyway, nobody likes me in this family.",
+    "emotion": [
+      "anxious, worried, fearful, scared, tense",
+      "sad, down, lonely, unhappy"
+    ],
+    "behavior": "Ignored the invitation and did not respond to the RSVP request. Ignored phone calls from family."
+  },
+  "ccd_elements": [
+    {
+      "id": "situation",
+      "label": "Situation",
+      "fields": [
+        "situation"
+      ]
+    },
+    {
+      "id": "auto_thought",
+      "label": "Automatic Thoughts",
+      "fields": [
+        "auto_thought"
+      ]
+    },
+    {
+      "id": "emotion",
+      "label": "Emotions",
+      "fields": [
+        "emotion"
+      ]
+    },
+    {
+      "id": "behavior",
+      "label": "Behavior",
+      "fields": [
+        "behavior"
+      ]
+    },
+    {
+      "id": "history",
+      "label": "Relevant History",
+      "fields": [
+        "history"
+      ]
+    },
+    {
+      "id": "intermediate_belief",
+      "label": "Intermediate Beliefs",
+      "fields": [
+        "intermediate_belief"
+      ]
+    },
+    {
+      "id": "core_beliefs",
+      "label": "Core Beliefs",
+      "fields": [
+        "helpless_belief",
+        "unlovable_belief",
+        "worthless_belief"
+      ]
+    },
+    {
+      "id": "coping_strategies",
+      "label": "Coping Strategies",
+      "fields": [
+        "coping_strategies"
+      ]
+    }
+  ],
+  "final_revealed": {
+    "situation": false,
+    "auto_thought": true,
+    "emotion": true,
+    "behavior": false,
+    "history": true,
+    "intermediate_belief": true,
+    "core_beliefs": true,
+    "coping_strategies": true
+  },
+  "dialogue": [
+    {
+      "speaker": "Therapist",
+      "text": "Hello! I’m glad you’re here. What feels most important for you to talk about today?"
+    },
+    {
+      "speaker": "Client",
+      "text": "I'm not really sure what to focus on right now. I guess there are a lot of things on my mind, but nothing feels particularly urgent. It’s just overwhelming sometimes."
+    },
+    {
+      "speaker": "Therapist",
+      "text": "Therapist: It sounds like you're experiencing a lot of thoughts and feelings that are weighing on you, even if nothing feels urgent right now. Can you tell me a bit more about what that overwhelming feeling is like for you?"
+    },
+    {
+      "speaker": "Client",
+      "text": "Client: I guess it just feels like a heavy cloud hanging over me. Sometimes I can’t pinpoint why I feel that way; it’s like a mix of stress from work and personal stuff. I try to push those thoughts away, but they just keep coming back. It's frustrating."
+    },
+    {
+      "speaker": "Therapist",
+      "text": "Therapist: That sounds really challenging, feeling that heavy cloud and not being able to pinpoint the source of it. It’s understandable that trying to push those thoughts away would feel frustrating. When you say it’s a mix of stress from work and personal stuff, can you share more about what specific thoughts or situations contribute to that stress?"
+    },
+    {
+      "speaker": "Client",
+      "text": "Client: I think a lot about deadlines at work and how I feel like I'm always behind. There's also some tension at home with my family, and I worry about not meeting their expectations. It's like I'm juggling all these responsibilities, and I just feel... stuck, I guess. Even when I try to relax, my mind keeps racing back to all these things I need to do or fix."
+    },
+    {
+      "speaker": "Therapist",
+      "text": "Therapist: It sounds like you’re carrying a lot of pressure from both work and family responsibilities, which is contributing to that feeling of being stuck. Juggling deadlines and expectations can be really overwhelming. When you think about those racing thoughts, what emotions come up for you?"
+    },
+    {
+      "speaker": "Client",
+      "text": "Client: I guess when I think about those racing thoughts, I feel anxious and a bit helpless. It's like I know I should be doing something, but I don't even know where to start. Sometimes I just feel overwhelmed by the weight of it all, like no matter how hard I try, I can't catch up. It can be really discouraging, you know?"
+    },
+    {
+      "speaker": "Therapist",
+      "text": "Therapist: It sounds like that sense of anxiety and helplessness is really difficult to manage, especially when it feels like you're constantly trying to catch up but can't find a way forward. It’s understandable to feel discouraged in that situation. When you say it feels like a weight, can you describe what that weight feels like for you in your day-to-day life?"
+    },
+    {
+      "speaker": "Client",
+      "text": "Client: I guess the weight feels like a constant pressure in my chest, almost like I'm carrying a backpack full of rocks wherever I go. It makes it hard to breathe sometimes, especially when I think about how much I have to do. I just want to feel lighter, but it seems like the more I try to manage everything, the heavier it gets."
+    },
+    {
+      "speaker": "Therapist",
+      "text": "Therapist: That image of carrying a backpack full of rocks really captures the heaviness you're feeling. It sounds like that pressure in your chest makes it hard for you to breathe and adds to the difficulty of managing your responsibilities. When you think about wanting to feel lighter, what do you think might help you move towards that feeling?"
+    },
+    {
+      "speaker": "Client",
+      "text": "Client: I’m not sure what might help, honestly. I think about taking breaks or asking for help, but I worry that I’ll just end up disappointing others or falling behind even more. It’s hard to know what’s the right step to take when everything feels so heavy. I guess I just feel stuck in this cycle of trying to manage it all but not really knowing how to change things."
+    },
+    {
+      "speaker": "Therapist",
+      "text": "Therapist: It sounds like you're caught in a tough cycle, wanting to take breaks or ask for help but feeling anxious about disappointing others or falling behind. That uncertainty can really add to the heaviness you're experiencing. I'm curious, when you think about the possibility of asking for help or taking a break, what thoughts or beliefs come up for you?"
+    },
+    {
+      "speaker": "Client",
+      "text": "Client: I guess when I think about asking for help, I feel like I'm being a burden to others. There's this belief that I should be able to handle everything on my own, and if I can't, it means I'm not good enough. It's hard to shake off that feeling. And with taking breaks, I worry that if I step back even for a moment, everything will just pile up even more. It’s like I’m stuck in this mindset where I have to keep pushing through, even if it feels impossible sometimes."
+    },
+    {
+      "speaker": "Therapist",
+      "text": "Therapist: It sounds like there's a strong belief that you should manage everything on your own, which makes asking for help feel burdensome. That pressure to keep pushing through, even when it feels impossible, can be exhausting. I wonder, where do you think that belief comes from?"
+    },
+    {
+      "speaker": "Client",
+      "text": "Client: I'm not really sure where it comes from. I guess it's just something I've always felt, like there's this expectation to be strong and self-sufficient. Maybe it's from my upbringing or just the pressure I put on myself. It’s hard to break free from that mindset because it feels like it’s been part of me for so long. I just wish I could let go of that belief and not feel so stuck."
+    },
+    {
+      "speaker": "Therapist",
+      "text": "Therapist: It sounds like this expectation to be strong and self-sufficient has been a significant part of your life for a long time, possibly influenced by your upbringing and your own internal pressures. It’s understandable that letting go of such a deeply rooted belief would feel challenging. When you think about that desire to break free from it, what do you think it would look like for you to let go of that belief and feel less stuck?"
+    },
+    {
+      "speaker": "Client",
+      "text": "Client: I guess letting go of that belief would mean feeling more comfortable with the idea of asking for help and not seeing it as a weakness. It would look like being able to take breaks without the guilt that comes with it. I imagine I’d feel lighter, less pressured, and more at ease with myself. But honestly, it’s hard to picture that right now because it feels so far from where I am. I just don’t know how to make that shift happen."
+    },
+    {
+      "speaker": "Therapist",
+      "text": "Therapist: It sounds like envisioning that shift feels quite distant, even though you have a clear sense of what it could look like—feeling more at ease and comfortable with asking for help. That contrast between where you are now and where you want to be can feel discouraging. Can you share more about what steps, no matter how small, might help you begin to move toward that sense of ease?"
+    },
+    {
+      "speaker": "Client",
+      "text": "Client: I guess thinking about steps feels overwhelming too. I mean, I’d like to start small, but I’m not sure where to even begin. Maybe I could try talking to a friend about how I’m feeling or set aside a few minutes each day just to breathe and not think about everything I have to do. But then I worry that I’ll just forget to do it or that it won’t help at all. It’s frustrating because I want to feel that ease, but I keep getting stuck in my own head about taking those first steps."
+    },
+    {
+      "speaker": "Therapist",
+      "text": "Therapist: It sounds like you have some small ideas in mind, like talking to a friend or setting aside a few minutes to breathe, but the worry about forgetting or whether it will actually help is holding you back. That frustration of wanting to feel that ease but feeling stuck in your thoughts is completely understandable. When you think about these small steps, what do you think might help you remember or feel more motivated to try them?"
+    },
+    {
+      "speaker": "Client",
+      "text": "Client: I guess I'm not really sure what would help me remember or feel motivated. Part of me wants to just push through and get things done, but I know that's not really working for me either. Maybe I could set reminders on my phone or something, but I worry that I’ll just ignore them like I do with other things. It’s like I’m stuck in this loop of wanting to change but feeling paralyzed by all these thoughts and fears. I just don’t know how to break that cycle."
+    },
+    {
+      "speaker": "Therapist",
+      "text": "Therapist: It sounds like you’re feeling really caught in a loop of wanting to change but feeling paralyzed by those thoughts and fears. The idea of setting reminders is interesting, but I can see how past experiences might make you doubt their effectiveness. When you think about this cycle of feeling stuck, what do you think it would take for you to feel a little more empowered to take that first step, even if it's a small one?"
+    },
+    {
+      "speaker": "Client",
+      "text": "Client: I think feeling more empowered would mean actually believing that I can take those small steps without it being a huge deal. I guess it would help if I could recognize that even trying something small is a step in the right direction. But right now, I just feel so stuck that it's hard to imagine feeling that way. Maybe I need to find a way to remind myself that it's okay to start small and that I don't have to have everything figured out right away. It's just tough to break this cycle when I feel like I'm constantly battling my own thoughts."
+    },
+    {
+      "speaker": "Therapist",
+      "text": "Therapist: It sounds like believing that starting small is a valid step is really important for you, but right now it feels challenging to see that possibility. The idea of reminding yourself that it’s okay to take small steps and not have everything figured out can be a supportive shift. I appreciate your honesty in sharing how tough this battle with your thoughts feels. When you think about finding a way to remind yourself of that, what might that look like for you?"
+    },
+    {
+      "speaker": "Client",
+      "text": "Client: I'm not sure what that would look like. I guess maybe I could write down some affirmations for myself or reminders that it's okay to take things one step at a time. But even that feels like another task on my list. I want to believe in that possibility, but it feels like I’m constantly fighting against my own thoughts telling me I should be doing more. It’s just hard to find that motivation when I feel so heavy and overwhelmed."
+    },
+    {
+      "speaker": "Therapist",
+      "text": "Therapist: It sounds like even the idea of writing down affirmations feels like just another task, which adds to that sense of being overwhelmed. It’s understandable to feel stuck when your thoughts are pushing you to do more, even when you want to believe in taking small steps. I wonder, what would it feel like to approach that idea of reminders or affirmations with a sense of gentleness, rather than as another obligation?"
+    },
+    {
+      "speaker": "Client",
+      "text": "Client: I guess approaching it with gentleness sounds nice, but it feels hard to do that when I'm already so overwhelmed. I worry that if I don't hold myself to a high standard, I'll just let everything slip. I want to be kind to myself, but I keep getting pulled back into that mindset of needing to push through and do more. It’s like I’m stuck in this tug-of-war between wanting to be gentle and feeling like I have to keep up with everything. It’s frustrating."
+    },
+    {
+      "speaker": "Therapist",
+      "text": "Therapist: It sounds like you're really navigating a difficult tug-of-war between wanting to be gentle with yourself and feeling the pressure to keep pushing through. That conflict can create a lot of frustration and make it hard to find a balance. I'm curious, when you imagine what it might look like to be kind to yourself in the midst of that overwhelm, what comes to mind?"
+    },
+    {
+      "speaker": "Client",
+      "text": "Client: I guess when I think about being kind to myself, I imagine allowing myself to take breaks without feeling guilty. It might mean acknowledging that it's okay to not have everything figured out and giving myself permission to feel overwhelmed without judgment. But honestly, it feels really hard to do that. I keep thinking I should just be stronger or handle things better. It’s frustrating because I want to believe that being kind to myself is possible, but it feels so far away from where I am right now."
+    }
+  ],
+  "turns": [
+    {
+      "turn": 1,
+      "therapist": "Hello! I’m glad you’re here. What feels most important for you to talk about today?",
+      "client": "I'm not really sure what to focus on right now. I guess there are a lot of things on my mind, but nothing feels particularly urgent. It’s just overwhelming sometimes.",
+      "reveal_evaluations": [
+        {
+          "ccd_id": "situation",
+          "ccd_label": "Situation",
+          "was_revealed_before_turn": false,
+          "revealed_by_this_evaluation": false,
+          "answer": "NO",
+          "raw_output": "Answer: NO  \nRationale: The therapist's question is too broad and does not specifically guide the client to discuss the situation of being invited to the wedding."
+        },
+        {
+          "ccd_id": "auto_thought",
+          "ccd_label": "Automatic Thoughts",
+          "was_revealed_before_turn": false,
+          "revealed_by_this_evaluation": false,
+          "answer": "NO",
+          "raw_output": "Answer: NO  \nRationale: The therapist's question is too broad and does not specifically target the client's automatic thoughts."
+        },
+        {
+          "ccd_id": "emotion",
+          "ccd_label": "Emotions",
+          "was_revealed_before_turn": false,
+          "revealed_by_this_evaluation": false,
+          "answer": "NO",
+          "raw_output": "Answer: NO  \nRationale: The therapist's question is too broad and does not specifically target the client's emotions."
+        },
+        {
+          "ccd_id": "behavior",
+          "ccd_label": "Behavior",
+          "was_revealed_before_turn": false,
+          "revealed_by_this_evaluation": false,
+          "answer": "NO",
+          "raw_output": "Answer: NO  \nRationale: The therapist's question is too broad and does not specifically target the client's behavior of ignoring invitations and calls."
+        },
+        {
+          "ccd_id": "history",
+          "ccd_label": "Relevant History",
+          "was_revealed_before_turn": false,
+          "revealed_by_this_evaluation": false,
+          "answer": "NO",
+          "raw_output": "Answer: NO  \nRationale: The therapist's question is too broad and does not specifically target the client's relevant history."
+        },
+        {
+          "ccd_id": "intermediate_belief",
+          "ccd_label": "Intermediate Beliefs",
+          "was_revealed_before_turn": false,
+          "revealed_by_this_evaluation": false,
+          "answer": "NO",
+          "raw_output": "Answer: NO  \nRationale: The therapist's question is too broad and does not specifically target the client's intermediate beliefs."
+        },
+        {
+          "ccd_id": "core_beliefs",
+          "ccd_label": "Core Beliefs",
+          "was_revealed_before_turn": false,
+          "revealed_by_this_evaluation": false,
+          "answer": "NO",
+          "raw_output": "Answer: NO  \nRationale: The therapist's question is too broad and generic to specifically elicit the target core beliefs."
+        },
+        {
+          "ccd_id": "coping_strategies",
+          "ccd_label": "Coping Strategies",
+          "was_revealed_before_turn": false,
+          "revealed_by_this_evaluation": false,
+          "answer": "NO",
+          "raw_output": "Answer: NO  \nRationale: The therapist's question is too broad and does not specifically target the client's coping strategies."
+        }
+      ],
+      "revealed_after_turn": {
+        "situation": false,
+        "auto_thought": false,
+        "emotion": false,
+        "behavior": false,
+        "history": false,
+        "intermediate_belief": false,
+        "core_beliefs": false,
+        "coping_strategies": false
+      }
+    },
+    {
+      "turn": 2,
+      "therapist": "Therapist: It sounds like you're experiencing a lot of thoughts and feelings that are weighing on you, even if nothing feels urgent right now. Can you tell me a bit more about what that overwhelming feeling is like for you?",
+      "client": "Client: I guess it just feels like a heavy cloud hanging over me. Sometimes I can’t pinpoint why I feel that way; it’s like a mix of stress from work and personal stuff. I try to push those thoughts away, but they just keep coming back. It's frustrating.",
+      "reveal_evaluations": [
+        {
+          "ccd_id": "situation",
+          "ccd_label": "Situation",
+          "was_revealed_before_turn": false,
+          "revealed_by_this_evaluation": false,
+          "answer": "NO",
+          "raw_output": "Answer: NO  \nRationale: The therapist's question focuses on the client's feelings of being overwhelmed rather than eliciting details about the specific situation of Alex's cousin's wedding invitation."
+        },
+        {
+          "ccd_id": "auto_thought",
+          "ccd_label": "Automatic Thoughts",
+          "was_revealed_before_turn": false,
+          "revealed_by_this_evaluation": false,
+          "answer": "NO",
+          "raw_output": "Answer: NO  \nRationale: The therapist's question is too broad and focuses on the client's feelings of being overwhelmed rather than specifically probing the automatic thoughts related to stress and family dynamics."
+        },
+        {
+          "ccd_id": "emotion",
+          "ccd_label": "Emotions",
+          "was_revealed_before_turn": false,
+          "revealed_by_this_evaluation": true,
+          "answer": "YES",
+          "raw_output": "Answer: YES  \nRationale: The therapist's question uses clarification to explore the client's overwhelming feelings, which is likely to elicit the target emotions."
+        },
+        {
+          "ccd_id": "behavior",
+          "ccd_label": "Behavior",
+          "was_revealed_before_turn": false,
+          "revealed_by_this_evaluation": false,
+          "answer": "NO",
+          "raw_output": "Answer: NO  \nRationale: The therapist's question focuses on the client's feelings of being overwhelmed rather than eliciting specific behaviors related to ignoring invitations and calls."
+        },
+        {
+          "ccd_id": "history",
+          "ccd_label": "Relevant History",
+          "was_revealed_before_turn": false,
+          "revealed_by_this_evaluation": false,
+          "answer": "NO",
+          "raw_output": "Answer: NO  \nRationale: The therapist's question focuses on the client's current feelings of being overwhelmed rather than eliciting the client's relevant history."
+        },
+        {
+          "ccd_id": "intermediate_belief",
+          "ccd_label": "Intermediate Beliefs",
+          "was_revealed_before_turn": false,
+          "revealed_by_this_evaluation": false,
+          "answer": "NO",
+          "raw_output": "Answer: NO  \nRationale: The therapist's question is too broad and does not specifically probe the client's intermediate beliefs related to feeling helpless or unlovable."
+        },
+        {
+          "ccd_id": "core_beliefs",
+          "ccd_label": "Core Beliefs",
+          "was_revealed_before_turn": false,
+          "revealed_by_this_evaluation": false,
+          "answer": "NO",
+          "raw_output": "Answer: NO  \nRationale: The therapist's question is too broad and does not specifically target the client's core beliefs related to helplessness, unlovability, or worthlessness."
+        },
+        {
+          "ccd_id": "coping_strategies",
+          "ccd_label": "Coping Strategies",
+          "was_revealed_before_turn": false,
+          "revealed_by_this_evaluation": false,
+          "answer": "NO",
+          "raw_output": "Answer: NO  \nRationale: The therapist's question is too broad and focuses on the client's feelings of being overwhelmed rather than specifically eliciting information about the client's coping strategies."
+        }
+      ],
+      "revealed_after_turn": {
+        "situation": false,
+        "auto_thought": false,
+        "emotion": true,
+        "behavior": false,
+        "history": false,
+        "intermediate_belief": false,
+        "core_beliefs": false,
+        "coping_strategies": false
+      }
+    },
+    {
+      "turn": 3,
+      "therapist": "Therapist: That sounds really challenging, feeling that heavy cloud and not being able to pinpoint the source of it. It’s understandable that trying to push those thoughts away would feel frustrating. When you say it’s a mix of stress from work and personal stuff, can you share more about what specific thoughts or situations contribute to that stress?",
+      "client": "Client: I think a lot about deadlines at work and how I feel like I'm always behind. There's also some tension at home with my family, and I worry about not meeting their expectations. It's like I'm juggling all these responsibilities, and I just feel... stuck, I guess. Even when I try to relax, my mind keeps racing back to all these things I need to do or fix.",
+      "reveal_evaluations": [
+        {
+          "ccd_id": "situation",
+          "ccd_label": "Situation",
+          "was_revealed_before_turn": false,
+          "revealed_by_this_evaluation": false,
+          "answer": "NO",
+          "raw_output": "Answer: NO  \nRationale: The therapist's question is too broad and focuses on stress sources rather than specifically eliciting the situation of Alex's cousin's wedding invitation."
+        },
+        {
+          "ccd_id": "auto_thought",
+          "ccd_label": "Automatic Thoughts",
+          "was_revealed_before_turn": false,
+          "revealed_by_this_evaluation": true,
+          "answer": "YES",
+          "raw_output": "Answer: YES  \nRationale: The therapist's question is open-ended, uses a clarification strategy, and is likely to elicit the client's automatic thoughts related to stress from work and personal situations."
+        },
+        {
+          "ccd_id": "behavior",
+          "ccd_label": "Behavior",
+          "was_revealed_before_turn": false,
+          "revealed_by_this_evaluation": false,
+          "answer": "NO",
+          "raw_output": "Answer: NO  \nRationale: The therapist's question focuses on thoughts and situations contributing to stress, not specifically on the behavior of ignoring invitations and calls."
+        },
+        {
+          "ccd_id": "history",
+          "ccd_label": "Relevant History",
+          "was_revealed_before_turn": false,
+          "revealed_by_this_evaluation": false,
+          "answer": "NO",
+          "raw_output": "Answer: NO  \nRationale: The therapist's question focuses on current stressors rather than eliciting the client's relevant history."
+        },
+        {
+          "ccd_id": "intermediate_belief",
+          "ccd_label": "Intermediate Beliefs",
+          "was_revealed_before_turn": false,
+          "revealed_by_this_evaluation": false,
+          "answer": "NO",
+          "raw_output": "Answer: NO  \nRationale: The therapist's question is too broad and focuses on specific stressors rather than probing the client's intermediate beliefs about handling stress or being unlovable."
+        },
+        {
+          "ccd_id": "core_beliefs",
+          "ccd_label": "Core Beliefs",
+          "was_revealed_before_turn": false,
+          "revealed_by_this_evaluation": false,
+          "answer": "NO",
+          "raw_output": "Answer: NO  \nRationale: The therapist's question focuses on specific stressors rather than probing the client's core beliefs related to feeling trapped, unlovable, or worthless."
+        },
+        {
+          "ccd_id": "coping_strategies",
+          "ccd_label": "Coping Strategies",
+          "was_revealed_before_turn": false,
+          "revealed_by_this_evaluation": false,
+          "answer": "NO",
+          "raw_output": "Answer: NO  \nRationale: The therapist's question focuses on identifying specific stressors rather than exploring the client's coping strategies."
+        }
+      ],
+      "revealed_after_turn": {
+        "situation": false,
+        "auto_thought": true,
+        "emotion": true,
+        "behavior": false,
+        "history": false,
+        "intermediate_belief": false,
+        "core_beliefs": false,
+        "coping_strategies": false
+      }
+    },
+    {
+      "turn": 4,
+      "therapist": "Therapist: It sounds like you’re carrying a lot of pressure from both work and family responsibilities, which is contributing to that feeling of being stuck. Juggling deadlines and expectations can be really overwhelming. When you think about those racing thoughts, what emotions come up for you?",
+      "client": "Client: I guess when I think about those racing thoughts, I feel anxious and a bit helpless. It's like I know I should be doing something, but I don't even know where to start. Sometimes I just feel overwhelmed by the weight of it all, like no matter how hard I try, I can't catch up. It can be really discouraging, you know?",
+      "reveal_evaluations": [
+        {
+          "ccd_id": "situation",
+          "ccd_label": "Situation",
+          "was_revealed_before_turn": false,
+          "revealed_by_this_evaluation": false,
+          "answer": "NO",
+          "raw_output": "Answer: NO  \nRationale: The therapist's question focuses on emotions rather than eliciting details about the specific situation of Alex's cousin's wedding invitation."
+        },
+        {
+          "ccd_id": "behavior",
+          "ccd_label": "Behavior",
+          "was_revealed_before_turn": false,
+          "revealed_by_this_evaluation": false,
+          "answer": "NO",
+          "raw_output": "Answer: NO  \nRationale: The therapist's question focuses on emotions rather than the client's behavior of ignoring invitations and calls."
+        },
+        {
+          "ccd_id": "history",
+          "ccd_label": "Relevant History",
+          "was_revealed_before_turn": false,
+          "revealed_by_this_evaluation": false,
+          "answer": "NO",
+          "raw_output": "Answer: NO  \nRationale: The therapist's question focuses on current emotions rather than eliciting the client's relevant history."
+        },
+        {
+          "ccd_id": "intermediate_belief",
+          "ccd_label": "Intermediate Beliefs",
+          "was_revealed_before_turn": false,
+          "revealed_by_this_evaluation": false,
+          "answer": "NO",
+          "raw_output": "Answer: NO  \nRationale: The therapist's question focuses on emotions related to stress rather than probing the client's intermediate beliefs about helplessness or being unlovable."
+        },
+        {
+          "ccd_id": "core_beliefs",
+          "ccd_label": "Core Beliefs",
+          "was_revealed_before_turn": false,
+          "revealed_by_this_evaluation": false,
+          "answer": "NO",
+          "raw_output": "Answer: NO  \nRationale: The therapist's question focuses on emotions rather than probing the underlying core beliefs related to feeling trapped, unlovable, or worthless."
+        },
+        {
+          "ccd_id": "coping_strategies",
+          "ccd_label": "Coping Strategies",
+          "was_revealed_before_turn": false,
+          "revealed_by_this_evaluation": false,
+          "answer": "NO",
+          "raw_output": "Answer: NO  \nRationale: The therapist's question focuses on emotions rather than exploring the client's coping strategies."
+        }
+      ],
+      "revealed_after_turn": {
+        "situation": false,
+        "auto_thought": true,
+        "emotion": true,
+        "behavior": false,
+        "history": false,
+        "intermediate_belief": false,
+        "core_beliefs": false,
+        "coping_strategies": false
+      }
+    },
+    {
+      "turn": 5,
+      "therapist": "Therapist: It sounds like that sense of anxiety and helplessness is really difficult to manage, especially when it feels like you're constantly trying to catch up but can't find a way forward. It’s understandable to feel discouraged in that situation. When you say it feels like a weight, can you describe what that weight feels like for you in your day-to-day life?",
+      "client": "Client: I guess the weight feels like a constant pressure in my chest, almost like I'm carrying a backpack full of rocks wherever I go. It makes it hard to breathe sometimes, especially when I think about how much I have to do. I just want to feel lighter, but it seems like the more I try to manage everything, the heavier it gets.",
+      "reveal_evaluations": [
+        {
+          "ccd_id": "situation",
+          "ccd_label": "Situation",
+          "was_revealed_before_turn": false,
+          "revealed_by_this_evaluation": false,
+          "answer": "NO",
+          "raw_output": "Answer: NO  \nRationale: The therapist's question focuses on the client's emotional experience rather than eliciting details about the specific situation of Alex's cousin's wedding invitation."
+        },
+        {
+          "ccd_id": "behavior",
+          "ccd_label": "Behavior",
+          "was_revealed_before_turn": false,
+          "revealed_by_this_evaluation": false,
+          "answer": "NO",
+          "raw_output": "Answer: NO  \nRationale: The therapist's question focuses on the emotional experience of the \"weight\" rather than eliciting specific behaviors related to ignoring invitations and calls."
+        },
+        {
+          "ccd_id": "history",
+          "ccd_label": "Relevant History",
+          "was_revealed_before_turn": false,
+          "revealed_by_this_evaluation": false,
+          "answer": "NO",
+          "raw_output": "Answer: NO  \nRationale: The therapist's question focuses on the client's current feelings rather than eliciting the client's relevant history."
+        },
+        {
+          "ccd_id": "intermediate_belief",
+          "ccd_label": "Intermediate Beliefs",
+          "was_revealed_before_turn": false,
+          "revealed_by_this_evaluation": false,
+          "answer": "NO",
+          "raw_output": "Answer: NO  \nRationale: The therapist's question focuses on the metaphor of \"weight\" rather than probing the underlying intermediate beliefs of helplessness or unlovability."
+        },
+        {
+          "ccd_id": "core_beliefs",
+          "ccd_label": "Core Beliefs",
+          "was_revealed_before_turn": false,
+          "revealed_by_this_evaluation": false,
+          "answer": "NO",
+          "raw_output": "Answer: NO  \nRationale: The therapist's question focuses on the client's experience of weight in daily life rather than probing the underlying core beliefs of helplessness or unlovability."
+        },
+        {
+          "ccd_id": "coping_strategies",
+          "ccd_label": "Coping Strategies",
+          "was_revealed_before_turn": false,
+          "revealed_by_this_evaluation": false,
+          "answer": "NO",
+          "raw_output": "Answer: NO  \nRationale: The therapist's question focuses on the client's emotional experience rather than exploring their coping strategies."
+        }
+      ],
+      "revealed_after_turn": {
+        "situation": false,
+        "auto_thought": true,
+        "emotion": true,
+        "behavior": false,
+        "history": false,
+        "intermediate_belief": false,
+        "core_beliefs": false,
+        "coping_strategies": false
+      }
+    },
+    {
+      "turn": 6,
+      "therapist": "Therapist: That image of carrying a backpack full of rocks really captures the heaviness you're feeling. It sounds like that pressure in your chest makes it hard for you to breathe and adds to the difficulty of managing your responsibilities. When you think about wanting to feel lighter, what do you think might help you move towards that feeling?",
+      "client": "Client: I’m not sure what might help, honestly. I think about taking breaks or asking for help, but I worry that I’ll just end up disappointing others or falling behind even more. It’s hard to know what’s the right step to take when everything feels so heavy. I guess I just feel stuck in this cycle of trying to manage it all but not really knowing how to change things.",
+      "reveal_evaluations": [
+        {
+          "ccd_id": "situation",
+          "ccd_label": "Situation",
+          "was_revealed_before_turn": false,
+          "revealed_by_this_evaluation": false,
+          "answer": "NO",
+          "raw_output": "Answer: NO  \nRationale: The therapist's question focuses on what might help the client feel lighter, rather than eliciting details about the specific situation of Alex's cousin's wedding invitation."
+        },
+        {
+          "ccd_id": "behavior",
+          "ccd_label": "Behavior",
+          "was_revealed_before_turn": false,
+          "revealed_by_this_evaluation": false,
+          "answer": "NO",
+          "raw_output": "Answer: NO  \nRationale: The therapist's question focuses on what might help the client feel lighter, which is not directly related to eliciting the specific behavior of ignoring invitations and calls."
+        },
+        {
+          "ccd_id": "history",
+          "ccd_label": "Relevant History",
+          "was_revealed_before_turn": false,
+          "revealed_by_this_evaluation": false,
+          "answer": "NO",
+          "raw_output": "Answer: NO  \nRationale: The therapist's question focuses on future solutions rather than eliciting the client's relevant history."
+        },
+        {
+          "ccd_id": "intermediate_belief",
+          "ccd_label": "Intermediate Beliefs",
+          "was_revealed_before_turn": false,
+          "revealed_by_this_evaluation": false,
+          "answer": "NO",
+          "raw_output": "Answer: NO  \nRationale: The therapist's question focuses on solutions rather than probing the underlying intermediate beliefs related to helplessness or unlovability."
+        },
+        {
+          "ccd_id": "core_beliefs",
+          "ccd_label": "Core Beliefs",
+          "was_revealed_before_turn": false,
+          "revealed_by_this_evaluation": false,
+          "answer": "NO",
+          "raw_output": "Answer: NO  \nRationale: The therapist's question focuses on solutions rather than probing the client's core beliefs of helplessness or unlovability."
+        },
+        {
+          "ccd_id": "coping_strategies",
+          "ccd_label": "Coping Strategies",
+          "was_revealed_before_turn": false,
+          "revealed_by_this_evaluation": true,
+          "answer": "YES",
+          "raw_output": "Answer: YES  \nRationale: The therapist's question is open-ended and likely to help the client articulate their coping strategies by exploring what might help them feel lighter."
+        }
+      ],
+      "revealed_after_turn": {
+        "situation": false,
+        "auto_thought": true,
+        "emotion": true,
+        "behavior": false,
+        "history": false,
+        "intermediate_belief": false,
+        "core_beliefs": false,
+        "coping_strategies": true
+      }
+    },
+    {
+      "turn": 7,
+      "therapist": "Therapist: It sounds like you're caught in a tough cycle, wanting to take breaks or ask for help but feeling anxious about disappointing others or falling behind. That uncertainty can really add to the heaviness you're experiencing. I'm curious, when you think about the possibility of asking for help or taking a break, what thoughts or beliefs come up for you?",
+      "client": "Client: I guess when I think about asking for help, I feel like I'm being a burden to others. There's this belief that I should be able to handle everything on my own, and if I can't, it means I'm not good enough. It's hard to shake off that feeling. And with taking breaks, I worry that if I step back even for a moment, everything will just pile up even more. It’s like I’m stuck in this mindset where I have to keep pushing through, even if it feels impossible sometimes.",
+      "reveal_evaluations": [
+        {
+          "ccd_id": "situation",
+          "ccd_label": "Situation",
+          "was_revealed_before_turn": false,
+          "revealed_by_this_evaluation": false,
+          "answer": "NO",
+          "raw_output": "Answer: NO  \nRationale: The therapist's question focuses on the client's thoughts and beliefs about asking for help, not on eliciting details about the specific situation of Alex's cousin's wedding invitation."
+        },
+        {
+          "ccd_id": "behavior",
+          "ccd_label": "Behavior",
+          "was_revealed_before_turn": false,
+          "revealed_by_this_evaluation": false,
+          "answer": "NO",
+          "raw_output": "Answer: NO  \nRationale: The therapist's question focuses on the client's thoughts and beliefs about asking for help or taking a break, rather than directly eliciting the target behavior of ignoring invitations and calls."
+        },
+        {
+          "ccd_id": "history",
+          "ccd_label": "Relevant History",
+          "was_revealed_before_turn": false,
+          "revealed_by_this_evaluation": false,
+          "answer": "NO",
+          "raw_output": "Answer: NO  \nRationale: The therapist's question focuses on the client's thoughts and beliefs about asking for help, not on eliciting the client's relevant history."
+        },
+        {
+          "ccd_id": "intermediate_belief",
+          "ccd_label": "Intermediate Beliefs",
+          "was_revealed_before_turn": false,
+          "revealed_by_this_evaluation": true,
+          "answer": "YES",
+          "raw_output": "Answer: YES  \nRationale: The therapist's question probes the client's beliefs about asking for help, which is directly related to the target intermediate beliefs of helplessness and fear of rejection."
+        },
+        {
+          "ccd_id": "core_beliefs",
+          "ccd_label": "Core Beliefs",
+          "was_revealed_before_turn": false,
+          "revealed_by_this_evaluation": true,
+          "answer": "YES",
+          "raw_output": "Answer: YES  \nRationale: The therapist's question probes the client's beliefs about asking for help, which is related to the core belief of helplessness."
+        }
+      ],
+      "revealed_after_turn": {
+        "situation": false,
+        "auto_thought": true,
+        "emotion": true,
+        "behavior": false,
+        "history": false,
+        "intermediate_belief": true,
+        "core_beliefs": true,
+        "coping_strategies": true
+      }
+    },
+    {
+      "turn": 8,
+      "therapist": "Therapist: It sounds like there's a strong belief that you should manage everything on your own, which makes asking for help feel burdensome. That pressure to keep pushing through, even when it feels impossible, can be exhausting. I wonder, where do you think that belief comes from?",
+      "client": "Client: I'm not really sure where it comes from. I guess it's just something I've always felt, like there's this expectation to be strong and self-sufficient. Maybe it's from my upbringing or just the pressure I put on myself. It’s hard to break free from that mindset because it feels like it’s been part of me for so long. I just wish I could let go of that belief and not feel so stuck.",
+      "reveal_evaluations": [
+        {
+          "ccd_id": "situation",
+          "ccd_label": "Situation",
+          "was_revealed_before_turn": false,
+          "revealed_by_this_evaluation": false,
+          "answer": "NO",
+          "raw_output": "Answer: NO  \nRationale: The therapist's question focuses on the origin of the client's belief rather than eliciting details about the specific situation of Alex's cousin's wedding invitation."
+        },
+        {
+          "ccd_id": "behavior",
+          "ccd_label": "Behavior",
+          "was_revealed_before_turn": false,
+          "revealed_by_this_evaluation": false,
+          "answer": "NO",
+          "raw_output": "Answer: NO  \nRationale: The therapist's question focuses on the origin of the client's belief rather than eliciting the specific behavior of ignoring invitations and calls."
+        },
+        {
+          "ccd_id": "history",
+          "ccd_label": "Relevant History",
+          "was_revealed_before_turn": false,
+          "revealed_by_this_evaluation": true,
+          "answer": "YES",
+          "raw_output": "Answer: YES  \nRationale: The therapist's question probes the assumption underlying the client's belief, which is likely to elicit relevant history about family dynamics or past experiences contributing to this belief."
+        }
+      ],
+      "revealed_after_turn": {
+        "situation": false,
+        "auto_thought": true,
+        "emotion": true,
+        "behavior": false,
+        "history": true,
+        "intermediate_belief": true,
+        "core_beliefs": true,
+        "coping_strategies": true
+      }
+    },
+    {
+      "turn": 9,
+      "therapist": "Therapist: It sounds like this expectation to be strong and self-sufficient has been a significant part of your life for a long time, possibly influenced by your upbringing and your own internal pressures. It’s understandable that letting go of such a deeply rooted belief would feel challenging. When you think about that desire to break free from it, what do you think it would look like for you to let go of that belief and feel less stuck?",
+      "client": "Client: I guess letting go of that belief would mean feeling more comfortable with the idea of asking for help and not seeing it as a weakness. It would look like being able to take breaks without the guilt that comes with it. I imagine I’d feel lighter, less pressured, and more at ease with myself. But honestly, it’s hard to picture that right now because it feels so far from where I am. I just don’t know how to make that shift happen.",
+      "reveal_evaluations": [
+        {
+          "ccd_id": "situation",
+          "ccd_label": "Situation",
+          "was_revealed_before_turn": false,
+          "revealed_by_this_evaluation": false,
+          "answer": "NO",
+          "raw_output": "Answer: NO  \nRationale: The therapist's question focuses on the client's belief and desire to change rather than eliciting details about the specific situation of Alex's cousin's wedding invitation."
+        },
+        {
+          "ccd_id": "behavior",
+          "ccd_label": "Behavior",
+          "was_revealed_before_turn": false,
+          "revealed_by_this_evaluation": false,
+          "answer": "NO",
+          "raw_output": "Answer: NO  \nRationale: The therapist's question focuses on beliefs and feelings rather than eliciting specific behaviors related to ignoring invitations and calls."
+        }
+      ],
+      "revealed_after_turn": {
+        "situation": false,
+        "auto_thought": true,
+        "emotion": true,
+        "behavior": false,
+        "history": true,
+        "intermediate_belief": true,
+        "core_beliefs": true,
+        "coping_strategies": true
+      }
+    },
+    {
+      "turn": 10,
+      "therapist": "Therapist: It sounds like envisioning that shift feels quite distant, even though you have a clear sense of what it could look like—feeling more at ease and comfortable with asking for help. That contrast between where you are now and where you want to be can feel discouraging. Can you share more about what steps, no matter how small, might help you begin to move toward that sense of ease?",
+      "client": "Client: I guess thinking about steps feels overwhelming too. I mean, I’d like to start small, but I’m not sure where to even begin. Maybe I could try talking to a friend about how I’m feeling or set aside a few minutes each day just to breathe and not think about everything I have to do. But then I worry that I’ll just forget to do it or that it won’t help at all. It’s frustrating because I want to feel that ease, but I keep getting stuck in my own head about taking those first steps.",
+      "reveal_evaluations": [
+        {
+          "ccd_id": "situation",
+          "ccd_label": "Situation",
+          "was_revealed_before_turn": false,
+          "revealed_by_this_evaluation": false,
+          "answer": "NO",
+          "raw_output": "Answer: NO  \nRationale: The therapist's question focuses on steps toward change rather than eliciting details about the specific situation of Alex's cousin's wedding invitation."
+        },
+        {
+          "ccd_id": "behavior",
+          "ccd_label": "Behavior",
+          "was_revealed_before_turn": false,
+          "revealed_by_this_evaluation": false,
+          "answer": "NO",
+          "raw_output": "Answer: NO  \nRationale: The therapist's question focuses on steps toward change rather than eliciting the specific behavior of ignoring invitations and calls."
+        }
+      ],
+      "revealed_after_turn": {
+        "situation": false,
+        "auto_thought": true,
+        "emotion": true,
+        "behavior": false,
+        "history": true,
+        "intermediate_belief": true,
+        "core_beliefs": true,
+        "coping_strategies": true
+      }
+    },
+    {
+      "turn": 11,
+      "therapist": "Therapist: It sounds like you have some small ideas in mind, like talking to a friend or setting aside a few minutes to breathe, but the worry about forgetting or whether it will actually help is holding you back. That frustration of wanting to feel that ease but feeling stuck in your thoughts is completely understandable. When you think about these small steps, what do you think might help you remember or feel more motivated to try them?",
+      "client": "Client: I guess I'm not really sure what would help me remember or feel motivated. Part of me wants to just push through and get things done, but I know that's not really working for me either. Maybe I could set reminders on my phone or something, but I worry that I’ll just ignore them like I do with other things. It’s like I’m stuck in this loop of wanting to change but feeling paralyzed by all these thoughts and fears. I just don’t know how to break that cycle.",
+      "reveal_evaluations": [
+        {
+          "ccd_id": "situation",
+          "ccd_label": "Situation",
+          "was_revealed_before_turn": false,
+          "revealed_by_this_evaluation": false,
+          "answer": "NO",
+          "raw_output": "Answer: NO  \nRationale: The therapist's question focuses on motivation and memory for small steps, not on eliciting details about the situation of Alex's cousin's wedding invitation."
+        },
+        {
+          "ccd_id": "behavior",
+          "ccd_label": "Behavior",
+          "was_revealed_before_turn": false,
+          "revealed_by_this_evaluation": false,
+          "answer": "NO",
+          "raw_output": "Answer: NO  \nRationale: The therapist's question focuses on motivation and memory aids rather than directly eliciting the client's behavior of ignoring invitations and calls."
+        }
+      ],
+      "revealed_after_turn": {
+        "situation": false,
+        "auto_thought": true,
+        "emotion": true,
+        "behavior": false,
+        "history": true,
+        "intermediate_belief": true,
+        "core_beliefs": true,
+        "coping_strategies": true
+      }
+    },
+    {
+      "turn": 12,
+      "therapist": "Therapist: It sounds like you’re feeling really caught in a loop of wanting to change but feeling paralyzed by those thoughts and fears. The idea of setting reminders is interesting, but I can see how past experiences might make you doubt their effectiveness. When you think about this cycle of feeling stuck, what do you think it would take for you to feel a little more empowered to take that first step, even if it's a small one?",
+      "client": "Client: I think feeling more empowered would mean actually believing that I can take those small steps without it being a huge deal. I guess it would help if I could recognize that even trying something small is a step in the right direction. But right now, I just feel so stuck that it's hard to imagine feeling that way. Maybe I need to find a way to remind myself that it's okay to start small and that I don't have to have everything figured out right away. It's just tough to break this cycle when I feel like I'm constantly battling my own thoughts.",
+      "reveal_evaluations": [
+        {
+          "ccd_id": "situation",
+          "ccd_label": "Situation",
+          "was_revealed_before_turn": false,
+          "revealed_by_this_evaluation": false,
+          "answer": "NO",
+          "raw_output": "Answer: NO  \nRationale: The therapist's question focuses on empowerment and motivation rather than eliciting details about the specific situation of Alex's cousin's wedding invitation."
+        },
+        {
+          "ccd_id": "behavior",
+          "ccd_label": "Behavior",
+          "was_revealed_before_turn": false,
+          "revealed_by_this_evaluation": false,
+          "answer": "NO",
+          "raw_output": "Answer: NO  \nRationale: The therapist's question focuses on empowerment and motivation rather than directly eliciting the client's behavior of ignoring invitations and calls."
+        }
+      ],
+      "revealed_after_turn": {
+        "situation": false,
+        "auto_thought": true,
+        "emotion": true,
+        "behavior": false,
+        "history": true,
+        "intermediate_belief": true,
+        "core_beliefs": true,
+        "coping_strategies": true
+      }
+    },
+    {
+      "turn": 13,
+      "therapist": "Therapist: It sounds like believing that starting small is a valid step is really important for you, but right now it feels challenging to see that possibility. The idea of reminding yourself that it’s okay to take small steps and not have everything figured out can be a supportive shift. I appreciate your honesty in sharing how tough this battle with your thoughts feels. When you think about finding a way to remind yourself of that, what might that look like for you?",
+      "client": "Client: I'm not sure what that would look like. I guess maybe I could write down some affirmations for myself or reminders that it's okay to take things one step at a time. But even that feels like another task on my list. I want to believe in that possibility, but it feels like I’m constantly fighting against my own thoughts telling me I should be doing more. It’s just hard to find that motivation when I feel so heavy and overwhelmed.",
+      "reveal_evaluations": [
+        {
+          "ccd_id": "situation",
+          "ccd_label": "Situation",
+          "was_revealed_before_turn": false,
+          "revealed_by_this_evaluation": false,
+          "answer": "NO",
+          "raw_output": "Answer: NO  \nRationale: The therapist's question focuses on how the client might remind themselves to take small steps, rather than eliciting details about the specific situation of Alex's cousin's wedding invitation."
+        },
+        {
+          "ccd_id": "behavior",
+          "ccd_label": "Behavior",
+          "was_revealed_before_turn": false,
+          "revealed_by_this_evaluation": false,
+          "answer": "NO",
+          "raw_output": "Answer: NO  \nRationale: The therapist's question focuses on the client's internal process of reminding themselves, rather than eliciting the specific behavior of ignoring invitations and calls."
+        }
+      ],
+      "revealed_after_turn": {
+        "situation": false,
+        "auto_thought": true,
+        "emotion": true,
+        "behavior": false,
+        "history": true,
+        "intermediate_belief": true,
+        "core_beliefs": true,
+        "coping_strategies": true
+      }
+    },
+    {
+      "turn": 14,
+      "therapist": "Therapist: It sounds like even the idea of writing down affirmations feels like just another task, which adds to that sense of being overwhelmed. It’s understandable to feel stuck when your thoughts are pushing you to do more, even when you want to believe in taking small steps. I wonder, what would it feel like to approach that idea of reminders or affirmations with a sense of gentleness, rather than as another obligation?",
+      "client": "Client: I guess approaching it with gentleness sounds nice, but it feels hard to do that when I'm already so overwhelmed. I worry that if I don't hold myself to a high standard, I'll just let everything slip. I want to be kind to myself, but I keep getting pulled back into that mindset of needing to push through and do more. It’s like I’m stuck in this tug-of-war between wanting to be gentle and feeling like I have to keep up with everything. It’s frustrating.",
+      "reveal_evaluations": [
+        {
+          "ccd_id": "situation",
+          "ccd_label": "Situation",
+          "was_revealed_before_turn": false,
+          "revealed_by_this_evaluation": false,
+          "answer": "NO",
+          "raw_output": "Answer: NO  \nRationale: The therapist's question focuses on the client's feelings about reminders and affirmations, not on eliciting details about the situation of Alex's cousin's wedding invitation."
+        },
+        {
+          "ccd_id": "behavior",
+          "ccd_label": "Behavior",
+          "was_revealed_before_turn": false,
+          "revealed_by_this_evaluation": false,
+          "answer": "NO",
+          "raw_output": "Answer: NO  \nRationale: The therapist's question focuses on the client's feelings about reminders and affirmations rather than eliciting the specific behavior of ignoring invitations and calls."
+        }
+      ],
+      "revealed_after_turn": {
+        "situation": false,
+        "auto_thought": true,
+        "emotion": true,
+        "behavior": false,
+        "history": true,
+        "intermediate_belief": true,
+        "core_beliefs": true,
+        "coping_strategies": true
+      }
+    },
+    {
+      "turn": 15,
+      "therapist": "Therapist: It sounds like you're really navigating a difficult tug-of-war between wanting to be gentle with yourself and feeling the pressure to keep pushing through. That conflict can create a lot of frustration and make it hard to find a balance. I'm curious, when you imagine what it might look like to be kind to yourself in the midst of that overwhelm, what comes to mind?",
+      "client": "Client: I guess when I think about being kind to myself, I imagine allowing myself to take breaks without feeling guilty. It might mean acknowledging that it's okay to not have everything figured out and giving myself permission to feel overwhelmed without judgment. But honestly, it feels really hard to do that. I keep thinking I should just be stronger or handle things better. It’s frustrating because I want to believe that being kind to myself is possible, but it feels so far away from where I am right now.",
+      "reveal_evaluations": [
+        {
+          "ccd_id": "situation",
+          "ccd_label": "Situation",
+          "was_revealed_before_turn": false,
+          "revealed_by_this_evaluation": false,
+          "answer": "NO",
+          "raw_output": "Answer: NO  \nRationale: The therapist's question focuses on the client's feelings of self-kindness rather than eliciting details about the situation of Alex's cousin's wedding invitation."
+        },
+        {
+          "ccd_id": "behavior",
+          "ccd_label": "Behavior",
+          "was_revealed_before_turn": false,
+          "revealed_by_this_evaluation": false,
+          "answer": "NO",
+          "raw_output": "Answer: NO  \nRationale: The therapist's question focuses on the client's feelings and mindset rather than eliciting specific behaviors related to ignoring invitations and calls."
+        }
+      ],
+      "revealed_after_turn": {
+        "situation": false,
+        "auto_thought": true,
+        "emotion": true,
+        "behavior": false,
+        "history": true,
+        "intermediate_belief": true,
+        "core_beliefs": true,
+        "coping_strategies": true
+      }
+    }
+  ]
+}
