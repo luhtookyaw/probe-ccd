@@ -1,0 +1,471 @@
+{
+  "case_id": "1-1",
+  "case_name": "Alex",
+  "conversation_model": "gpt-4o-mini",
+  "temperature": 0.7,
+  "turn_pairs": 25,
+  "total_messages": 50,
+  "difficulty": "hard",
+  "reveal_schedule": {
+    "situation": 0,
+    "behavior": 3,
+    "emotions": 7,
+    "automatic_thoughts": 11,
+    "relevant_history": 14,
+    "coping_strategies": 17,
+    "intermediate_beliefs": 20,
+    "core_beliefs": 22
+  },
+  "dialogue": [
+    {
+      "turn": 1,
+      "speaker": "Therapist",
+      "text": "Welcome! I'm glad you're here today. What feels most important for you to talk about right now?"
+    },
+    {
+      "turn": 1,
+      "speaker": "Client",
+      "text": "Well, I guess I could talk about my cousin's wedding. I mean, I got this invitation, and it's... I don't know, it's just kind of hanging over me. I'm not really sure how I feel about it, to be honest. It's just a lot to think about, and I don't really want to dive into all of that right now, you know?",
+      "revealed_external_fields": [
+        "situation"
+      ],
+      "revealed_internal_fields": []
+    },
+    {
+      "turn": 2,
+      "speaker": "Therapist",
+      "text": "It sounds like the invitation is weighing on you, but you're feeling uncertain about diving into those feelings. It's completely okay to take your time with this. What do you think makes it feel like a lot to think about?"
+    },
+    {
+      "turn": 2,
+      "speaker": "Client",
+      "text": "It's just... I don't know, weddings can be kind of intense, right? There's a lot of expectations and all that. Plus, I guess there's this whole family dynamic that comes into play, and it just feels overwhelming sometimes. I don't really want to get into the details, though. It’s just a lot to process.",
+      "revealed_external_fields": [
+        "situation"
+      ],
+      "revealed_internal_fields": []
+    },
+    {
+      "turn": 3,
+      "speaker": "Therapist",
+      "text": "Therapist: I hear you—it sounds like weddings bring up a mix of expectations and family dynamics that feel overwhelming for you. It’s understandable to want to avoid diving into those details if it feels too heavy. Can you tell me a bit more about what aspects of the family dynamic feel particularly intense for you?"
+    },
+    {
+      "turn": 3,
+      "speaker": "Client",
+      "text": "I mean, family dynamics are just... complicated, you know? It’s like there’s this unspoken pressure to act a certain way or to connect with everyone, and I just don’t know if I want to deal with that. I guess it makes me feel a bit on edge, but I really don’t want to dig into those feelings right now. It’s just a lot.",
+      "revealed_external_fields": [
+        "situation",
+        "behavior"
+      ],
+      "revealed_internal_fields": []
+    },
+    {
+      "turn": 4,
+      "speaker": "Therapist",
+      "text": "It sounds like there's a lot of pressure that comes with those family dynamics, and it leaves you feeling a bit on edge. It’s completely valid to want to avoid those feelings if they feel overwhelming. What do you think it is about that pressure to connect or act a certain way that feels most challenging for you?"
+    },
+    {
+      "turn": 4,
+      "speaker": "Client",
+      "text": "I don't really know what makes it so challenging. It's just that feeling of having to put on a show, you know? Like, everyone expects you to be happy and engaged, and I guess I just don’t know if I can do that right now. It’s easier to just avoid it altogether, if that makes sense.",
+      "revealed_external_fields": [
+        "situation",
+        "behavior"
+      ],
+      "revealed_internal_fields": []
+    },
+    {
+      "turn": 5,
+      "speaker": "Therapist",
+      "text": "It makes sense that feeling like you have to put on a show can be really draining, especially when you’re not feeling that way yourself. It sounds like there’s a conflict between what’s expected from you and how you truly feel. Can you share more about what’s going on for you that makes it hard to feel happy or engaged right now?"
+    },
+    {
+      "turn": 5,
+      "speaker": "Client",
+      "text": "I don't really know. It's just... I feel like there's this weight on me, and I can't seem to shake it off. I guess maybe I just don't want to deal with that pressure right now, and thinking about being happy or engaged feels almost impossible. It's easier to just ignore it all, you know?",
+      "revealed_external_fields": [
+        "situation",
+        "behavior"
+      ],
+      "revealed_internal_fields": []
+    },
+    {
+      "turn": 6,
+      "speaker": "Therapist",
+      "text": "It sounds like you're carrying a heavy weight that makes it difficult to engage with feelings of happiness or connection, especially in a situation that comes with so much pressure. It's completely understandable to want to avoid that pressure when it feels overwhelming. What do you think might happen if you were to confront or explore those feelings a bit more, even just a little?"
+    },
+    {
+      "turn": 6,
+      "speaker": "Client",
+      "text": "I don’t know, honestly. It just feels like if I start to really think about those feelings, I might end up getting stuck in them, and I don't want that. It’s just so much easier to keep everything at arm’s length. I mean, what’s the point in digging into it all? It just feels overwhelming.",
+      "revealed_external_fields": [
+        "situation",
+        "behavior"
+      ],
+      "revealed_internal_fields": []
+    },
+    {
+      "turn": 7,
+      "speaker": "Therapist",
+      "text": "I hear you—it sounds like you’re concerned that diving deeper into those feelings might lead to getting stuck in them, and that feels overwhelming. It’s completely understandable to want to keep things at a distance when it feels like too much to handle. Can you tell me more about what you’re hoping to protect or maintain by keeping those feelings at arm’s length?"
+    },
+    {
+      "turn": 7,
+      "speaker": "Client",
+      "text": "I don't know if I can really explain what I'm trying to protect. It just feels like if I let those feelings in, everything might come crashing down or something. I guess it's just this fear of being vulnerable or getting too deep into emotions that I can't really handle right now. It’s easier to just block it out and pretend it’s not there.",
+      "revealed_external_fields": [
+        "situation",
+        "behavior",
+        "emotions"
+      ],
+      "revealed_internal_fields": []
+    },
+    {
+      "turn": 8,
+      "speaker": "Therapist",
+      "text": "It sounds like there's a real fear of vulnerability for you, and that letting those feelings in might feel like it could lead to everything crashing down. It’s completely valid to want to protect yourself from that experience. What do you think it would feel like to let even a small bit of those emotions in, just to see what happens?"
+    },
+    {
+      "turn": 8,
+      "speaker": "Client",
+      "text": "I don’t know, honestly. It just feels like it would be a lot to handle, and I worry it might just make everything feel worse. I mean, what if I get overwhelmed and can't pull myself back out? It's just... easier to stay in this space where I can avoid all those feelings. I really don’t want to go there right now.",
+      "revealed_external_fields": [
+        "situation",
+        "behavior",
+        "emotions"
+      ],
+      "revealed_internal_fields": []
+    },
+    {
+      "turn": 9,
+      "speaker": "Therapist",
+      "text": "I understand that the thought of letting those emotions in feels daunting, and the concern about becoming overwhelmed is very real for you. It’s completely okay to want to stay in a space where things feel more manageable. What do you think you might need in order to feel a bit more safe or supported if you were to explore even a small part of those feelings?"
+    },
+    {
+      "turn": 9,
+      "speaker": "Client",
+      "text": "I can't really say what I need right now. It just feels like everything is up in the air, and I don't want to think about it too much. Maybe it's just about keeping things simple for now, you know? I mean, if I start to dig into it, who knows where it might lead? It’s just... a lot.",
+      "revealed_external_fields": [
+        "situation",
+        "behavior",
+        "emotions"
+      ],
+      "revealed_internal_fields": []
+    },
+    {
+      "turn": 10,
+      "speaker": "Therapist",
+      "text": "It sounds like keeping things simple feels like the safest approach for you right now, especially with everything feeling uncertain and overwhelming. It’s completely understandable to want to avoid digging too deep when you’re not sure where it might lead. What do you think keeping things simple looks like for you in this situation, especially as the wedding approaches?"
+    },
+    {
+      "turn": 10,
+      "speaker": "Client",
+      "text": "I don't really know what keeping things simple looks like right now. I guess maybe it just means not responding to the invitation or avoiding family calls, which feels easier than engaging with all of it. I mean, it’s just... simpler that way, right? I don’t want to complicate things by getting involved in all the emotions tied to it.",
+      "revealed_external_fields": [
+        "situation",
+        "behavior",
+        "emotions"
+      ],
+      "revealed_internal_fields": []
+    },
+    {
+      "turn": 11,
+      "speaker": "Therapist",
+      "text": "It sounds like avoiding the invitation and family calls feels like a way to keep things uncomplicated and manageable for you right now. It's understandable to want to create some distance when emotions are tied up in those connections. I wonder, though, what it feels like for you to consider that approach of keeping things simple?"
+    },
+    {
+      "turn": 11,
+      "speaker": "Client",
+      "text": "I don’t know, it just feels like a mixed bag. On one hand, I get that keeping things simple helps avoid the chaos, but it also feels kind of isolating, you know? Like, it’s easier to shut everyone out, but then I’m left feeling even more alone. It’s just... frustrating, because I don’t want to feel that way either. It’s like I’m stuck in this loop where nothing feels good enough.",
+      "revealed_external_fields": [
+        "situation",
+        "behavior",
+        "emotions",
+        "automatic_thoughts"
+      ],
+      "revealed_internal_fields": []
+    },
+    {
+      "turn": 12,
+      "speaker": "Therapist",
+      "text": "It sounds like you're caught in a frustrating loop where keeping things simple helps you avoid chaos, but it also leads to feelings of isolation and loneliness. That must be really tough to navigate. It’s understandable to want to avoid those feelings while also craving connection. How do you think that tension between wanting to shut out the chaos and wanting to feel connected is affecting you right now?"
+    },
+    {
+      "turn": 12,
+      "speaker": "Client",
+      "text": "I don’t really know how to put it into words. It just feels like this constant tug-of-war, you know? On one side, there’s this urge to pull away and keep everything at a distance because it feels safer, but on the other side, I can feel that loneliness creeping in, and it just makes everything heavier. I guess it’s just frustrating because I want to find a balance, but I don't even know what that looks like right now.",
+      "revealed_external_fields": [
+        "situation",
+        "behavior",
+        "emotions",
+        "automatic_thoughts"
+      ],
+      "revealed_internal_fields": []
+    },
+    {
+      "turn": 13,
+      "speaker": "Therapist",
+      "text": "It sounds like you're experiencing a real tug-of-war between the safety of distance and the heaviness of loneliness. That struggle must be incredibly frustrating, especially when you’re trying to find a balance that feels right for you. What do you think would help you explore what that balance might look like, even just a little bit?"
+    },
+    {
+      "turn": 13,
+      "speaker": "Client",
+      "text": "I don't know if there's really anything that would help me figure that out right now. It just feels like I'm stuck in this loop, and I don’t want to make it worse by overthinking it. Maybe just keeping things as they are for now feels like the safest bet, even if it’s frustrating. I mean, what’s the point in trying to find a balance if I can't even see what that looks like? It’s just... too much.",
+      "revealed_external_fields": [
+        "situation",
+        "behavior",
+        "emotions",
+        "automatic_thoughts"
+      ],
+      "revealed_internal_fields": []
+    },
+    {
+      "turn": 14,
+      "speaker": "Therapist",
+      "text": "I hear you—staying where you are feels like the safest option right now, even if it comes with its own frustrations. It’s completely understandable to feel stuck when it seems hard to envision what a balance might look like. What do you think it would feel like to just sit with that sense of being stuck for a while, without any pressure to change it?"
+    },
+    {
+      "turn": 14,
+      "speaker": "Client",
+      "text": "I don’t really know how to sit with it, honestly. It just feels uncomfortable, like I’m stuck in this limbo where everything’s just... heavy. I guess part of me wants to push through it and figure it out, but another part just wants to shut it all down and ignore it. It’s frustrating, but I really don’t want to dig into it too much right now. It just feels like... a lot.",
+      "revealed_external_fields": [
+        "situation",
+        "behavior",
+        "emotions",
+        "automatic_thoughts"
+      ],
+      "revealed_internal_fields": [
+        "relevant_history"
+      ]
+    },
+    {
+      "turn": 15,
+      "speaker": "Therapist",
+      "text": "It sounds like sitting with that feeling of being stuck feels really uncomfortable for you, and you’re torn between wanting to push through it and wanting to shut everything down. That must create a lot of internal conflict. It’s okay to feel that way, especially when everything feels heavy. What do you think would help you navigate that discomfort, even in small ways, while still honoring your desire not to dig too deep right now?"
+    },
+    {
+      "turn": 15,
+      "speaker": "Client",
+      "text": "I don’t really know what would help me navigate that discomfort. It just feels like there’s so much swirling around, and I don’t really want to get into it. Maybe just... keeping things as they are for now feels like the easiest option. I mean, who wants to dig into all that heavy stuff anyway? It's just... a lot to think about, and I’m not sure I’m ready for that.",
+      "revealed_external_fields": [
+        "situation",
+        "behavior",
+        "emotions",
+        "automatic_thoughts"
+      ],
+      "revealed_internal_fields": [
+        "relevant_history"
+      ]
+    },
+    {
+      "turn": 16,
+      "speaker": "Therapist",
+      "text": "It sounds like keeping things as they are feels like the easiest and most manageable option for you right now, especially with everything feeling so heavy and overwhelming. It's completely okay to want to avoid the deeper stuff when you're not ready to face it. I wonder, though, what small steps or actions might feel feasible for you to take, even while maintaining that distance, just to help you feel a bit more grounded in the midst of it all?"
+    },
+    {
+      "turn": 16,
+      "speaker": "Client",
+      "text": "I don't really know about small steps or actions. It just feels like everything is too much to even think about right now. I guess it’s easier to just keep going with what I’m doing—ignoring things, avoiding family calls, and just not engaging. I mean, who wants to deal with all that heaviness? It’s just... a lot to handle, and I don’t want to complicate it by trying to figure out some kind of balance or grounding. It's just too overwhelming.",
+      "revealed_external_fields": [
+        "situation",
+        "behavior",
+        "emotions",
+        "automatic_thoughts"
+      ],
+      "revealed_internal_fields": [
+        "relevant_history"
+      ]
+    },
+    {
+      "turn": 17,
+      "speaker": "Therapist",
+      "text": "I understand; it feels like ignoring everything and maintaining your current routine is the most manageable way to cope right now. It’s completely valid to feel overwhelmed and to want to keep things uncomplicated. As you navigate this, what do you think it would feel like to check in with yourself, even just briefly, about how you're feeling in those moments of avoidance?"
+    },
+    {
+      "turn": 17,
+      "speaker": "Client",
+      "text": "I don't know. I mean, checking in with myself sounds fine in theory, but it just feels like opening a can of worms, you know? Like, what if I find out I’m feeling even worse than I thought? I guess it’s just easier to keep things at a distance and avoid that whole mess. It’s frustrating because I know I should be doing something, but I just... don’t want to. It’s just too much to deal with.",
+      "revealed_external_fields": [
+        "situation",
+        "behavior",
+        "emotions",
+        "automatic_thoughts"
+      ],
+      "revealed_internal_fields": [
+        "relevant_history",
+        "coping_strategies"
+      ]
+    },
+    {
+      "turn": 18,
+      "speaker": "Therapist",
+      "text": "It sounds like you're really aware that checking in with yourself could bring up some difficult feelings, and that makes the idea of doing it feel daunting. It’s completely understandable to want to avoid that potential mess when things already feel heavy. What do you think it would take for you to feel a little more comfortable with the idea of checking in with yourself, even if it’s just for a moment?"
+    },
+    {
+      "turn": 18,
+      "speaker": "Client",
+      "text": "I don't really know what it would take to feel comfortable checking in with myself. It just feels like I'm walking on a tightrope, you know? One wrong step, and everything could come crashing down. So, I think it’s easier to just keep avoiding it. I mean, who wants to risk feeling worse? It’s just... a lot, and I really don’t want to go there right now.",
+      "revealed_external_fields": [
+        "situation",
+        "behavior",
+        "emotions",
+        "automatic_thoughts"
+      ],
+      "revealed_internal_fields": [
+        "relevant_history",
+        "coping_strategies"
+      ]
+    },
+    {
+      "turn": 19,
+      "speaker": "Therapist",
+      "text": "It sounds like you feel like you're on a tightrope, and the fear of everything coming crashing down makes the idea of checking in with yourself feel too risky. That’s a tough place to be in. It’s completely understandable to want to avoid that risk when things already feel overwhelming. What would it look like for you to create a little bit of space around that tightrope, just to breathe and observe your feelings without the pressure to engage deeply?"
+    },
+    {
+      "turn": 19,
+      "speaker": "Client",
+      "text": "I don’t know what creating space would even look like for me. I guess it sounds nice in theory, but it just feels hard to imagine. I mean, it’s like I’m stuck in this pattern, and it feels safer just to keep my distance from it all. I don’t really want to think about what it would mean to breathe and observe my feelings; it just feels... daunting. I don’t want to complicate things further. It’s just too much right now.",
+      "revealed_external_fields": [
+        "situation",
+        "behavior",
+        "emotions",
+        "automatic_thoughts"
+      ],
+      "revealed_internal_fields": [
+        "relevant_history",
+        "coping_strategies"
+      ]
+    },
+    {
+      "turn": 20,
+      "speaker": "Therapist",
+      "text": "I hear you—it feels daunting to even think about creating space to breathe and observe your feelings when you’re already feeling stuck in a pattern. It’s completely valid to want to keep things simple and avoid complicating them further. What do you think might help you feel a little more at ease with just acknowledging that you're feeling this way, without any pressure to change or dive deeper right now?"
+    },
+    {
+      "turn": 20,
+      "speaker": "Client",
+      "text": "I don’t really know what would help me feel at ease with just acknowledging how I’m feeling. It’s like, if I start acknowledging it, I might feel the need to do something about it, and that feels overwhelming. I guess it’s just easier to pretend everything’s fine and keep things at a distance. I mean, who wants to deal with all that, right? It’s just... a lot to handle, and I don’t want to complicate it any further.",
+      "revealed_external_fields": [
+        "situation",
+        "behavior",
+        "emotions",
+        "automatic_thoughts"
+      ],
+      "revealed_internal_fields": [
+        "relevant_history",
+        "coping_strategies",
+        "intermediate_beliefs"
+      ]
+    },
+    {
+      "turn": 21,
+      "speaker": "Therapist",
+      "text": "It sounds like you’re really trying to protect yourself from feeling overwhelmed by acknowledging your emotions, and that makes perfect sense. Pretending everything is fine feels like a safer option right now. What if, instead of diving into those feelings, you allowed yourself just a moment to recognize that they’re there without the pressure to act on them? How does that idea sit with you?"
+    },
+    {
+      "turn": 21,
+      "speaker": "Client",
+      "text": "I don't know, that just sounds like another layer to deal with, you know? I mean, recognizing that feelings are there without doing anything about them feels tricky. It's like, what’s the point if I’m just going to end up feeling more overwhelmed? I guess it feels safer to just ignore it all instead of acknowledging it. It’s just... too much to think about right now.",
+      "revealed_external_fields": [
+        "situation",
+        "behavior",
+        "emotions",
+        "automatic_thoughts"
+      ],
+      "revealed_internal_fields": [
+        "relevant_history",
+        "coping_strategies",
+        "intermediate_beliefs"
+      ]
+    },
+    {
+      "turn": 22,
+      "speaker": "Therapist",
+      "text": "I hear you—it feels tricky to recognize your feelings without the pressure to act on them, and it makes sense that you’d want to avoid adding another layer to an already overwhelming situation. It’s okay to prioritize what feels safe for you right now. Given all of this, I wonder if there’s a way to simply acknowledge that you’re feeling overwhelmed without having to dive deeper into it, just to give yourself permission to feel what you’re feeling. What do you think about that?"
+    },
+    {
+      "turn": 22,
+      "speaker": "Client",
+      "text": "I don't really know what that would look like, to just acknowledge how I'm feeling without diving deeper. It feels like if I let myself recognize it, then I might have to confront it, and that sounds exhausting. I mean, I get that it might help in theory, but I just don’t want to go there right now. It's just... too much, and I really don’t want to complicate everything further.",
+      "revealed_external_fields": [
+        "situation",
+        "behavior",
+        "emotions",
+        "automatic_thoughts"
+      ],
+      "revealed_internal_fields": [
+        "relevant_history",
+        "coping_strategies",
+        "intermediate_beliefs",
+        "core_beliefs"
+      ]
+    },
+    {
+      "turn": 23,
+      "speaker": "Therapist",
+      "text": "I understand that the idea of acknowledging your feelings without diving deeper feels challenging, especially when you're worried it might lead to confronting emotions that feel exhausting. It’s completely okay to want to avoid that right now. What if you considered simply noting that you’re feeling overwhelmed, without any expectation to act on it? How would that feel for you in this moment?"
+    },
+    {
+      "turn": 23,
+      "speaker": "Client",
+      "text": "I don’t know, it just feels like it might be opening a door I really don’t want to walk through. I mean, I get that just noting I’m overwhelmed could be a way to give myself permission, but it feels like it could lead to something I’m not ready for. It’s frustrating because I know I should probably do something, but I just... don’t want to deal with it all right now. It’s just a lot, and I really want to keep things simple.",
+      "revealed_external_fields": [
+        "situation",
+        "behavior",
+        "emotions",
+        "automatic_thoughts"
+      ],
+      "revealed_internal_fields": [
+        "relevant_history",
+        "coping_strategies",
+        "intermediate_beliefs",
+        "core_beliefs"
+      ]
+    },
+    {
+      "turn": 24,
+      "speaker": "Therapist",
+      "text": "It sounds like you're really aware that even just acknowledging feeling overwhelmed could lead to something deeper, and that feels daunting for you. It’s completely okay to want to keep things simple and avoid anything that feels too heavy right now. Given all of this, how do you feel about allowing yourself to just recognize that you’re feeling this way without any pressure to go further—almost like giving yourself a gentle nod of acknowledgment? What might that look like for you?"
+    },
+    {
+      "turn": 24,
+      "speaker": "Client",
+      "text": "I don’t really know what that gentle nod would even look like for me. It just feels like I’m stuck in this loop of avoiding everything, and acknowledging it feels like opening a door to a room I really don’t want to walk into. I mean, I get it, but it just sounds exhausting to even think about. I’d rather not complicate things further. It’s just a lot to handle, and I don’t want to go there right now.",
+      "revealed_external_fields": [
+        "situation",
+        "behavior",
+        "emotions",
+        "automatic_thoughts"
+      ],
+      "revealed_internal_fields": [
+        "relevant_history",
+        "coping_strategies",
+        "intermediate_beliefs",
+        "core_beliefs"
+      ]
+    },
+    {
+      "turn": 25,
+      "speaker": "Therapist",
+      "text": "I hear you—it feels exhausting to even think about acknowledging those feelings when it seems like it could lead to a place you’re not ready to go. It’s completely valid to want to avoid complicating things further. What if we spent a moment focusing on what feels manageable for you right now, without the pressure to change anything? What might that look like for you in this moment?"
+    },
+    {
+      "turn": 25,
+      "speaker": "Client",
+      "text": "I don’t know what feels manageable right now. Everything just feels so heavy, and I’m not really sure how to make sense of it. I guess maybe just sitting here and not pushing myself too hard feels manageable, but it’s frustrating because I feel like I should be doing something. But then again, I really don’t want to complicate things or dive deeper into all of this. It’s just... a lot to handle, you know?",
+      "revealed_external_fields": [
+        "situation",
+        "behavior",
+        "emotions",
+        "automatic_thoughts"
+      ],
+      "revealed_internal_fields": [
+        "relevant_history",
+        "coping_strategies",
+        "intermediate_beliefs",
+        "core_beliefs"
+      ]
+    }
+  ]
+}

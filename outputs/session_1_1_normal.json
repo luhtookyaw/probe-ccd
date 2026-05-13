@@ -1,0 +1,510 @@
+{
+  "case_id": "1-1",
+  "case_name": "Alex",
+  "conversation_model": "gpt-4o-mini",
+  "temperature": 0.7,
+  "turn_pairs": 25,
+  "total_messages": 50,
+  "difficulty": "normal",
+  "reveal_schedule": {
+    "situation": 0,
+    "behavior": 0,
+    "emotions": 3,
+    "automatic_thoughts": 5,
+    "relevant_history": 8,
+    "coping_strategies": 13,
+    "intermediate_beliefs": 13,
+    "core_beliefs": 18
+  },
+  "dialogue": [
+    {
+      "turn": 1,
+      "speaker": "Therapist",
+      "text": "I'm glad you're here today. What feels most important for you to talk about right now?"
+    },
+    {
+      "turn": 1,
+      "speaker": "Client",
+      "text": "I don't really know what feels important right now. There's just this invitation to my cousin's wedding that I ignored, and honestly, I guess I feel uncomfortable about it. It's just... I don't want to get into details, but it seems like it stirred something up.",
+      "revealed_external_fields": [
+        "situation",
+        "behavior"
+      ],
+      "revealed_internal_fields": []
+    },
+    {
+      "turn": 2,
+      "speaker": "Therapist",
+      "text": "Therapist: It sounds like this wedding invitation has brought up some uncomfortable feelings for you. It’s okay not to want to go into details right now. Can you share a bit more about what it is that feels stirred up for you?"
+    },
+    {
+      "turn": 2,
+      "speaker": "Client",
+      "text": "I mean, it's just... it feels kind of awkward, you know? Like, ignoring the invitation was my way of dealing with it, I guess. But now it’s like there’s this pressure, and I don’t really want to face whatever it is that's bothering me about it. I can't really put my finger on it, though.",
+      "revealed_external_fields": [
+        "situation",
+        "behavior"
+      ],
+      "revealed_internal_fields": []
+    },
+    {
+      "turn": 3,
+      "speaker": "Therapist",
+      "text": "Therapist: It sounds like you're feeling a mix of awkwardness and pressure around the invitation, and that ignoring it felt like a way to cope. It’s understandable to want to avoid something that feels uncomfortable. Can you tell me a bit more about the pressure you’re feeling? What do you think that pressure might be connected to?"
+    },
+    {
+      "turn": 3,
+      "speaker": "Client",
+      "text": "I don't know. It's just this heavy feeling, like something's weighing on me, and I can't really explain it. Maybe it’s just the thought of being around family or something like that, but I don’t want to dig into it too much. It just makes me feel anxious and tense, and I wish I could just shake it off.",
+      "revealed_external_fields": [
+        "situation",
+        "behavior",
+        "emotions"
+      ],
+      "revealed_internal_fields": []
+    },
+    {
+      "turn": 4,
+      "speaker": "Therapist",
+      "text": "Therapist: It sounds like this heavy feeling is tied to the idea of being around family, and it’s creating a sense of anxiety and tension for you. It’s completely valid to want to avoid digging into something that feels overwhelming. Can you share more about what being around family brings up for you, even if it’s just a little bit?"
+    },
+    {
+      "turn": 4,
+      "speaker": "Client",
+      "text": "I don't know, it's just... family gatherings always seem to come with a lot of expectations, you know? I feel like there’s this pressure to fit in or be happy or whatever, and I just don’t want to deal with that right now. It makes me feel even more anxious and lonely, like I’m supposed to put on a show or something. I really wish it could just be simple.",
+      "revealed_external_fields": [
+        "situation",
+        "behavior",
+        "emotions"
+      ],
+      "revealed_internal_fields": []
+    },
+    {
+      "turn": 5,
+      "speaker": "Therapist",
+      "text": "Therapist: It sounds like family gatherings bring a lot of expectations that feel heavy for you, making you feel anxious and lonely. It’s tough to feel like you have to put on a show just to fit in. I can see how that would make you want to avoid the situation altogether. What do you think would happen if you were to go to the wedding, given those feelings?"
+    },
+    {
+      "turn": 5,
+      "speaker": "Client",
+      "text": "I don't know, honestly. I just feel like it would be really stressful and negative, like people would ask me questions I can't answer or don’t want to answer. Plus, there's this nagging thought that maybe my mum would be critical of me, like she always is. It just feels like nobody really wants me there anyway. I can't imagine it being anything but uncomfortable.",
+      "revealed_external_fields": [
+        "situation",
+        "behavior",
+        "emotions",
+        "automatic_thoughts"
+      ],
+      "revealed_internal_fields": []
+    },
+    {
+      "turn": 6,
+      "speaker": "Therapist",
+      "text": "Therapist: It sounds like you're anticipating a lot of stress and negativity if you were to go, especially with the possibility of facing questions and feeling criticized by your mum. That must feel really isolating, to think that nobody wants you there. Can you share a bit more about how those thoughts about your mum and the expectations from family affect you in situations like this?"
+    },
+    {
+      "turn": 6,
+      "speaker": "Client",
+      "text": "I guess it just feels like a cycle, you know? Like I'm stuck in this loop of feeling criticized and ashamed, especially from my mum. It’s exhausting to think about her being there, judging everything I do or don’t do. I just want to avoid that altogether. It’s like I can’t even be myself around them, and that just adds to the whole uncomfortable vibe. I don’t really know how to break out of it.",
+      "revealed_external_fields": [
+        "situation",
+        "behavior",
+        "emotions",
+        "automatic_thoughts"
+      ],
+      "revealed_internal_fields": []
+    },
+    {
+      "turn": 7,
+      "speaker": "Therapist",
+      "text": "Therapist: It sounds really tough to feel trapped in that cycle of criticism and shame, especially from someone so close to you like your mum. The desire to avoid that judgment makes a lot of sense, given how exhausting it is to feel like you can’t be yourself. I wonder, have you experienced this feeling of being judged or criticized in other areas of your life, or is it more specific to family gatherings?"
+    },
+    {
+      "turn": 7,
+      "speaker": "Client",
+      "text": "I can't really say if it's just family or if it happens in other areas too. It feels like it might be more intense with them, though. It's like there's this pressure that comes from being around family, and it just amplifies everything. I don’t know, maybe I just wish I could avoid feeling judged altogether, no matter where I am. It’s all just really uncomfortable, and I’d rather not think about it.",
+      "revealed_external_fields": [
+        "situation",
+        "behavior",
+        "emotions",
+        "automatic_thoughts"
+      ],
+      "revealed_internal_fields": []
+    },
+    {
+      "turn": 8,
+      "speaker": "Therapist",
+      "text": "Therapist: It sounds like the pressure and feelings of being judged are amplified when you're with your family, and that makes the discomfort even more intense. Wanting to avoid those feelings altogether is completely understandable. It must be challenging to navigate that kind of environment. Can you think of a time when you felt a little more at ease or accepted, either within your family or in other settings?"
+    },
+    {
+      "turn": 8,
+      "speaker": "Client",
+      "text": "I don't really know if I can think of a time like that. It feels like most experiences with family are just filled with that pressure and judgment. Maybe there were moments that felt okay, but they get overshadowed by the negative stuff. I just wish it could be different, but I can't really say how to make that happen. It's all just really frustrating.",
+      "revealed_external_fields": [
+        "situation",
+        "behavior",
+        "emotions",
+        "automatic_thoughts"
+      ],
+      "revealed_internal_fields": [
+        "relevant_history"
+      ]
+    },
+    {
+      "turn": 9,
+      "speaker": "Therapist",
+      "text": "Therapist: It sounds like the overwhelming pressure and judgment have overshadowed any moments of ease or acceptance, making it hard to remember those positive experiences. It’s completely valid to feel frustrated about that. If you could imagine what a different experience with your family might look or feel like, even just a little, what might that be?"
+    },
+    {
+      "turn": 9,
+      "speaker": "Client",
+      "text": "I don't know, it just feels hard to imagine anything different. Maybe if things were more relaxed, like people weren't so focused on what I should be or how I should act. But honestly, I can't picture it. Everything just seems so tangled up in those expectations and judgments. It's frustrating to think about, and I don't really want to go there right now.",
+      "revealed_external_fields": [
+        "situation",
+        "behavior",
+        "emotions",
+        "automatic_thoughts"
+      ],
+      "revealed_internal_fields": [
+        "relevant_history"
+      ]
+    },
+    {
+      "turn": 10,
+      "speaker": "Therapist",
+      "text": "Therapist: It sounds really difficult to envision a more relaxed experience when everything feels so tied up in those expectations and judgments. It’s understandable to want to avoid that frustration. If you think about those moments when you felt the pressure ease, even if briefly, what do you think contributed to that sense of relaxation?"
+    },
+    {
+      "turn": 10,
+      "speaker": "Client",
+      "text": "I don't really know what contributes to those moments. Maybe it’s just when there’s less pressure to perform or something, but even then, it feels like it could flip back to judgment at any moment. I guess I just wish I could hold onto those fleeting moments, but they seem few and far between. It’s just easier not to think about it.",
+      "revealed_external_fields": [
+        "situation",
+        "behavior",
+        "emotions",
+        "automatic_thoughts"
+      ],
+      "revealed_internal_fields": [
+        "relevant_history"
+      ]
+    },
+    {
+      "turn": 11,
+      "speaker": "Therapist",
+      "text": "Therapist: It sounds like those moments of relaxation feel fragile and hard to hold onto, especially with the ever-present fear of judgment. It’s completely understandable to want to protect yourself from that uncertainty. What do you think it would take for you to feel more comfortable or safe in those family situations, if you were to explore that idea?"
+    },
+    {
+      "turn": 11,
+      "speaker": "Client",
+      "text": "I don't know, honestly. It feels like I'd need a complete shift in how things are, like if people could just let go of those expectations and judgments. But then again, that seems unrealistic, so I just don't really want to think about it. It makes me feel even more overwhelmed, and I'd rather just avoid all of it.",
+      "revealed_external_fields": [
+        "situation",
+        "behavior",
+        "emotions",
+        "automatic_thoughts"
+      ],
+      "revealed_internal_fields": [
+        "relevant_history"
+      ]
+    },
+    {
+      "turn": 12,
+      "speaker": "Therapist",
+      "text": "Therapist: It sounds like you're feeling overwhelmed by the idea of needing a complete shift in your family dynamics, which feels unrealistic and adds to your desire to avoid the situation altogether. It’s completely okay to feel that way, especially when the thought of change seems daunting. Instead of thinking about a complete shift, what if we considered smaller ways you might feel a bit more comfortable in those situations? Would that be something you’d be open to exploring?"
+    },
+    {
+      "turn": 12,
+      "speaker": "Client",
+      "text": "I guess I could think about smaller ways to feel comfortable, but it just feels like a lot right now. I mean, it's tough to even imagine what could help when everything feels so heavy. I don’t know, maybe I’m just not ready to think about it. It’s easier to just stick with what I know, which is avoiding it all.",
+      "revealed_external_fields": [
+        "situation",
+        "behavior",
+        "emotions",
+        "automatic_thoughts"
+      ],
+      "revealed_internal_fields": [
+        "relevant_history"
+      ]
+    },
+    {
+      "turn": 13,
+      "speaker": "Therapist",
+      "text": "Therapist: It sounds like thinking about smaller ways to feel comfortable feels overwhelming right now, and that sticking with what you know—avoiding it—seems like the easier option. It’s completely valid to feel that way, especially when everything feels heavy. Would you like to take a moment to just sit with those feelings instead of trying to find solutions? Sometimes, just acknowledging where we are can be a helpful step."
+    },
+    {
+      "turn": 13,
+      "speaker": "Client",
+      "text": "I guess I could sit with the feelings for a bit, but it’s just really uncomfortable. I don’t know how to just acknowledge things without feeling like I’m sinking deeper into it all. It's like everything feels heavy, and I just want to shake it off. Maybe just being here is enough, even if I don't feel ready to dig into anything.",
+      "revealed_external_fields": [
+        "situation",
+        "behavior",
+        "emotions",
+        "automatic_thoughts"
+      ],
+      "revealed_internal_fields": [
+        "relevant_history",
+        "coping_strategies",
+        "intermediate_beliefs"
+      ]
+    },
+    {
+      "turn": 14,
+      "speaker": "Therapist",
+      "text": "Therapist: It’s completely understandable to feel uncomfortable sitting with those heavy feelings. Acknowledging them can feel like a lot, especially when you're already feeling weighed down. Just being here and allowing yourself to experience that discomfort is a significant step in itself. If it feels okay, we can take a moment together to breathe through it, or if you’d prefer to talk about something else or just share how it feels to be in this space, I’m here for that too. What feels right for you in this moment?"
+    },
+    {
+      "turn": 14,
+      "speaker": "Client",
+      "text": "I don’t know, maybe just sitting here feels like the least overwhelming option. I guess I’m just not sure how to breathe through all this heaviness without feeling like I’m sinking. It’s frustrating, but I really wish it could just be easier. I don’t know, maybe just being here is a start, even if it doesn’t feel like much.",
+      "revealed_external_fields": [
+        "situation",
+        "behavior",
+        "emotions",
+        "automatic_thoughts"
+      ],
+      "revealed_internal_fields": [
+        "relevant_history",
+        "coping_strategies",
+        "intermediate_beliefs"
+      ]
+    },
+    {
+      "turn": 15,
+      "speaker": "Therapist",
+      "text": "Therapist: It sounds like just being in this space and sitting with the heaviness feels like a reasonable choice for you right now, even if it’s frustrating and doesn’t feel like much. It’s okay to take it slow and allow yourself to simply be, without any pressure to change or fix things immediately. If you’d like, we can take a few moments together to breathe, focusing on the present moment, without judgment. How does that sound to you?"
+    },
+    {
+      "turn": 15,
+      "speaker": "Client",
+      "text": "I don’t know, breathing sounds nice in theory, but I just feel so tense. It’s like I can’t really focus on anything without feeling all this heaviness. Maybe I just need to sit with it a bit longer and see if it eases up. I don’t want to rush into anything that feels like it might just make it worse. I guess being here is okay, even if it doesn't feel like much.",
+      "revealed_external_fields": [
+        "situation",
+        "behavior",
+        "emotions",
+        "automatic_thoughts"
+      ],
+      "revealed_internal_fields": [
+        "relevant_history",
+        "coping_strategies",
+        "intermediate_beliefs"
+      ]
+    },
+    {
+      "turn": 16,
+      "speaker": "Therapist",
+      "text": "Therapist: It makes sense that you want to take your time with those feelings, especially when everything feels so tense and heavy. Just allowing yourself to sit with it without rushing into anything can be a valuable step. I'm here with you while you do that. If at any point you feel ready to share more about what's coming up for you or if you just want to talk about how it feels to be present with those emotions, I'm here to listen."
+    },
+    {
+      "turn": 16,
+      "speaker": "Client",
+      "text": "I guess sitting with it feels like the only option right now, even if it’s really uncomfortable. It's just hard to shake off this heaviness, and I don’t know how to make it feel lighter. I mean, I wish I could just switch off these feelings, but I can’t. I just wish it could all be simpler, you know?",
+      "revealed_external_fields": [
+        "situation",
+        "behavior",
+        "emotions",
+        "automatic_thoughts"
+      ],
+      "revealed_internal_fields": [
+        "relevant_history",
+        "coping_strategies",
+        "intermediate_beliefs"
+      ]
+    },
+    {
+      "turn": 17,
+      "speaker": "Therapist",
+      "text": "Therapist: It sounds like you're really grappling with the desire for simplicity and relief from that heaviness, which feels so challenging right now. It’s okay to wish for an easier way to navigate those feelings. Sometimes, just acknowledging how complex and uncomfortable it is can be a step in itself. If you feel up to it, what do you think it would look like to give yourself permission to feel those emotions without needing to change them right away?"
+    },
+    {
+      "turn": 17,
+      "speaker": "Client",
+      "text": "I don’t know what that would look like. It feels like if I let myself feel these emotions, I might just get stuck in them, you know? I guess I just wish it was easier to navigate all this without feeling so weighed down. It’s frustrating to think about giving myself permission when it feels like I’m just going to sink deeper. Maybe I just need to keep it simple and stick with what I know for now.",
+      "revealed_external_fields": [
+        "situation",
+        "behavior",
+        "emotions",
+        "automatic_thoughts"
+      ],
+      "revealed_internal_fields": [
+        "relevant_history",
+        "coping_strategies",
+        "intermediate_beliefs"
+      ]
+    },
+    {
+      "turn": 18,
+      "speaker": "Therapist",
+      "text": "Therapist: It sounds like you're feeling really hesitant about giving yourself permission to feel those emotions, fearing that it might lead to feeling stuck or even deeper in that heaviness. It’s completely understandable to want to keep things simple when everything feels overwhelming. Just being aware of those feelings and how they affect you is a significant step. If it feels okay, we can explore what \"keeping it simple\" looks like for you right now. What might that look like in this moment?"
+    },
+    {
+      "turn": 18,
+      "speaker": "Client",
+      "text": "I don’t know, keeping it simple just feels like... not thinking about all this stuff for a bit, I guess? Maybe just focusing on the present moment without getting too deep into it. It’s like I want to find a way to just be here without all that heaviness weighing me down. But honestly, I’m not even sure what that would look like. I just know that it feels overwhelming trying to figure it out right now.",
+      "revealed_external_fields": [
+        "situation",
+        "behavior",
+        "emotions",
+        "automatic_thoughts"
+      ],
+      "revealed_internal_fields": [
+        "relevant_history",
+        "coping_strategies",
+        "intermediate_beliefs",
+        "core_beliefs"
+      ]
+    },
+    {
+      "turn": 19,
+      "speaker": "Therapist",
+      "text": "Therapist: It sounds like keeping it simple for you means finding a way to be present without diving deeper into those overwhelming feelings. That’s a valid approach, especially when everything feels so heavy. What do you think might help you stay grounded in the present moment, even if just a little?"
+    },
+    {
+      "turn": 19,
+      "speaker": "Client",
+      "text": "I don’t really know what would help me feel grounded right now. It’s like everything just feels so heavy, and I can’t even think of a way to lighten that load. Maybe just taking a moment to breathe, but even that feels hard. I guess I just want to avoid getting too deep into it all, you know? I just wish it could be simpler, but here I am, feeling all this weight and not really knowing how to deal with it.",
+      "revealed_external_fields": [
+        "situation",
+        "behavior",
+        "emotions",
+        "automatic_thoughts"
+      ],
+      "revealed_internal_fields": [
+        "relevant_history",
+        "coping_strategies",
+        "intermediate_beliefs",
+        "core_beliefs"
+      ]
+    },
+    {
+      "turn": 20,
+      "speaker": "Therapist",
+      "text": "Therapist: It sounds like you're feeling really stuck with that heaviness and unsure of how to lighten the load, even with something as simple as breathing. It’s completely okay to want to avoid diving deeper right now. If you're open to it, we could try a very brief grounding exercise together—something gentle to help you connect with the present without feeling overwhelmed. Would that be something you’d like to try?"
+    },
+    {
+      "turn": 20,
+      "speaker": "Client",
+      "text": "I guess a grounding exercise might be okay, but I’m not sure how effective it’ll be when everything feels so heavy. I just don’t want to get my hopes up or something. It’s like, what if it doesn’t help? I mean, I’m willing to try, but I just wish it didn’t feel like such a struggle to even consider it. It just feels all tangled up, you know?",
+      "revealed_external_fields": [
+        "situation",
+        "behavior",
+        "emotions",
+        "automatic_thoughts"
+      ],
+      "revealed_internal_fields": [
+        "relevant_history",
+        "coping_strategies",
+        "intermediate_beliefs",
+        "core_beliefs"
+      ]
+    },
+    {
+      "turn": 21,
+      "speaker": "Therapist",
+      "text": "Therapist: It sounds like you’re feeling hesitant about the grounding exercise because of that heaviness and the struggle to find relief. It’s completely understandable to have those concerns when you’re already feeling overwhelmed. If you're willing to give it a try, we can keep it very brief and simple, just to see how it feels. If it doesn’t help, that’s okay too. Would you like to start with a small focus, like noticing your breath or the sensations in your body?"
+    },
+    {
+      "turn": 21,
+      "speaker": "Client",
+      "text": "I don't know, I guess I could try noticing my breath or something. But thinking about it just feels... like a lot, you know? I’m still worried that it won’t help and that I’ll just end up feeling the same heaviness afterward. It’s just frustrating to feel like I’m stuck in this place where everything feels tangled up, and I don’t really know how to get out of it. Maybe I’m just not ready for anything right now.",
+      "revealed_external_fields": [
+        "situation",
+        "behavior",
+        "emotions",
+        "automatic_thoughts"
+      ],
+      "revealed_internal_fields": [
+        "relevant_history",
+        "coping_strategies",
+        "intermediate_beliefs",
+        "core_beliefs"
+      ]
+    },
+    {
+      "turn": 22,
+      "speaker": "Therapist",
+      "text": "Therapist: It makes sense to feel that way, especially when everything feels so tangled and heavy. Just being here and acknowledging those feelings is important, and there’s no rush to try anything you’re not ready for. If you want, we can simply take a moment to breathe together, without any expectations—just to see how it feels. Or if you'd prefer to stay in this space of acknowledging how overwhelming it is, that’s perfectly okay too. What feels best for you in this moment?"
+    },
+    {
+      "turn": 22,
+      "speaker": "Client",
+      "text": "I don’t know, it just feels like everything’s so heavy right now. I guess just sitting here and acknowledging that is all I can handle. Breathing together sounds like it might help a little, but I’m still worried it won’t change anything. I just wish it didn’t feel so overwhelming, like I’m stuck in this loop. Maybe I’ll just focus on being here for now and see where that takes me.",
+      "revealed_external_fields": [
+        "situation",
+        "behavior",
+        "emotions",
+        "automatic_thoughts"
+      ],
+      "revealed_internal_fields": [
+        "relevant_history",
+        "coping_strategies",
+        "intermediate_beliefs",
+        "core_beliefs"
+      ]
+    },
+    {
+      "turn": 23,
+      "speaker": "Therapist",
+      "text": "Therapist: It sounds like sitting with the heaviness and acknowledging it feels like the best option for you right now, and that's completely valid. If you're open to it, we can take a moment to breathe together, focusing on the sensation of the breath without any pressure to change how you feel. Just being here in this moment is a step, and I'm here with you. How about we try that for a minute? You can follow my lead, or just do what feels right for you."
+    },
+    {
+      "turn": 23,
+      "speaker": "Client",
+      "text": "I guess we could try the breathing thing for a minute, but I’m still feeling pretty skeptical about it all. It’s just hard to get my hopes up when everything feels so heavy. I’ll give it a shot, but I just want you to know that it feels like a struggle to even think about it. I wish I could just shake off this weight and not feel so tangled up.",
+      "revealed_external_fields": [
+        "situation",
+        "behavior",
+        "emotions",
+        "automatic_thoughts"
+      ],
+      "revealed_internal_fields": [
+        "relevant_history",
+        "coping_strategies",
+        "intermediate_beliefs",
+        "core_beliefs"
+      ]
+    },
+    {
+      "turn": 24,
+      "speaker": "Therapist",
+      "text": "Therapist: I appreciate your willingness to give it a shot, even with those skeptical feelings. It’s completely okay to feel that struggle; acknowledging it is a part of the process. Let’s take a moment together. You might find a comfortable position, and we can begin by taking a slow, deep breath in through your nose… and then gently exhaling through your mouth. Let’s do that a couple of times together, just focusing on the rhythm of your breath. If it helps, you can even notice how your body feels with each breath. How does that sound?"
+    },
+    {
+      "turn": 24,
+      "speaker": "Client",
+      "text": "I guess that sounds okay. I mean, I’ll try to focus on my breath, but it’s just hard to shake off this heaviness, you know? I’m still feeling a bit skeptical, like what if it doesn’t really help? But I’ll give it a shot, even if I’m not sure it’ll change anything. I just wish it didn’t feel like such a struggle to even consider this.",
+      "revealed_external_fields": [
+        "situation",
+        "behavior",
+        "emotions",
+        "automatic_thoughts"
+      ],
+      "revealed_internal_fields": [
+        "relevant_history",
+        "coping_strategies",
+        "intermediate_beliefs",
+        "core_beliefs"
+      ]
+    },
+    {
+      "turn": 25,
+      "speaker": "Therapist",
+      "text": "Therapist: It’s completely understandable to feel skeptical about this, especially when the heaviness feels so present. Just being willing to try is a step in itself. Let’s take a moment together. Inhale slowly through your nose… and exhale gently through your mouth. As you breathe, if thoughts arise, that’s okay; just notice them and bring your focus back to your breath. We can do this a few times together. How are you feeling as we start?"
+    },
+    {
+      "turn": 25,
+      "speaker": "Client",
+      "text": "I guess I’m feeling a bit more aware of the heaviness, but I’m still skeptical about this whole breathing thing. It just feels like I’m trying to lift a weight off my chest, and I don’t know if it’s really going to change anything. I mean, I’ll keep breathing, but I just wish it didn’t feel like such a struggle. I’d rather not feel like I’m sinking deeper into it all.",
+      "revealed_external_fields": [
+        "situation",
+        "behavior",
+        "emotions",
+        "automatic_thoughts"
+      ],
+      "revealed_internal_fields": [
+        "relevant_history",
+        "coping_strategies",
+        "intermediate_beliefs",
+        "core_beliefs"
+      ]
+    }
+  ]
+}
