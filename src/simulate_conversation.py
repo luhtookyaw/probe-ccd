@@ -11,6 +11,11 @@ DEFAULT_DATASET = ROOT / "data" / "Patient_Psi_CM_Dataset.json"
 DEFAULT_OUTPUT_DIR = ROOT / "outputs"
 PROMPT_DIR = ROOT / "prompts"
 UNKNOWN = "Unknown"
+DIFFICULTY_THRESHOLDS = {
+    "easy": 2,
+    "normal": 3,
+    "hard": 4,
+}
 
 
 CCD_ELEMENTS = [
@@ -140,11 +145,11 @@ def recent_context(dialogue: list[dict[str, str]], max_turns: int = 6) -> str:
     return dialogue_to_text(dialogue[-max_turns:])
 
 
-def parse_yes_no(critic_output: str) -> bool:
-    match = re.search(r"Answer:\s*(YES|NO)\b", critic_output, flags=re.IGNORECASE)
+def parse_score(critic_output: str) -> int | None:
+    match = re.search(r"Score:\s*([1-5])\b", critic_output, flags=re.IGNORECASE)
     if match:
-        return match.group(1).upper() == "YES"
-    return critic_output.strip().upper().startswith("YES")
+        return int(match.group(1))
+    return None
 
 
 def revealed_labels(revealed: dict[str, bool]) -> list[str]:
@@ -159,13 +164,16 @@ def print_turn_progress(
     revealed: dict[str, bool],
 ) -> None:
     revealed = revealed_labels(revealed)
-    critic_runs = [evaluation["ccd_label"] for evaluation in evaluations]
+    critic_runs = [
+        f"{evaluation['ccd_label']}={evaluation['score'] if evaluation['score'] is not None else 'N/A'}"
+        for evaluation in evaluations
+    ]
 
     print(f"\nTurn {turn_index}", flush=True)
     print(f"Therapist: {therapist_text}", flush=True)
     print(f"\nClient: {client_text}", flush=True)
     print(f"\nrevealed elements: {', '.join(revealed) if revealed else 'None'}", flush=True)
-    print(f"Critic: {', '.join(critic_runs) if critic_runs else 'None'}", flush=True)
+    print(f"Critic scores: {', '.join(critic_runs) if critic_runs else 'None'}", flush=True)
 
 
 def next_therapist_utterance(
@@ -205,11 +213,13 @@ def evaluate_reveals(
     therapist_utterance: str,
     revealed: dict[str, bool],
     model: str,
+    difficulty: str,
 ) -> list[dict[str, Any]]:
     from llm import call_llm
 
     evaluations = []
     last_client_utterance = recent_context(dialogue)
+    reveal_threshold = DIFFICULTY_THRESHOLDS[difficulty]
 
     for element in CCD_ELEMENTS:
         if revealed[element["id"]]:
@@ -229,8 +239,9 @@ def evaluate_reveals(
             temperature=0.0,
             model=model,
         ).strip()
-        answer = parse_yes_no(output)
-        if answer:
+        score = parse_score(output)
+        should_reveal = score is not None and score >= reveal_threshold
+        if should_reveal:
             revealed[element["id"]] = True
 
         evaluations.append(
@@ -238,8 +249,10 @@ def evaluate_reveals(
                 "ccd_id": element["id"],
                 "ccd_label": element["label"],
                 "was_revealed_before_turn": False,
-                "revealed_by_this_evaluation": answer,
-                "answer": "YES" if answer else "NO",
+                "revealed_by_this_evaluation": should_reveal,
+                "answer": "YES" if should_reveal else "NO",
+                "score": score,
+                "reveal_threshold": reveal_threshold,
                 "raw_output": output,
             }
         )
@@ -293,6 +306,7 @@ def simulate(args: argparse.Namespace) -> dict[str, Any]:
             therapist_utterance=therapist_text,
             revealed=revealed,
             model=args.critic_model,
+            difficulty=args.difficulty,
         )
         dialogue.append({"speaker": "Therapist", "text": therapist_text})
 
@@ -334,6 +348,8 @@ def simulate(args: argparse.Namespace) -> dict[str, Any]:
             "therapist_model": args.therapist_model,
             "critic_model": args.critic_model,
             "reveal_surface": args.reveal_surface,
+            "difficulty": args.difficulty,
+            "reveal_threshold": DIFFICULTY_THRESHOLDS[args.difficulty],
         },
         "case": case,
         "ccd_elements": CCD_ELEMENTS,
@@ -358,6 +374,12 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--critic-model", default="gpt-4o")
     parser.add_argument("--client-temperature", type=float, default=0.7)
     parser.add_argument("--therapist-temperature", type=float, default=0.7)
+    parser.add_argument(
+        "--difficulty",
+        choices=tuple(DIFFICULTY_THRESHOLDS),
+        default="normal",
+        help="Reveal threshold: easy >=2, normal >=3, hard >=4.",
+    )
     parser.add_argument(
         "--reveal-surface",
         action="store_true",

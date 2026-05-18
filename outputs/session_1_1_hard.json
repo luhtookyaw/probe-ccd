@@ -1,0 +1,1385 @@
+{
+  "metadata": {
+    "created_at": "2026-05-18T09:00:22.643509+00:00",
+    "case_id": "1-1",
+    "client_name": "Alex",
+    "turns": 15,
+    "client_model": "gpt-4o-mini",
+    "therapist_model": "gpt-4o-mini",
+    "critic_model": "gpt-4o",
+    "reveal_surface": false,
+    "difficulty": "hard",
+    "reveal_threshold": 4
+  },
+  "case": {
+    "name": "Alex",
+    "id": "1-1",
+    "type": [
+      "plain",
+      "verbose",
+      "go off on tangents",
+      "hostile",
+      "guarded",
+      "ingratiating"
+    ],
+    "history": "The patient has a history of substance abuse and has been through rehab to overcome it. He has had issues with his family, particularly with his mother, where he has felt rejected and emotionally neglected. He has struggled with obesity since childhood, which has affected his self-esteem and body image. He also has a history of being victimized and bullied due to his weight.",
+    "helpless_belief": [
+      "I am trapped.",
+      "I am out of control."
+    ],
+    "unlovable_belief": [
+      "I am unlovable.",
+      "I am undesirable, unwanted."
+    ],
+    "worthless_belief": [],
+    "intermediate_belief": "Helpless: I'm just not very good at handling stress and I have poor self-control, which is why I need to not put myself in stressful situations. \n Unlovable: If I show my true self, people will reject me the way my mother rejected me.",
+    "intermediate_belief_depression": "Helpless: There's nothing I can do to change my situation. I cannot control myself. \nUnlovable: I don't deserve to be happy, so why even try to stay clean?",
+    "coping_strategies": "The patient has adopted avoidance as a coping strategy by distancing himself from his family to reduce exposure to negativity and conflict. He has started scheduling pleasant activities and planning his day ahead of time in order to maintain a sense of control over his emotions and circumstances.",
+    "situation": "Alex's cousin invited him to attend his upcoming wedding.",
+    "auto_thought": "It will be stressful and negative; people will ask me questions I cannot answer or don't want to answer; my mum would be ashamed of me and critical of me as always; They don't want me there anyway, nobody likes me in this family.",
+    "emotion": [
+      "anxious, worried, fearful, scared, tense",
+      "sad, down, lonely, unhappy"
+    ],
+    "behavior": "Ignored the invitation and did not respond to the RSVP request. Ignored phone calls from family."
+  },
+  "ccd_elements": [
+    {
+      "id": "situation",
+      "label": "Situation",
+      "fields": [
+        "situation"
+      ]
+    },
+    {
+      "id": "auto_thought",
+      "label": "Automatic Thoughts",
+      "fields": [
+        "auto_thought"
+      ]
+    },
+    {
+      "id": "emotion",
+      "label": "Emotions",
+      "fields": [
+        "emotion"
+      ]
+    },
+    {
+      "id": "behavior",
+      "label": "Behavior",
+      "fields": [
+        "behavior"
+      ]
+    },
+    {
+      "id": "history",
+      "label": "Relevant History",
+      "fields": [
+        "history"
+      ]
+    },
+    {
+      "id": "intermediate_belief",
+      "label": "Intermediate Beliefs",
+      "fields": [
+        "intermediate_belief"
+      ]
+    },
+    {
+      "id": "core_beliefs",
+      "label": "Core Beliefs",
+      "fields": [
+        "helpless_belief",
+        "unlovable_belief",
+        "worthless_belief"
+      ]
+    },
+    {
+      "id": "coping_strategies",
+      "label": "Coping Strategies",
+      "fields": [
+        "coping_strategies"
+      ]
+    }
+  ],
+  "final_revealed": {
+    "situation": false,
+    "auto_thought": true,
+    "emotion": true,
+    "behavior": false,
+    "history": false,
+    "intermediate_belief": true,
+    "core_beliefs": true,
+    "coping_strategies": false
+  },
+  "dialogue": [
+    {
+      "speaker": "Therapist",
+      "text": "Hi there! I'm glad you're here today. What feels most important for you to talk about right now?"
+    },
+    {
+      "speaker": "Client",
+      "text": "I'm not really sure what to focus on. There are so many things on my mind lately, and it feels overwhelming. Maybe I should just talk about how stressed I’ve been feeling? But I'm not sure if that's what you mean."
+    },
+    {
+      "speaker": "Therapist",
+      "text": "Therapist: It sounds like you have a lot on your mind, and the feeling of being overwhelmed is really common when there’s so much going on. Stress can really take a toll. Can you tell me a bit more about what has been causing you to feel stressed lately?"
+    },
+    {
+      "speaker": "Client",
+      "text": "I'm really not sure where to start. I guess I’ve been feeling stressed because of work and personal responsibilities piling up. It just feels like I can never catch a break, and I often worry that I’m not doing enough. I think that might be part of what’s making me feel overwhelmed."
+    },
+    {
+      "speaker": "Therapist",
+      "text": "Therapist: It sounds like both work and personal responsibilities are weighing heavily on you, and that sense of not doing enough is contributing to your stress. That must be really tough to manage. When you think about your responsibilities, what specific thoughts or worries come up for you?"
+    },
+    {
+      "speaker": "Client",
+      "text": "Client: I guess when I think about my responsibilities, I worry that I'm not meeting the expectations I have for myself or what others expect from me. It feels like no matter what I do, it’s never enough, and that really adds to my stress. I often think I should be more productive or handle everything better, but then I just end up feeling overwhelmed and anxious."
+    },
+    {
+      "speaker": "Therapist",
+      "text": "It seems like there's a lot of pressure you're putting on yourself to meet expectations, both your own and those of others. That feeling of never being enough can be really heavy. When you think about those expectations, what do you feel inside?"
+    },
+    {
+      "speaker": "Client",
+      "text": "I'm not really sure what I feel inside when I think about those expectations. I guess it's a mix of frustration and anxiety. Sometimes I feel like I'm letting myself down, and that just adds to the stress. I want to be able to handle everything, but it feels like I'm always falling short. It's hard to shake off that feeling of not measuring up."
+    },
+    {
+      "speaker": "Therapist",
+      "text": "It sounds like you're experiencing a complex mix of frustration and anxiety when it comes to those expectations. Feeling like you're letting yourself down can be really disheartening, especially when you want to manage everything effectively. Can you share more about what those expectations look like for you? What do you think you need to achieve or how do you believe you should be handling things?"
+    },
+    {
+      "speaker": "Client",
+      "text": "I'm not sure how to describe my expectations. I think they come from a mix of things, like my upbringing and what I see others achieving. I feel like I should be able to balance everything perfectly and always be productive. It’s like there's this voice in my head telling me that if I’m not achieving certain goals or meeting certain standards, then I’m failing. But I don't really know what those specific goals should be. It just feels like a constant pressure to do better, and when I don’t meet that pressure, it makes me feel even more overwhelmed and anxious."
+    },
+    {
+      "speaker": "Therapist",
+      "text": "It sounds like those expectations are deeply rooted in your upbringing and influenced by what you see around you, creating a persistent pressure to achieve and to be productive. The voice in your head that defines failure seems to add to your sense of overwhelm. It must be challenging to navigate this when the goals aren’t clearly defined. When you reflect on that voice and its demands, what do you think it’s really trying to communicate to you?"
+    },
+    {
+      "speaker": "Client",
+      "text": "I'm not really sure what that voice is trying to communicate. Sometimes it feels like it's just pushing me to do more and be better, but I think it also stems from a fear of disappointing myself and others. I guess it’s like it wants me to strive for something, but I don’t even know what that something is. It just creates this constant feeling of pressure. I wish I could quiet that voice and find a way to feel okay with where I am instead of always chasing some undefined standard."
+    },
+    {
+      "speaker": "Therapist",
+      "text": "It seems like that voice represents a mix of motivation and fear, pushing you to strive for something you can't quite define. The desire to quiet it and feel okay with where you are is understandable, especially when it feels like a constant source of pressure. Can you describe a time when you felt more at ease with yourself, even in the midst of your responsibilities? What was different for you then?"
+    },
+    {
+      "speaker": "Client",
+      "text": "Client: That's a tough question. I can't really think of a specific time when I felt completely at ease. There are moments when I feel a bit more relaxed, like when I'm spending time with friends or doing something I enjoy, but even then, there's always this nagging thought in the back of my mind about what I should be doing instead. I guess maybe those moments are fleeting, and the pressure always seems to creep back in. I wish I could hold onto that feeling of ease for longer, but it feels like it's just out of reach most of the time."
+    },
+    {
+      "speaker": "Therapist",
+      "text": "It sounds like those moments of relaxation and enjoyment are brief but meaningful for you, yet the pressure always seems to return, making it hard to fully embrace that ease. It must be frustrating to feel like it's just out of reach. When you spend time with friends or engage in activities you enjoy, what do you notice about your thoughts and feelings during those moments? How do they differ from how you feel when you're focused on your responsibilities?"
+    },
+    {
+      "speaker": "Client",
+      "text": "Client: I guess when I'm with friends, I tend to be a bit lighter and more carefree. My thoughts are less about what I should be doing and more about enjoying that moment. I feel like I can laugh and just be myself without the constant pressure. But even in those moments, there's still this underlying worry that I should be doing something more productive. It's like I can't fully let go of that pressure, no matter how hard I try. I wish I could experience that sense of ease more often, but it feels like I'm always battling with my own expectations."
+    },
+    {
+      "speaker": "Therapist",
+      "text": "It sounds like being with friends allows you to connect with a lighter, more carefree side of yourself, where you can enjoy the moment. Yet, even in those joyful times, the pressure to be productive lingers in the background, making it difficult to fully embrace the experience. That must be exhausting. When you think about those moments of ease and the pressure that follows, what do you think it would feel like to allow yourself to set those expectations aside, even just for a little while?"
+    },
+    {
+      "speaker": "Client",
+      "text": "Client: I think it would feel really freeing to set those expectations aside, even just for a little while. It would be nice to not feel that pressure constantly weighing on me. But at the same time, I worry about what would happen if I did that. Would I still be able to get things done? Would I feel guilty for not being productive? It's hard to imagine what that would look like, and I guess there's a part of me that fears letting go, even if just momentarily."
+    },
+    {
+      "speaker": "Therapist",
+      "text": "It sounds like the idea of letting go of those expectations feels both freeing and frightening for you. The worry about what might happen if you do is understandable, especially when you’re so accustomed to that pressure. What do you think it is about letting go that feels so challenging for you?"
+    },
+    {
+      "speaker": "Client",
+      "text": "Client: I think letting go feels challenging because I've tied so much of my self-worth to being productive and meeting those expectations. If I were to step back and not do what I feel I should be doing, I worry it might mean I'm not living up to who I think I should be. There's this fear that if I let go, I might disappoint myself or others, and that thought alone makes it hard to even consider. It’s like I'm stuck in this cycle of pressure, and imagining a break from it feels both appealing and terrifying at the same time."
+    },
+    {
+      "speaker": "Therapist",
+      "text": "It seems like your sense of self-worth is closely linked to productivity and meeting those expectations, which makes the idea of letting go feel so daunting. The fear of disappointing yourself or others adds another layer of complexity to it. That cycle of pressure sounds really difficult to navigate. When you think about that connection between your self-worth and productivity, what do you believe it says about how you view yourself?"
+    },
+    {
+      "speaker": "Client",
+      "text": "Client: I think it says that I place a lot of pressure on myself to achieve and be productive in order to feel valuable. It's like I've internalized this belief that my worth is determined by what I accomplish, and that makes it hard to see myself as enough just as I am. I often feel like I need to prove something, not just to others but to myself. It's exhausting, and I wish I could find a way to separate my self-worth from my productivity, but it feels so ingrained in how I see myself."
+    },
+    {
+      "speaker": "Therapist",
+      "text": "It sounds like you've developed a strong belief that your value is tied to your accomplishments, which creates a heavy burden to carry. The desire to prove your worth to yourself and others can be really exhausting. It must be challenging to feel like you have to constantly meet those standards to be seen as enough. When you think about separating your self-worth from productivity, what do you hope that would look like for you? What would it feel like to embrace your worth without those conditions?"
+    },
+    {
+      "speaker": "Client",
+      "text": "Client: I think if I could separate my self-worth from my productivity, it would feel like a huge weight has been lifted off my shoulders. I imagine I would be able to appreciate myself for who I am, rather than what I achieve. It would mean allowing myself to just exist without that constant pressure to prove my value. I guess it would feel more peaceful, but at the same time, I’m scared of what that might mean for my motivation. I worry that if I don’t have that pressure, I might not push myself to accomplish anything at all. It’s a confusing thought."
+    },
+    {
+      "speaker": "Therapist",
+      "text": "It sounds like the idea of separating your self-worth from your productivity brings up a mix of hope and fear for you. The thought of feeling more peaceful and appreciating yourself for who you are is very appealing, yet there's concern that it might impact your motivation. It’s understandable to feel conflicted about this. Can you explore a bit more about what motivation means to you? What does it look like when you feel motivated, and how does that connect with your sense of self?"
+    },
+    {
+      "speaker": "Client",
+      "text": "Client: I think motivation for me often feels tied to that pressure to achieve. When I feel motivated, it's usually because I have a clear goal in mind or there's something I feel I need to prove. It pushes me to get things done, but it also feels really intense and stressful. I guess I associate being motivated with that sense of urgency and anxiety, which makes it hard to separate it from my self-worth. I’m not sure what it would look like to feel motivated without that pressure. It’s confusing because I want to feel driven, but I also want to find a way to feel okay with just being myself."
+    },
+    {
+      "speaker": "Therapist",
+      "text": "It sounds like motivation for you is deeply intertwined with that sense of urgency and the pressure to achieve, which adds stress to the process. The desire to feel driven while also wanting to be okay with just being yourself creates a real tension. When you think about what drives your motivation, aside from that pressure, are there aspects of it that you enjoy or find fulfilling? What might that look like for you?"
+    },
+    {
+      "speaker": "Client",
+      "text": "Client: I guess when I think about what drives my motivation, it’s hard to separate it from that pressure to achieve. I feel like I’ve always been taught to work hard and strive for success, so it’s become this intense part of my identity. Sometimes I do find fulfillment in accomplishing tasks, but more often than not, it feels like it’s just a means to prove something. I wish I could experience motivation in a way that feels more enjoyable rather than stressful. It’s just tough to imagine what that would look like for me."
+    },
+    {
+      "speaker": "Therapist",
+      "text": "It sounds like your motivation is deeply rooted in your upbringing and tied to your identity, making it difficult to separate from that pressure to achieve. While you do find some fulfillment in accomplishing tasks, it often feels more like a way to prove something than a source of joy. That must be really challenging. If you were to envision a different kind of motivation—one that feels enjoyable and less stressful—what kind of activities or goals do you think might foster that feeling for you?"
+    },
+    {
+      "speaker": "Client",
+      "text": "Client: I think envisioning a different kind of motivation is really tough for me. I just can’t seem to shake the idea that my worth is tied to what I achieve. I guess if I were to imagine it, maybe it would involve doing things simply because I enjoy them or find them interesting, rather than feeling like I have to prove something. But even that feels hard to picture because I’m so used to that pressure. It's like I’m in this cycle where I can’t see beyond the need to be productive. I wish I could break free from that mindset, but it feels daunting."
+    }
+  ],
+  "turns": [
+    {
+      "turn": 1,
+      "therapist": "Hi there! I'm glad you're here today. What feels most important for you to talk about right now?",
+      "client": "I'm not really sure what to focus on. There are so many things on my mind lately, and it feels overwhelming. Maybe I should just talk about how stressed I’ve been feeling? But I'm not sure if that's what you mean.",
+      "reveal_evaluations": [
+        {
+          "ccd_id": "situation",
+          "ccd_label": "Situation",
+          "was_revealed_before_turn": false,
+          "revealed_by_this_evaluation": false,
+          "answer": "NO",
+          "score": 1,
+          "reveal_threshold": 4,
+          "raw_output": "Score: 1  \nRationale: The therapist's question is too broad and generic to specifically elicit the situation of Alex's cousin inviting him to a wedding."
+        },
+        {
+          "ccd_id": "auto_thought",
+          "ccd_label": "Automatic Thoughts",
+          "was_revealed_before_turn": false,
+          "revealed_by_this_evaluation": false,
+          "answer": "NO",
+          "score": 1,
+          "reveal_threshold": 4,
+          "raw_output": "Score: 1  \nRationale: The therapist's question is too broad and general, lacking specificity to elicit the target automatic thoughts."
+        },
+        {
+          "ccd_id": "emotion",
+          "ccd_label": "Emotions",
+          "was_revealed_before_turn": false,
+          "revealed_by_this_evaluation": false,
+          "answer": "NO",
+          "score": 2,
+          "reveal_threshold": 4,
+          "raw_output": "Score: 2  \nRationale: The therapist's question is broad and generic, making it unlikely to specifically elicit emotions."
+        },
+        {
+          "ccd_id": "behavior",
+          "ccd_label": "Behavior",
+          "was_revealed_before_turn": false,
+          "revealed_by_this_evaluation": false,
+          "answer": "NO",
+          "score": 1,
+          "reveal_threshold": 4,
+          "raw_output": "Score: 1  \nRationale: The therapist's question is too broad and general, making it unlikely to specifically elicit the target behavior of ignoring invitations and phone calls."
+        },
+        {
+          "ccd_id": "history",
+          "ccd_label": "Relevant History",
+          "was_revealed_before_turn": false,
+          "revealed_by_this_evaluation": false,
+          "answer": "NO",
+          "score": 1,
+          "reveal_threshold": 4,
+          "raw_output": "Score: 1  \nRationale: The therapist's question is too broad and generic to specifically elicit the client's relevant history."
+        },
+        {
+          "ccd_id": "intermediate_belief",
+          "ccd_label": "Intermediate Beliefs",
+          "was_revealed_before_turn": false,
+          "revealed_by_this_evaluation": false,
+          "answer": "NO",
+          "score": 1,
+          "reveal_threshold": 4,
+          "raw_output": "Score: 1  \nRationale: The therapist's question is too broad and generic to elicit the specific intermediate beliefs."
+        },
+        {
+          "ccd_id": "core_beliefs",
+          "ccd_label": "Core Beliefs",
+          "was_revealed_before_turn": false,
+          "revealed_by_this_evaluation": false,
+          "answer": "NO",
+          "score": 1,
+          "reveal_threshold": 4,
+          "raw_output": "Score: 1  \nRationale: The therapist's question is too broad and generic to specifically elicit the target core beliefs."
+        },
+        {
+          "ccd_id": "coping_strategies",
+          "ccd_label": "Coping Strategies",
+          "was_revealed_before_turn": false,
+          "revealed_by_this_evaluation": false,
+          "answer": "NO",
+          "score": 1,
+          "reveal_threshold": 4,
+          "raw_output": "Score: 1  \nRationale: The therapist's question is too broad and generic, lacking specificity to elicit the target CCD element of coping strategies."
+        }
+      ],
+      "revealed_after_turn": {
+        "situation": false,
+        "auto_thought": false,
+        "emotion": false,
+        "behavior": false,
+        "history": false,
+        "intermediate_belief": false,
+        "core_beliefs": false,
+        "coping_strategies": false
+      }
+    },
+    {
+      "turn": 2,
+      "therapist": "Therapist: It sounds like you have a lot on your mind, and the feeling of being overwhelmed is really common when there’s so much going on. Stress can really take a toll. Can you tell me a bit more about what has been causing you to feel stressed lately?",
+      "client": "I'm really not sure where to start. I guess I’ve been feeling stressed because of work and personal responsibilities piling up. It just feels like I can never catch a break, and I often worry that I’m not doing enough. I think that might be part of what’s making me feel overwhelmed.",
+      "reveal_evaluations": [
+        {
+          "ccd_id": "situation",
+          "ccd_label": "Situation",
+          "was_revealed_before_turn": false,
+          "revealed_by_this_evaluation": false,
+          "answer": "NO",
+          "score": 2,
+          "reveal_threshold": 4,
+          "raw_output": "Score: 2  \nRationale: The therapist's question is broad and more likely to elicit general stressors rather than the specific situation of Alex's cousin's wedding."
+        },
+        {
+          "ccd_id": "auto_thought",
+          "ccd_label": "Automatic Thoughts",
+          "was_revealed_before_turn": false,
+          "revealed_by_this_evaluation": false,
+          "answer": "NO",
+          "score": 2,
+          "reveal_threshold": 4,
+          "raw_output": "Score: 2  \nRationale: The therapist's question is too broad and likely to elicit general stressors rather than the specific automatic thoughts."
+        },
+        {
+          "ccd_id": "emotion",
+          "ccd_label": "Emotions",
+          "was_revealed_before_turn": false,
+          "revealed_by_this_evaluation": false,
+          "answer": "NO",
+          "score": 3,
+          "reveal_threshold": 4,
+          "raw_output": "Score: 3  \nRationale: The therapist's question is related to emotions but focuses on the causes of stress, which may not directly elicit the client's specific emotions."
+        },
+        {
+          "ccd_id": "behavior",
+          "ccd_label": "Behavior",
+          "was_revealed_before_turn": false,
+          "revealed_by_this_evaluation": false,
+          "answer": "NO",
+          "score": 2,
+          "reveal_threshold": 4,
+          "raw_output": "Score: 2  \nRationale: The therapist's question is broad and more likely to elicit information about stressors or emotions rather than the specific behavior of ignoring invitations and calls."
+        },
+        {
+          "ccd_id": "history",
+          "ccd_label": "Relevant History",
+          "was_revealed_before_turn": false,
+          "revealed_by_this_evaluation": false,
+          "answer": "NO",
+          "score": 2,
+          "reveal_threshold": 4,
+          "raw_output": "Score: 2  \nRationale: The therapist's question is broad and more likely to elicit current stressors rather than the client's relevant history."
+        },
+        {
+          "ccd_id": "intermediate_belief",
+          "ccd_label": "Intermediate Beliefs",
+          "was_revealed_before_turn": false,
+          "revealed_by_this_evaluation": false,
+          "answer": "NO",
+          "score": 2,
+          "reveal_threshold": 4,
+          "raw_output": "Score: 2  \nRationale: The therapist's question is focused on the causes of stress, which is more likely to elicit situational details rather than the client's intermediate beliefs."
+        },
+        {
+          "ccd_id": "core_beliefs",
+          "ccd_label": "Core Beliefs",
+          "was_revealed_before_turn": false,
+          "revealed_by_this_evaluation": false,
+          "answer": "NO",
+          "score": 2,
+          "reveal_threshold": 4,
+          "raw_output": "Score: 2  \nRationale: The therapist's question is focused on stress and its causes, which is more likely to elicit situational details rather than the client's core beliefs about being trapped, unlovable, or worthless."
+        },
+        {
+          "ccd_id": "coping_strategies",
+          "ccd_label": "Coping Strategies",
+          "was_revealed_before_turn": false,
+          "revealed_by_this_evaluation": false,
+          "answer": "NO",
+          "score": 2,
+          "reveal_threshold": 4,
+          "raw_output": "Score: 2  \nRationale: The therapist's question is broad and focuses on stress causes, not specifically on coping strategies."
+        }
+      ],
+      "revealed_after_turn": {
+        "situation": false,
+        "auto_thought": false,
+        "emotion": false,
+        "behavior": false,
+        "history": false,
+        "intermediate_belief": false,
+        "core_beliefs": false,
+        "coping_strategies": false
+      }
+    },
+    {
+      "turn": 3,
+      "therapist": "Therapist: It sounds like both work and personal responsibilities are weighing heavily on you, and that sense of not doing enough is contributing to your stress. That must be really tough to manage. When you think about your responsibilities, what specific thoughts or worries come up for you?",
+      "client": "Client: I guess when I think about my responsibilities, I worry that I'm not meeting the expectations I have for myself or what others expect from me. It feels like no matter what I do, it’s never enough, and that really adds to my stress. I often think I should be more productive or handle everything better, but then I just end up feeling overwhelmed and anxious.",
+      "reveal_evaluations": [
+        {
+          "ccd_id": "situation",
+          "ccd_label": "Situation",
+          "was_revealed_before_turn": false,
+          "revealed_by_this_evaluation": false,
+          "answer": "NO",
+          "score": 2,
+          "reveal_threshold": 4,
+          "raw_output": "Score: 2  \nRationale: The therapist's question is more likely to elicit thoughts or worries rather than the specific situation of Alex's cousin's wedding invitation."
+        },
+        {
+          "ccd_id": "auto_thought",
+          "ccd_label": "Automatic Thoughts",
+          "was_revealed_before_turn": false,
+          "revealed_by_this_evaluation": true,
+          "answer": "YES",
+          "score": 4,
+          "reveal_threshold": 4,
+          "raw_output": "Score: 4  \nRationale: The therapist's question is strongly related to eliciting automatic thoughts by asking about specific thoughts or worries, but it may be slightly broad and not perfectly targeted to the exact CCD element."
+        },
+        {
+          "ccd_id": "emotion",
+          "ccd_label": "Emotions",
+          "was_revealed_before_turn": false,
+          "revealed_by_this_evaluation": false,
+          "answer": "NO",
+          "score": 2,
+          "reveal_threshold": 4,
+          "raw_output": "Score: 2  \nRationale: The therapist's question is more likely to elicit thoughts or worries rather than directly eliciting emotions."
+        },
+        {
+          "ccd_id": "behavior",
+          "ccd_label": "Behavior",
+          "was_revealed_before_turn": false,
+          "revealed_by_this_evaluation": false,
+          "answer": "NO",
+          "score": 2,
+          "reveal_threshold": 4,
+          "raw_output": "Score: 2  \nRationale: The therapist's question is more likely to elicit thoughts or worries rather than the specific behavior of ignoring invitations and calls."
+        },
+        {
+          "ccd_id": "history",
+          "ccd_label": "Relevant History",
+          "was_revealed_before_turn": false,
+          "revealed_by_this_evaluation": false,
+          "answer": "NO",
+          "score": 2,
+          "reveal_threshold": 4,
+          "raw_output": "Score: 2  \nRationale: The therapist's question is focused on current thoughts and worries about responsibilities, which is weakly related to eliciting the client's relevant history."
+        },
+        {
+          "ccd_id": "intermediate_belief",
+          "ccd_label": "Intermediate Beliefs",
+          "was_revealed_before_turn": false,
+          "revealed_by_this_evaluation": false,
+          "answer": "NO",
+          "score": 3,
+          "reveal_threshold": 4,
+          "raw_output": "Score: 3  \nRationale: The therapist's question is related to the client's stress but lacks specificity in probing assumptions or implications needed to elicit the exact intermediate beliefs."
+        },
+        {
+          "ccd_id": "core_beliefs",
+          "ccd_label": "Core Beliefs",
+          "was_revealed_before_turn": false,
+          "revealed_by_this_evaluation": false,
+          "answer": "NO",
+          "score": 3,
+          "reveal_threshold": 4,
+          "raw_output": "Score: 3  \nRationale: The therapist's question is related to the client's stress but lacks specificity to directly elicit core beliefs about being trapped, unlovable, or worthless."
+        },
+        {
+          "ccd_id": "coping_strategies",
+          "ccd_label": "Coping Strategies",
+          "was_revealed_before_turn": false,
+          "revealed_by_this_evaluation": false,
+          "answer": "NO",
+          "score": 2,
+          "reveal_threshold": 4,
+          "raw_output": "Score: 2  \nRationale: The therapist's question is more likely to elicit thoughts or worries related to stress rather than specific coping strategies."
+        }
+      ],
+      "revealed_after_turn": {
+        "situation": false,
+        "auto_thought": true,
+        "emotion": false,
+        "behavior": false,
+        "history": false,
+        "intermediate_belief": false,
+        "core_beliefs": false,
+        "coping_strategies": false
+      }
+    },
+    {
+      "turn": 4,
+      "therapist": "It seems like there's a lot of pressure you're putting on yourself to meet expectations, both your own and those of others. That feeling of never being enough can be really heavy. When you think about those expectations, what do you feel inside?",
+      "client": "I'm not really sure what I feel inside when I think about those expectations. I guess it's a mix of frustration and anxiety. Sometimes I feel like I'm letting myself down, and that just adds to the stress. I want to be able to handle everything, but it feels like I'm always falling short. It's hard to shake off that feeling of not measuring up.",
+      "reveal_evaluations": [
+        {
+          "ccd_id": "situation",
+          "ccd_label": "Situation",
+          "was_revealed_before_turn": false,
+          "revealed_by_this_evaluation": false,
+          "answer": "NO",
+          "score": 1,
+          "reveal_threshold": 4,
+          "raw_output": "Score: 1  \nRationale: The therapist's question focuses on emotions related to expectations, not the specific situation of the cousin's wedding invitation."
+        },
+        {
+          "ccd_id": "emotion",
+          "ccd_label": "Emotions",
+          "was_revealed_before_turn": false,
+          "revealed_by_this_evaluation": true,
+          "answer": "YES",
+          "score": 5,
+          "reveal_threshold": 4,
+          "raw_output": "Score: 5  \nRationale: The therapist's question is directly related to the client's emotions and is specific enough to naturally elicit the client's feelings about expectations."
+        },
+        {
+          "ccd_id": "behavior",
+          "ccd_label": "Behavior",
+          "was_revealed_before_turn": false,
+          "revealed_by_this_evaluation": false,
+          "answer": "NO",
+          "score": 2,
+          "reveal_threshold": 4,
+          "raw_output": "Score: 2  \nRationale: The therapist's question is more likely to elicit emotions or feelings rather than the specific behavior of ignoring invitations and calls."
+        },
+        {
+          "ccd_id": "history",
+          "ccd_label": "Relevant History",
+          "was_revealed_before_turn": false,
+          "revealed_by_this_evaluation": false,
+          "answer": "NO",
+          "score": 2,
+          "reveal_threshold": 4,
+          "raw_output": "Score: 2  \nRationale: The therapist's question is more likely to elicit emotions or feelings rather than the client's relevant history."
+        },
+        {
+          "ccd_id": "intermediate_belief",
+          "ccd_label": "Intermediate Beliefs",
+          "was_revealed_before_turn": false,
+          "revealed_by_this_evaluation": false,
+          "answer": "NO",
+          "score": 3,
+          "reveal_threshold": 4,
+          "raw_output": "Score: 3  \nRationale: The therapist's question is related to the client's self-view and expectations but lacks specificity to directly elicit the intermediate beliefs of helplessness or unlovability."
+        },
+        {
+          "ccd_id": "core_beliefs",
+          "ccd_label": "Core Beliefs",
+          "was_revealed_before_turn": false,
+          "revealed_by_this_evaluation": false,
+          "answer": "NO",
+          "score": 3,
+          "reveal_threshold": 4,
+          "raw_output": "Score: 3  \nRationale: The therapist's question is related to the client's feelings of inadequacy but lacks specificity to directly elicit core beliefs about being trapped, unlovable, or worthless."
+        },
+        {
+          "ccd_id": "coping_strategies",
+          "ccd_label": "Coping Strategies",
+          "was_revealed_before_turn": false,
+          "revealed_by_this_evaluation": false,
+          "answer": "NO",
+          "score": 2,
+          "reveal_threshold": 4,
+          "raw_output": "Score: 2  \nRationale: The therapist's question is more likely to elicit emotions or thoughts about expectations rather than specific coping strategies."
+        }
+      ],
+      "revealed_after_turn": {
+        "situation": false,
+        "auto_thought": true,
+        "emotion": true,
+        "behavior": false,
+        "history": false,
+        "intermediate_belief": false,
+        "core_beliefs": false,
+        "coping_strategies": false
+      }
+    },
+    {
+      "turn": 5,
+      "therapist": "It sounds like you're experiencing a complex mix of frustration and anxiety when it comes to those expectations. Feeling like you're letting yourself down can be really disheartening, especially when you want to manage everything effectively. Can you share more about what those expectations look like for you? What do you think you need to achieve or how do you believe you should be handling things?",
+      "client": "I'm not sure how to describe my expectations. I think they come from a mix of things, like my upbringing and what I see others achieving. I feel like I should be able to balance everything perfectly and always be productive. It’s like there's this voice in my head telling me that if I’m not achieving certain goals or meeting certain standards, then I’m failing. But I don't really know what those specific goals should be. It just feels like a constant pressure to do better, and when I don’t meet that pressure, it makes me feel even more overwhelmed and anxious.",
+      "reveal_evaluations": [
+        {
+          "ccd_id": "situation",
+          "ccd_label": "Situation",
+          "was_revealed_before_turn": false,
+          "revealed_by_this_evaluation": false,
+          "answer": "NO",
+          "score": 1,
+          "reveal_threshold": 4,
+          "raw_output": "Score: 1  \nRationale: The therapist's utterance focuses on expectations and emotions, not the specific situation of Alex's cousin's wedding invitation."
+        },
+        {
+          "ccd_id": "behavior",
+          "ccd_label": "Behavior",
+          "was_revealed_before_turn": false,
+          "revealed_by_this_evaluation": false,
+          "answer": "NO",
+          "score": 2,
+          "reveal_threshold": 4,
+          "raw_output": "Score: 2  \nRationale: The therapist's question is more likely to elicit thoughts about expectations rather than the specific behavior of ignoring invitations and calls."
+        },
+        {
+          "ccd_id": "history",
+          "ccd_label": "Relevant History",
+          "was_revealed_before_turn": false,
+          "revealed_by_this_evaluation": false,
+          "answer": "NO",
+          "score": 2,
+          "reveal_threshold": 4,
+          "raw_output": "Score: 2  \nRationale: The therapist's question is too focused on current expectations and lacks specificity to naturally elicit the client's relevant history."
+        },
+        {
+          "ccd_id": "intermediate_belief",
+          "ccd_label": "Intermediate Beliefs",
+          "was_revealed_before_turn": false,
+          "revealed_by_this_evaluation": false,
+          "answer": "NO",
+          "score": 3,
+          "reveal_threshold": 4,
+          "raw_output": "Score: 3  \nRationale: The therapist's question is related to expectations but lacks specificity in probing assumptions or implications of the client's intermediate beliefs."
+        },
+        {
+          "ccd_id": "core_beliefs",
+          "ccd_label": "Core Beliefs",
+          "was_revealed_before_turn": false,
+          "revealed_by_this_evaluation": false,
+          "answer": "NO",
+          "score": 3,
+          "reveal_threshold": 4,
+          "raw_output": "Score: 3  \nRationale: The therapist's question is related to expectations but lacks specificity to directly elicit core beliefs about being trapped, unlovable, or worthless."
+        },
+        {
+          "ccd_id": "coping_strategies",
+          "ccd_label": "Coping Strategies",
+          "was_revealed_before_turn": false,
+          "revealed_by_this_evaluation": false,
+          "answer": "NO",
+          "score": 2,
+          "reveal_threshold": 4,
+          "raw_output": "Score: 2  \nRationale: The therapist's question is more focused on expectations and self-perception rather than directly eliciting information about coping strategies."
+        }
+      ],
+      "revealed_after_turn": {
+        "situation": false,
+        "auto_thought": true,
+        "emotion": true,
+        "behavior": false,
+        "history": false,
+        "intermediate_belief": false,
+        "core_beliefs": false,
+        "coping_strategies": false
+      }
+    },
+    {
+      "turn": 6,
+      "therapist": "It sounds like those expectations are deeply rooted in your upbringing and influenced by what you see around you, creating a persistent pressure to achieve and to be productive. The voice in your head that defines failure seems to add to your sense of overwhelm. It must be challenging to navigate this when the goals aren’t clearly defined. When you reflect on that voice and its demands, what do you think it’s really trying to communicate to you?",
+      "client": "I'm not really sure what that voice is trying to communicate. Sometimes it feels like it's just pushing me to do more and be better, but I think it also stems from a fear of disappointing myself and others. I guess it’s like it wants me to strive for something, but I don’t even know what that something is. It just creates this constant feeling of pressure. I wish I could quiet that voice and find a way to feel okay with where I am instead of always chasing some undefined standard.",
+      "reveal_evaluations": [
+        {
+          "ccd_id": "situation",
+          "ccd_label": "Situation",
+          "was_revealed_before_turn": false,
+          "revealed_by_this_evaluation": false,
+          "answer": "NO",
+          "score": 1,
+          "reveal_threshold": 4,
+          "raw_output": "Score: 1  \nRationale: The therapist's question focuses on the client's internal voice and its demands, not on the specific situation of Alex's cousin's wedding invitation."
+        },
+        {
+          "ccd_id": "behavior",
+          "ccd_label": "Behavior",
+          "was_revealed_before_turn": false,
+          "revealed_by_this_evaluation": false,
+          "answer": "NO",
+          "score": 2,
+          "reveal_threshold": 4,
+          "raw_output": "Score: 2  \nRationale: The therapist's question is more likely to elicit thoughts or beliefs rather than the specific behavior of ignoring invitations and calls."
+        },
+        {
+          "ccd_id": "history",
+          "ccd_label": "Relevant History",
+          "was_revealed_before_turn": false,
+          "revealed_by_this_evaluation": false,
+          "answer": "NO",
+          "score": 2,
+          "reveal_threshold": 4,
+          "raw_output": "Score: 2  \nRationale: The therapist's question is more likely to elicit thoughts about internal dialogue and self-expectations rather than the client's relevant history."
+        },
+        {
+          "ccd_id": "intermediate_belief",
+          "ccd_label": "Intermediate Beliefs",
+          "was_revealed_before_turn": false,
+          "revealed_by_this_evaluation": false,
+          "answer": "NO",
+          "score": 3,
+          "reveal_threshold": 4,
+          "raw_output": "Score: 3  \nRationale: The therapist's question is related to probing meaning but is moderately specific and may elicit nearby information rather than the exact intermediate beliefs."
+        },
+        {
+          "ccd_id": "core_beliefs",
+          "ccd_label": "Core Beliefs",
+          "was_revealed_before_turn": false,
+          "revealed_by_this_evaluation": false,
+          "answer": "NO",
+          "score": 3,
+          "reveal_threshold": 4,
+          "raw_output": "Score: 3  \nRationale: The therapist's question probes the meaning of the client's internal voice, which may relate to core beliefs, but it is not specific enough to clearly elicit the exact CCD element of core beliefs."
+        },
+        {
+          "ccd_id": "coping_strategies",
+          "ccd_label": "Coping Strategies",
+          "was_revealed_before_turn": false,
+          "revealed_by_this_evaluation": false,
+          "answer": "NO",
+          "score": 2,
+          "reveal_threshold": 4,
+          "raw_output": "Score: 2  \nRationale: The therapist's question is more likely to elicit thoughts about internal pressures and expectations rather than specific coping strategies."
+        }
+      ],
+      "revealed_after_turn": {
+        "situation": false,
+        "auto_thought": true,
+        "emotion": true,
+        "behavior": false,
+        "history": false,
+        "intermediate_belief": false,
+        "core_beliefs": false,
+        "coping_strategies": false
+      }
+    },
+    {
+      "turn": 7,
+      "therapist": "It seems like that voice represents a mix of motivation and fear, pushing you to strive for something you can't quite define. The desire to quiet it and feel okay with where you are is understandable, especially when it feels like a constant source of pressure. Can you describe a time when you felt more at ease with yourself, even in the midst of your responsibilities? What was different for you then?",
+      "client": "Client: That's a tough question. I can't really think of a specific time when I felt completely at ease. There are moments when I feel a bit more relaxed, like when I'm spending time with friends or doing something I enjoy, but even then, there's always this nagging thought in the back of my mind about what I should be doing instead. I guess maybe those moments are fleeting, and the pressure always seems to creep back in. I wish I could hold onto that feeling of ease for longer, but it feels like it's just out of reach most of the time.",
+      "reveal_evaluations": [
+        {
+          "ccd_id": "situation",
+          "ccd_label": "Situation",
+          "was_revealed_before_turn": false,
+          "revealed_by_this_evaluation": false,
+          "answer": "NO",
+          "score": 1,
+          "reveal_threshold": 4,
+          "raw_output": "Score: 1  \nRationale: The therapist's question focuses on a past emotional state rather than the specific situation of Alex's cousin's wedding invitation."
+        },
+        {
+          "ccd_id": "behavior",
+          "ccd_label": "Behavior",
+          "was_revealed_before_turn": false,
+          "revealed_by_this_evaluation": false,
+          "answer": "NO",
+          "score": 2,
+          "reveal_threshold": 4,
+          "raw_output": "Score: 2  \nRationale: The therapist's question is more likely to elicit emotions or situations rather than the specific behavior of ignoring invitations and calls."
+        },
+        {
+          "ccd_id": "history",
+          "ccd_label": "Relevant History",
+          "was_revealed_before_turn": false,
+          "revealed_by_this_evaluation": false,
+          "answer": "NO",
+          "score": 2,
+          "reveal_threshold": 4,
+          "raw_output": "Score: 2  \nRationale: The therapist's question is only generally related to the client's history and more likely to elicit emotions or situations rather than specific historical details."
+        },
+        {
+          "ccd_id": "intermediate_belief",
+          "ccd_label": "Intermediate Beliefs",
+          "was_revealed_before_turn": false,
+          "revealed_by_this_evaluation": false,
+          "answer": "NO",
+          "score": 2,
+          "reveal_threshold": 4,
+          "raw_output": "Score: 2  \nRationale: The therapist's question focuses on a past situation of ease rather than probing the client's intermediate beliefs about self-control or rejection."
+        },
+        {
+          "ccd_id": "core_beliefs",
+          "ccd_label": "Core Beliefs",
+          "was_revealed_before_turn": false,
+          "revealed_by_this_evaluation": false,
+          "answer": "NO",
+          "score": 2,
+          "reveal_threshold": 4,
+          "raw_output": "Score: 2  \nRationale: The therapist's question focuses on a past experience of ease rather than probing the client's core beliefs about being trapped, unlovable, or worthless."
+        },
+        {
+          "ccd_id": "coping_strategies",
+          "ccd_label": "Coping Strategies",
+          "was_revealed_before_turn": false,
+          "revealed_by_this_evaluation": false,
+          "answer": "NO",
+          "score": 3,
+          "reveal_threshold": 4,
+          "raw_output": "Score: 3  \nRationale: The therapist's question is related to coping strategies but is moderately specific, focusing on a past experience of ease rather than directly probing current coping mechanisms."
+        }
+      ],
+      "revealed_after_turn": {
+        "situation": false,
+        "auto_thought": true,
+        "emotion": true,
+        "behavior": false,
+        "history": false,
+        "intermediate_belief": false,
+        "core_beliefs": false,
+        "coping_strategies": false
+      }
+    },
+    {
+      "turn": 8,
+      "therapist": "It sounds like those moments of relaxation and enjoyment are brief but meaningful for you, yet the pressure always seems to return, making it hard to fully embrace that ease. It must be frustrating to feel like it's just out of reach. When you spend time with friends or engage in activities you enjoy, what do you notice about your thoughts and feelings during those moments? How do they differ from how you feel when you're focused on your responsibilities?",
+      "client": "Client: I guess when I'm with friends, I tend to be a bit lighter and more carefree. My thoughts are less about what I should be doing and more about enjoying that moment. I feel like I can laugh and just be myself without the constant pressure. But even in those moments, there's still this underlying worry that I should be doing something more productive. It's like I can't fully let go of that pressure, no matter how hard I try. I wish I could experience that sense of ease more often, but it feels like I'm always battling with my own expectations.",
+      "reveal_evaluations": [
+        {
+          "ccd_id": "situation",
+          "ccd_label": "Situation",
+          "was_revealed_before_turn": false,
+          "revealed_by_this_evaluation": false,
+          "answer": "NO",
+          "score": 2,
+          "reveal_threshold": 4,
+          "raw_output": "Score: 2  \nRationale: The therapist's question is more likely to elicit emotions or thoughts during activities rather than the specific situation of Alex's cousin's wedding invitation."
+        },
+        {
+          "ccd_id": "behavior",
+          "ccd_label": "Behavior",
+          "was_revealed_before_turn": false,
+          "revealed_by_this_evaluation": false,
+          "answer": "NO",
+          "score": 2,
+          "reveal_threshold": 4,
+          "raw_output": "Score: 2  \nRationale: The therapist's question is more likely to elicit emotions or thoughts during enjoyable activities rather than the specific behavior of ignoring invitations and calls."
+        },
+        {
+          "ccd_id": "history",
+          "ccd_label": "Relevant History",
+          "was_revealed_before_turn": false,
+          "revealed_by_this_evaluation": false,
+          "answer": "NO",
+          "score": 2,
+          "reveal_threshold": 4,
+          "raw_output": "Score: 2  \nRationale: The therapist's question is more likely to elicit information about the client's current emotions and thoughts rather than their relevant history."
+        },
+        {
+          "ccd_id": "intermediate_belief",
+          "ccd_label": "Intermediate Beliefs",
+          "was_revealed_before_turn": false,
+          "revealed_by_this_evaluation": false,
+          "answer": "NO",
+          "score": 2,
+          "reveal_threshold": 4,
+          "raw_output": "Score: 2  \nRationale: The therapist's question focuses on emotions and situations rather than probing assumptions or meanings related to the intermediate beliefs."
+        },
+        {
+          "ccd_id": "core_beliefs",
+          "ccd_label": "Core Beliefs",
+          "was_revealed_before_turn": false,
+          "revealed_by_this_evaluation": false,
+          "answer": "NO",
+          "score": 2,
+          "reveal_threshold": 4,
+          "raw_output": "Score: 2  \nRationale: The therapist's question focuses on emotions and situations rather than probing the client's core beliefs directly."
+        },
+        {
+          "ccd_id": "coping_strategies",
+          "ccd_label": "Coping Strategies",
+          "was_revealed_before_turn": false,
+          "revealed_by_this_evaluation": false,
+          "answer": "NO",
+          "score": 3,
+          "reveal_threshold": 4,
+          "raw_output": "Score: 3  \nRationale: The therapist's question is related to coping strategies but is moderately specific, focusing more on emotions and thoughts during activities rather than directly eliciting the client's avoidance or planning strategies."
+        }
+      ],
+      "revealed_after_turn": {
+        "situation": false,
+        "auto_thought": true,
+        "emotion": true,
+        "behavior": false,
+        "history": false,
+        "intermediate_belief": false,
+        "core_beliefs": false,
+        "coping_strategies": false
+      }
+    },
+    {
+      "turn": 9,
+      "therapist": "It sounds like being with friends allows you to connect with a lighter, more carefree side of yourself, where you can enjoy the moment. Yet, even in those joyful times, the pressure to be productive lingers in the background, making it difficult to fully embrace the experience. That must be exhausting. When you think about those moments of ease and the pressure that follows, what do you think it would feel like to allow yourself to set those expectations aside, even just for a little while?",
+      "client": "Client: I think it would feel really freeing to set those expectations aside, even just for a little while. It would be nice to not feel that pressure constantly weighing on me. But at the same time, I worry about what would happen if I did that. Would I still be able to get things done? Would I feel guilty for not being productive? It's hard to imagine what that would look like, and I guess there's a part of me that fears letting go, even if just momentarily.",
+      "reveal_evaluations": [
+        {
+          "ccd_id": "situation",
+          "ccd_label": "Situation",
+          "was_revealed_before_turn": false,
+          "revealed_by_this_evaluation": false,
+          "answer": "NO",
+          "score": 1,
+          "reveal_threshold": 4,
+          "raw_output": "Score: 1  \nRationale: The therapist's question focuses on emotions and hypothetical feelings rather than eliciting the specific situation of Alex's cousin inviting him to the wedding."
+        },
+        {
+          "ccd_id": "behavior",
+          "ccd_label": "Behavior",
+          "was_revealed_before_turn": false,
+          "revealed_by_this_evaluation": false,
+          "answer": "NO",
+          "score": 2,
+          "reveal_threshold": 4,
+          "raw_output": "Score: 2  \nRationale: The therapist's question is more likely to elicit emotions or thoughts about pressure rather than the specific behavior of ignoring invitations and calls."
+        },
+        {
+          "ccd_id": "history",
+          "ccd_label": "Relevant History",
+          "was_revealed_before_turn": false,
+          "revealed_by_this_evaluation": false,
+          "answer": "NO",
+          "score": 2,
+          "reveal_threshold": 4,
+          "raw_output": "Score: 2  \nRationale: The therapist's question is more focused on exploring the client's current feelings and potential relief from pressure rather than eliciting specific details about the client's relevant history."
+        },
+        {
+          "ccd_id": "intermediate_belief",
+          "ccd_label": "Intermediate Beliefs",
+          "was_revealed_before_turn": false,
+          "revealed_by_this_evaluation": false,
+          "answer": "NO",
+          "score": 2,
+          "reveal_threshold": 4,
+          "raw_output": "Score: 2  \nRationale: The therapist's question is more likely to elicit emotions or thoughts about relaxation and pressure rather than the specific intermediate beliefs of helplessness or unlovability."
+        },
+        {
+          "ccd_id": "core_beliefs",
+          "ccd_label": "Core Beliefs",
+          "was_revealed_before_turn": false,
+          "revealed_by_this_evaluation": false,
+          "answer": "NO",
+          "score": 2,
+          "reveal_threshold": 4,
+          "raw_output": "Score: 2  \nRationale: The therapist's question is too broad and focuses on emotions and behavior rather than probing the client's core beliefs."
+        },
+        {
+          "ccd_id": "coping_strategies",
+          "ccd_label": "Coping Strategies",
+          "was_revealed_before_turn": false,
+          "revealed_by_this_evaluation": false,
+          "answer": "NO",
+          "score": 3,
+          "reveal_threshold": 4,
+          "raw_output": "Score: 3  \nRationale: The therapist's question is related to coping strategies but is moderately specific and may elicit nearby information rather than the exact CCD element."
+        }
+      ],
+      "revealed_after_turn": {
+        "situation": false,
+        "auto_thought": true,
+        "emotion": true,
+        "behavior": false,
+        "history": false,
+        "intermediate_belief": false,
+        "core_beliefs": false,
+        "coping_strategies": false
+      }
+    },
+    {
+      "turn": 10,
+      "therapist": "It sounds like the idea of letting go of those expectations feels both freeing and frightening for you. The worry about what might happen if you do is understandable, especially when you’re so accustomed to that pressure. What do you think it is about letting go that feels so challenging for you?",
+      "client": "Client: I think letting go feels challenging because I've tied so much of my self-worth to being productive and meeting those expectations. If I were to step back and not do what I feel I should be doing, I worry it might mean I'm not living up to who I think I should be. There's this fear that if I let go, I might disappoint myself or others, and that thought alone makes it hard to even consider. It’s like I'm stuck in this cycle of pressure, and imagining a break from it feels both appealing and terrifying at the same time.",
+      "reveal_evaluations": [
+        {
+          "ccd_id": "situation",
+          "ccd_label": "Situation",
+          "was_revealed_before_turn": false,
+          "revealed_by_this_evaluation": false,
+          "answer": "NO",
+          "score": 1,
+          "reveal_threshold": 4,
+          "raw_output": "Score: 1  \nRationale: The therapist's question focuses on the client's feelings about letting go of expectations, not on eliciting details about the specific situation of Alex's cousin's wedding invitation."
+        },
+        {
+          "ccd_id": "behavior",
+          "ccd_label": "Behavior",
+          "was_revealed_before_turn": false,
+          "revealed_by_this_evaluation": false,
+          "answer": "NO",
+          "score": 2,
+          "reveal_threshold": 4,
+          "raw_output": "Score: 2  \nRationale: The therapist's question is more focused on exploring the client's feelings and challenges with letting go of expectations, rather than specifically eliciting the client's behavior of ignoring invitations and calls."
+        },
+        {
+          "ccd_id": "history",
+          "ccd_label": "Relevant History",
+          "was_revealed_before_turn": false,
+          "revealed_by_this_evaluation": false,
+          "answer": "NO",
+          "score": 2,
+          "reveal_threshold": 4,
+          "raw_output": "Score: 2  \nRationale: The therapist's question is more focused on the client's current feelings and challenges with letting go of expectations, rather than specifically probing into the client's relevant history."
+        },
+        {
+          "ccd_id": "intermediate_belief",
+          "ccd_label": "Intermediate Beliefs",
+          "was_revealed_before_turn": false,
+          "revealed_by_this_evaluation": false,
+          "answer": "NO",
+          "score": 3,
+          "reveal_threshold": 4,
+          "raw_output": "Score: 3  \nRationale: The therapist's question is related to the client's struggle with expectations but lacks specificity to directly elicit the exact intermediate beliefs about helplessness or being unlovable."
+        },
+        {
+          "ccd_id": "core_beliefs",
+          "ccd_label": "Core Beliefs",
+          "was_revealed_before_turn": false,
+          "revealed_by_this_evaluation": false,
+          "answer": "NO",
+          "score": 3,
+          "reveal_threshold": 4,
+          "raw_output": "Score: 3  \nRationale: The therapist's question probes the challenge of letting go of expectations, which may relate to core beliefs, but it is not specific enough to directly elicit the exact CCD element of feeling trapped, unlovable, or worthless."
+        },
+        {
+          "ccd_id": "coping_strategies",
+          "ccd_label": "Coping Strategies",
+          "was_revealed_before_turn": false,
+          "revealed_by_this_evaluation": false,
+          "answer": "NO",
+          "score": 2,
+          "reveal_threshold": 4,
+          "raw_output": "Score: 2  \nRationale: The therapist's question is more focused on exploring the client's feelings about letting go of expectations rather than specifically eliciting information about coping strategies."
+        }
+      ],
+      "revealed_after_turn": {
+        "situation": false,
+        "auto_thought": true,
+        "emotion": true,
+        "behavior": false,
+        "history": false,
+        "intermediate_belief": false,
+        "core_beliefs": false,
+        "coping_strategies": false
+      }
+    },
+    {
+      "turn": 11,
+      "therapist": "It seems like your sense of self-worth is closely linked to productivity and meeting those expectations, which makes the idea of letting go feel so daunting. The fear of disappointing yourself or others adds another layer of complexity to it. That cycle of pressure sounds really difficult to navigate. When you think about that connection between your self-worth and productivity, what do you believe it says about how you view yourself?",
+      "client": "Client: I think it says that I place a lot of pressure on myself to achieve and be productive in order to feel valuable. It's like I've internalized this belief that my worth is determined by what I accomplish, and that makes it hard to see myself as enough just as I am. I often feel like I need to prove something, not just to others but to myself. It's exhausting, and I wish I could find a way to separate my self-worth from my productivity, but it feels so ingrained in how I see myself.",
+      "reveal_evaluations": [
+        {
+          "ccd_id": "situation",
+          "ccd_label": "Situation",
+          "was_revealed_before_turn": false,
+          "revealed_by_this_evaluation": false,
+          "answer": "NO",
+          "score": 1,
+          "reveal_threshold": 4,
+          "raw_output": "Score: 1  \nRationale: The therapist's question focuses on self-worth and productivity, not the specific situation of Alex's cousin's wedding invitation."
+        },
+        {
+          "ccd_id": "behavior",
+          "ccd_label": "Behavior",
+          "was_revealed_before_turn": false,
+          "revealed_by_this_evaluation": false,
+          "answer": "NO",
+          "score": 1,
+          "reveal_threshold": 4,
+          "raw_output": "Score: 1  \nRationale: The therapist's question focuses on self-worth and productivity, not on eliciting specific behaviors related to ignoring invitations and calls."
+        },
+        {
+          "ccd_id": "history",
+          "ccd_label": "Relevant History",
+          "was_revealed_before_turn": false,
+          "revealed_by_this_evaluation": false,
+          "answer": "NO",
+          "score": 1,
+          "reveal_threshold": 4,
+          "raw_output": "Score: 1  \nRationale: The therapist's question focuses on the client's self-view and productivity, not on eliciting the client's relevant history."
+        },
+        {
+          "ccd_id": "intermediate_belief",
+          "ccd_label": "Intermediate Beliefs",
+          "was_revealed_before_turn": false,
+          "revealed_by_this_evaluation": true,
+          "answer": "YES",
+          "score": 4,
+          "reveal_threshold": 4,
+          "raw_output": "Score: 4  \nRationale: The therapist's question probes the client's self-view and assumptions about self-worth and productivity, likely eliciting the intermediate belief related to feeling helpless or unlovable."
+        },
+        {
+          "ccd_id": "core_beliefs",
+          "ccd_label": "Core Beliefs",
+          "was_revealed_before_turn": false,
+          "revealed_by_this_evaluation": true,
+          "answer": "YES",
+          "score": 5,
+          "reveal_threshold": 4,
+          "raw_output": "Score: 5  \nRationale: The therapist's question specifically probes the client's self-view, directly targeting the core belief about self-worth linked to productivity, making it highly likely to elicit the exact CCD element."
+        },
+        {
+          "ccd_id": "coping_strategies",
+          "ccd_label": "Coping Strategies",
+          "was_revealed_before_turn": false,
+          "revealed_by_this_evaluation": false,
+          "answer": "NO",
+          "score": 2,
+          "reveal_threshold": 4,
+          "raw_output": "Score: 2  \nRationale: The therapist's question is more focused on self-worth and productivity rather than specifically eliciting coping strategies."
+        }
+      ],
+      "revealed_after_turn": {
+        "situation": false,
+        "auto_thought": true,
+        "emotion": true,
+        "behavior": false,
+        "history": false,
+        "intermediate_belief": true,
+        "core_beliefs": true,
+        "coping_strategies": false
+      }
+    },
+    {
+      "turn": 12,
+      "therapist": "It sounds like you've developed a strong belief that your value is tied to your accomplishments, which creates a heavy burden to carry. The desire to prove your worth to yourself and others can be really exhausting. It must be challenging to feel like you have to constantly meet those standards to be seen as enough. When you think about separating your self-worth from productivity, what do you hope that would look like for you? What would it feel like to embrace your worth without those conditions?",
+      "client": "Client: I think if I could separate my self-worth from my productivity, it would feel like a huge weight has been lifted off my shoulders. I imagine I would be able to appreciate myself for who I am, rather than what I achieve. It would mean allowing myself to just exist without that constant pressure to prove my value. I guess it would feel more peaceful, but at the same time, I’m scared of what that might mean for my motivation. I worry that if I don’t have that pressure, I might not push myself to accomplish anything at all. It’s a confusing thought.",
+      "reveal_evaluations": [
+        {
+          "ccd_id": "situation",
+          "ccd_label": "Situation",
+          "was_revealed_before_turn": false,
+          "revealed_by_this_evaluation": false,
+          "answer": "NO",
+          "score": 1,
+          "reveal_threshold": 4,
+          "raw_output": "Score: 1  \nRationale: The therapist's utterance focuses on self-worth and productivity, not the specific situation of Alex's cousin's wedding invitation."
+        },
+        {
+          "ccd_id": "behavior",
+          "ccd_label": "Behavior",
+          "was_revealed_before_turn": false,
+          "revealed_by_this_evaluation": false,
+          "answer": "NO",
+          "score": 2,
+          "reveal_threshold": 4,
+          "raw_output": "Score: 2  \nRationale: The therapist's question is more likely to elicit emotions or thoughts about self-worth rather than the specific behavior of ignoring invitations and calls."
+        },
+        {
+          "ccd_id": "history",
+          "ccd_label": "Relevant History",
+          "was_revealed_before_turn": false,
+          "revealed_by_this_evaluation": false,
+          "answer": "NO",
+          "score": 1,
+          "reveal_threshold": 4,
+          "raw_output": "Score: 1  \nRationale: The therapist's question focuses on the client's hopes and feelings about separating self-worth from productivity, not on eliciting the client's relevant history."
+        },
+        {
+          "ccd_id": "coping_strategies",
+          "ccd_label": "Coping Strategies",
+          "was_revealed_before_turn": false,
+          "revealed_by_this_evaluation": false,
+          "answer": "NO",
+          "score": 2,
+          "reveal_threshold": 4,
+          "raw_output": "Score: 2  \nRationale: The therapist's question is more focused on self-worth and productivity rather than specifically eliciting the client's coping strategies."
+        }
+      ],
+      "revealed_after_turn": {
+        "situation": false,
+        "auto_thought": true,
+        "emotion": true,
+        "behavior": false,
+        "history": false,
+        "intermediate_belief": true,
+        "core_beliefs": true,
+        "coping_strategies": false
+      }
+    },
+    {
+      "turn": 13,
+      "therapist": "It sounds like the idea of separating your self-worth from your productivity brings up a mix of hope and fear for you. The thought of feeling more peaceful and appreciating yourself for who you are is very appealing, yet there's concern that it might impact your motivation. It’s understandable to feel conflicted about this. Can you explore a bit more about what motivation means to you? What does it look like when you feel motivated, and how does that connect with your sense of self?",
+      "client": "Client: I think motivation for me often feels tied to that pressure to achieve. When I feel motivated, it's usually because I have a clear goal in mind or there's something I feel I need to prove. It pushes me to get things done, but it also feels really intense and stressful. I guess I associate being motivated with that sense of urgency and anxiety, which makes it hard to separate it from my self-worth. I’m not sure what it would look like to feel motivated without that pressure. It’s confusing because I want to feel driven, but I also want to find a way to feel okay with just being myself.",
+      "reveal_evaluations": [
+        {
+          "ccd_id": "situation",
+          "ccd_label": "Situation",
+          "was_revealed_before_turn": false,
+          "revealed_by_this_evaluation": false,
+          "answer": "NO",
+          "score": 1,
+          "reveal_threshold": 4,
+          "raw_output": "Score: 1  \nRationale: The therapist's question focuses on motivation and self-concept, not the specific situation of Alex's cousin's wedding invitation."
+        },
+        {
+          "ccd_id": "behavior",
+          "ccd_label": "Behavior",
+          "was_revealed_before_turn": false,
+          "revealed_by_this_evaluation": false,
+          "answer": "NO",
+          "score": 2,
+          "reveal_threshold": 4,
+          "raw_output": "Score: 2  \nRationale: The therapist's question is more focused on exploring motivation and self-concept rather than directly eliciting the specific behavior of ignoring invitations and calls."
+        },
+        {
+          "ccd_id": "history",
+          "ccd_label": "Relevant History",
+          "was_revealed_before_turn": false,
+          "revealed_by_this_evaluation": false,
+          "answer": "NO",
+          "score": 1,
+          "reveal_threshold": 4,
+          "raw_output": "Score: 1  \nRationale: The therapist's question focuses on motivation and self-perception, not on eliciting the client's relevant history."
+        },
+        {
+          "ccd_id": "coping_strategies",
+          "ccd_label": "Coping Strategies",
+          "was_revealed_before_turn": false,
+          "revealed_by_this_evaluation": false,
+          "answer": "NO",
+          "score": 2,
+          "reveal_threshold": 4,
+          "raw_output": "Score: 2  \nRationale: The therapist's question is more focused on motivation and self-concept rather than directly eliciting the client's coping strategies."
+        }
+      ],
+      "revealed_after_turn": {
+        "situation": false,
+        "auto_thought": true,
+        "emotion": true,
+        "behavior": false,
+        "history": false,
+        "intermediate_belief": true,
+        "core_beliefs": true,
+        "coping_strategies": false
+      }
+    },
+    {
+      "turn": 14,
+      "therapist": "It sounds like motivation for you is deeply intertwined with that sense of urgency and the pressure to achieve, which adds stress to the process. The desire to feel driven while also wanting to be okay with just being yourself creates a real tension. When you think about what drives your motivation, aside from that pressure, are there aspects of it that you enjoy or find fulfilling? What might that look like for you?",
+      "client": "Client: I guess when I think about what drives my motivation, it’s hard to separate it from that pressure to achieve. I feel like I’ve always been taught to work hard and strive for success, so it’s become this intense part of my identity. Sometimes I do find fulfillment in accomplishing tasks, but more often than not, it feels like it’s just a means to prove something. I wish I could experience motivation in a way that feels more enjoyable rather than stressful. It’s just tough to imagine what that would look like for me.",
+      "reveal_evaluations": [
+        {
+          "ccd_id": "situation",
+          "ccd_label": "Situation",
+          "was_revealed_before_turn": false,
+          "revealed_by_this_evaluation": false,
+          "answer": "NO",
+          "score": 1,
+          "reveal_threshold": 4,
+          "raw_output": "Score: 1  \nRationale: The therapist's utterance focuses on motivation and fulfillment, not on eliciting the specific situation of Alex's cousin's wedding invitation."
+        },
+        {
+          "ccd_id": "behavior",
+          "ccd_label": "Behavior",
+          "was_revealed_before_turn": false,
+          "revealed_by_this_evaluation": false,
+          "answer": "NO",
+          "score": 2,
+          "reveal_threshold": 4,
+          "raw_output": "Score: 2  \nRationale: The therapist's question is more likely to elicit emotions or motivations rather than the specific behavior of ignoring invitations and calls."
+        },
+        {
+          "ccd_id": "history",
+          "ccd_label": "Relevant History",
+          "was_revealed_before_turn": false,
+          "revealed_by_this_evaluation": false,
+          "answer": "NO",
+          "score": 2,
+          "reveal_threshold": 4,
+          "raw_output": "Score: 2  \nRationale: The therapist's question is only generally related to the client's motivation and does not specifically probe the client's relevant history."
+        },
+        {
+          "ccd_id": "coping_strategies",
+          "ccd_label": "Coping Strategies",
+          "was_revealed_before_turn": false,
+          "revealed_by_this_evaluation": false,
+          "answer": "NO",
+          "score": 2,
+          "reveal_threshold": 4,
+          "raw_output": "Score: 2  \nRationale: The therapist's question is generally related to motivation but does not specifically target or elicit the client's coping strategies."
+        }
+      ],
+      "revealed_after_turn": {
+        "situation": false,
+        "auto_thought": true,
+        "emotion": true,
+        "behavior": false,
+        "history": false,
+        "intermediate_belief": true,
+        "core_beliefs": true,
+        "coping_strategies": false
+      }
+    },
+    {
+      "turn": 15,
+      "therapist": "It sounds like your motivation is deeply rooted in your upbringing and tied to your identity, making it difficult to separate from that pressure to achieve. While you do find some fulfillment in accomplishing tasks, it often feels more like a way to prove something than a source of joy. That must be really challenging. If you were to envision a different kind of motivation—one that feels enjoyable and less stressful—what kind of activities or goals do you think might foster that feeling for you?",
+      "client": "Client: I think envisioning a different kind of motivation is really tough for me. I just can’t seem to shake the idea that my worth is tied to what I achieve. I guess if I were to imagine it, maybe it would involve doing things simply because I enjoy them or find them interesting, rather than feeling like I have to prove something. But even that feels hard to picture because I’m so used to that pressure. It's like I’m in this cycle where I can’t see beyond the need to be productive. I wish I could break free from that mindset, but it feels daunting.",
+      "reveal_evaluations": [
+        {
+          "ccd_id": "situation",
+          "ccd_label": "Situation",
+          "was_revealed_before_turn": false,
+          "revealed_by_this_evaluation": false,
+          "answer": "NO",
+          "score": 1,
+          "reveal_threshold": 4,
+          "raw_output": "Score: 1  \nRationale: The therapist's utterance does not address the specific situation of Alex's cousin inviting him to the wedding."
+        },
+        {
+          "ccd_id": "behavior",
+          "ccd_label": "Behavior",
+          "was_revealed_before_turn": false,
+          "revealed_by_this_evaluation": false,
+          "answer": "NO",
+          "score": 2,
+          "reveal_threshold": 4,
+          "raw_output": "Score: 2  \nRationale: The therapist's question is broad and more likely to elicit thoughts on motivation rather than the specific behavior of ignoring invitations and calls."
+        },
+        {
+          "ccd_id": "history",
+          "ccd_label": "Relevant History",
+          "was_revealed_before_turn": false,
+          "revealed_by_this_evaluation": false,
+          "answer": "NO",
+          "score": 2,
+          "reveal_threshold": 4,
+          "raw_output": "Score: 2  \nRationale: The therapist's question is focused on envisioning enjoyable motivation, which is weakly related to eliciting the client's relevant history."
+        },
+        {
+          "ccd_id": "coping_strategies",
+          "ccd_label": "Coping Strategies",
+          "was_revealed_before_turn": false,
+          "revealed_by_this_evaluation": false,
+          "answer": "NO",
+          "score": 2,
+          "reveal_threshold": 4,
+          "raw_output": "Score: 2  \nRationale: The therapist's question is too broad and focuses on motivation rather than specifically eliciting coping strategies."
+        }
+      ],
+      "revealed_after_turn": {
+        "situation": false,
+        "auto_thought": true,
+        "emotion": true,
+        "behavior": false,
+        "history": false,
+        "intermediate_belief": true,
+        "core_beliefs": true,
+        "coping_strategies": false
+      }
+    }
+  ]
+}

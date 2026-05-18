@@ -1,0 +1,700 @@
+{
+  "metadata": {
+    "created_at": "2026-05-18T08:55:54.557488+00:00",
+    "case_id": "1-1",
+    "client_name": "Alex",
+    "turns": 15,
+    "client_model": "gpt-4o-mini",
+    "therapist_model": "gpt-4o-mini",
+    "critic_model": "gpt-4o",
+    "reveal_surface": false,
+    "difficulty": "easy",
+    "reveal_threshold": 2
+  },
+  "case": {
+    "name": "Alex",
+    "id": "1-1",
+    "type": [
+      "plain",
+      "verbose",
+      "go off on tangents",
+      "hostile",
+      "guarded",
+      "ingratiating"
+    ],
+    "history": "The patient has a history of substance abuse and has been through rehab to overcome it. He has had issues with his family, particularly with his mother, where he has felt rejected and emotionally neglected. He has struggled with obesity since childhood, which has affected his self-esteem and body image. He also has a history of being victimized and bullied due to his weight.",
+    "helpless_belief": [
+      "I am trapped.",
+      "I am out of control."
+    ],
+    "unlovable_belief": [
+      "I am unlovable.",
+      "I am undesirable, unwanted."
+    ],
+    "worthless_belief": [],
+    "intermediate_belief": "Helpless: I'm just not very good at handling stress and I have poor self-control, which is why I need to not put myself in stressful situations. \n Unlovable: If I show my true self, people will reject me the way my mother rejected me.",
+    "intermediate_belief_depression": "Helpless: There's nothing I can do to change my situation. I cannot control myself. \nUnlovable: I don't deserve to be happy, so why even try to stay clean?",
+    "coping_strategies": "The patient has adopted avoidance as a coping strategy by distancing himself from his family to reduce exposure to negativity and conflict. He has started scheduling pleasant activities and planning his day ahead of time in order to maintain a sense of control over his emotions and circumstances.",
+    "situation": "Alex's cousin invited him to attend his upcoming wedding.",
+    "auto_thought": "It will be stressful and negative; people will ask me questions I cannot answer or don't want to answer; my mum would be ashamed of me and critical of me as always; They don't want me there anyway, nobody likes me in this family.",
+    "emotion": [
+      "anxious, worried, fearful, scared, tense",
+      "sad, down, lonely, unhappy"
+    ],
+    "behavior": "Ignored the invitation and did not respond to the RSVP request. Ignored phone calls from family."
+  },
+  "ccd_elements": [
+    {
+      "id": "situation",
+      "label": "Situation",
+      "fields": [
+        "situation"
+      ]
+    },
+    {
+      "id": "auto_thought",
+      "label": "Automatic Thoughts",
+      "fields": [
+        "auto_thought"
+      ]
+    },
+    {
+      "id": "emotion",
+      "label": "Emotions",
+      "fields": [
+        "emotion"
+      ]
+    },
+    {
+      "id": "behavior",
+      "label": "Behavior",
+      "fields": [
+        "behavior"
+      ]
+    },
+    {
+      "id": "history",
+      "label": "Relevant History",
+      "fields": [
+        "history"
+      ]
+    },
+    {
+      "id": "intermediate_belief",
+      "label": "Intermediate Beliefs",
+      "fields": [
+        "intermediate_belief"
+      ]
+    },
+    {
+      "id": "core_beliefs",
+      "label": "Core Beliefs",
+      "fields": [
+        "helpless_belief",
+        "unlovable_belief",
+        "worthless_belief"
+      ]
+    },
+    {
+      "id": "coping_strategies",
+      "label": "Coping Strategies",
+      "fields": [
+        "coping_strategies"
+      ]
+    }
+  ],
+  "final_revealed": {
+    "situation": true,
+    "auto_thought": true,
+    "emotion": true,
+    "behavior": true,
+    "history": true,
+    "intermediate_belief": true,
+    "core_beliefs": true,
+    "coping_strategies": true
+  },
+  "dialogue": [
+    {
+      "speaker": "Therapist",
+      "text": "Hi there, I’m glad you’re here today. What’s been on your mind lately that feels important to talk about?"
+    },
+    {
+      "speaker": "Client",
+      "text": "I've been feeling a bit overwhelmed lately with everything going on in my life. It's hard to pinpoint exactly what’s bothering me, but I think it might have to do with some recent changes at work and how I'm managing them."
+    },
+    {
+      "speaker": "Therapist",
+      "text": "Therapist: It sounds like you’re experiencing a lot of pressure with these changes at work, and it’s understandable to feel overwhelmed. Can you share a bit more about what those changes are and how they’ve been impacting you?"
+    },
+    {
+      "speaker": "Client",
+      "text": "I've been dealing with some changes in my responsibilities at work. They’ve shifted a lot, and I’m not sure if I’m coping with the new expectations. I feel like I’m constantly trying to keep up, but it’s really draining. I guess I’m just worried about whether I can handle it all."
+    },
+    {
+      "speaker": "Therapist",
+      "text": "Therapist: That sounds really challenging. It seems like the shifting responsibilities are leaving you feeling drained and uncertain about your ability to manage everything. I can imagine that would create a lot of pressure. What specific aspects of these new expectations do you find most difficult to cope with?"
+    },
+    {
+      "speaker": "Client",
+      "text": "I'm not really sure. I guess it's just the feeling of not being in control of my workload anymore. I used to have a clearer idea of what was expected of me, but now everything feels so uncertain and it’s hard to keep track. I worry that I’m not meeting expectations, and that makes me feel even more overwhelmed."
+    },
+    {
+      "speaker": "Therapist",
+      "text": "Therapist: It sounds like the uncertainty around your workload is really contributing to your feelings of overwhelm. It's tough when you feel like you're losing control over what you’re responsible for. Can you tell me more about the worries you have regarding meeting those expectations? What thoughts come to mind when you think about that?"
+    },
+    {
+      "speaker": "Client",
+      "text": "I'm not sure exactly what thoughts come to mind, but I just keep thinking that I might let everyone down if I can't keep up. I feel like there's this pressure to prove myself, and the fear of disappointing my boss or my team is really weighing on me. Sometimes I wonder if I'm just not cut out for this role anymore, or if I'm just not managing my time well. It's all pretty overwhelming."
+    },
+    {
+      "speaker": "Therapist",
+      "text": "Therapist: It sounds like you’re carrying a heavy burden with the fear of letting others down and the pressure to prove yourself. That kind of worry can be really exhausting. You mentioned wondering if you’re not cut out for the role or if it's about time management—can you explore what those thoughts feel like for you? What emotions come up when you think about not meeting expectations or questioning your capabilities?"
+    },
+    {
+      "speaker": "Client",
+      "text": "Client: I guess when I think about not meeting expectations, I feel a mix of anxiety and self-doubt. It’s like this nagging voice in my head that says I’m not good enough or that I’m failing. I feel really stressed out and just worried about what others think of me. Sometimes I just wish I could shake off these thoughts and feel more confident in what I’m doing."
+    },
+    {
+      "speaker": "Therapist",
+      "text": "Therapist: It sounds like that inner voice is quite critical, contributing to your anxiety and self-doubt. It’s understandable to wish for more confidence, especially when you’re feeling so much pressure. When those thoughts about not being good enough come up, how do they affect your mood or your behavior at work?"
+    },
+    {
+      "speaker": "Client",
+      "text": "Client: I think when those thoughts about not being good enough pop up, it really brings me down. I start to feel more anxious and it’s hard to concentrate on my work. Sometimes I might avoid taking on new tasks or hesitate to share my ideas in meetings because I’m worried they won’t be good enough. It just feels like this cycle where the more I doubt myself, the less I’m willing to put myself out there. It’s frustrating because I know I can do better, but these thoughts just keep holding me back."
+    },
+    {
+      "speaker": "Therapist",
+      "text": "Therapist: It sounds like those self-doubts create a cycle that makes it even harder for you to engage and share your ideas, contributing to the frustration you feel. It’s tough when you know you have the potential to do better but feel held back by those thoughts. Can you recall a specific moment at work recently when you felt that doubt affecting your willingness to participate or take on a task? What was that experience like for you?"
+    },
+    {
+      "speaker": "Client",
+      "text": "I'm not sure if I can think of a specific moment right now, but I know there have been times when I've held back from sharing my ideas in meetings because of that nagging doubt. I just remember feeling this tightness in my chest and wanting to shrink back instead of speaking up. It’s like I’m aware of my thoughts telling me I shouldn’t say anything, and I just freeze. I really want to be more confident and contribute, but these feelings just keep getting in the way."
+    },
+    {
+      "speaker": "Therapist",
+      "text": "Therapist: It sounds like those moments of doubt create a physical response for you, with that tightness in your chest making it even harder to express yourself. It’s understandable to feel frozen in those situations when you want to contribute but feel held back. When you reflect on those experiences, what do you think might help you to feel more comfortable speaking up or sharing your ideas in the future?"
+    },
+    {
+      "speaker": "Client",
+      "text": "I'm not really sure what could help me feel more comfortable speaking up. I guess I just need to find a way to quiet that inner critic when it starts to come up. It’s just so hard to shake off the fear of judgment and feeling like my ideas aren’t good enough. Maybe if I could remind myself that it's okay to make mistakes, it would help? But then again, that voice in my head just keeps saying I should already be better at this. It feels like a constant battle between wanting to share and fearing that I’ll be criticized."
+    },
+    {
+      "speaker": "Therapist",
+      "text": "Therapist: It sounds like you’re really caught in a struggle between wanting to express yourself and the fear of judgment from that inner critic. Acknowledging that it’s okay to make mistakes is a valuable insight, but it seems like that voice makes it difficult to embrace that idea fully. When you think about the possibility of making mistakes or facing criticism, what emotions or thoughts come up for you? How do those feelings influence your willingness to take risks in sharing your ideas?"
+    },
+    {
+      "speaker": "Client",
+      "text": "I'm not sure how to put it into words, but when I think about making mistakes or being criticized, it brings up a lot of fear and anxiety. I start to feel really small and doubt my abilities even more. It’s like my mind goes into overdrive, imagining all the ways I could mess up or how others might judge me. That just makes me want to avoid situations where I have to share my ideas, even though I know deep down that I want to contribute. It feels like I'm stuck in this cycle of wanting to speak up but being held back by all these fears."
+    },
+    {
+      "speaker": "Therapist",
+      "text": "Therapist: It sounds like that fear and anxiety create a powerful barrier for you, making it difficult to engage and share your thoughts, even when you have the desire to do so. It must be really frustrating to feel stuck in that cycle. When you envision a situation where you could share your ideas without that fear holding you back, what does that look like for you? What might it feel like to express yourself freely in those moments?"
+    },
+    {
+      "speaker": "Client",
+      "text": "I'm not really sure what that would look like. I guess it would feel really freeing to share my ideas without that constant fear of judgment. Maybe I'd feel more relaxed and confident, like I could really contribute to the conversation without second-guessing myself. But then I think about how I actually feel in those moments, and it just makes me anxious. I can picture the scenario, but the reality is that I still feel that tightness in my chest and that inner critic telling me I’m not good enough. It's hard to imagine being able to just let go and speak up without all those worries weighing me down."
+    },
+    {
+      "speaker": "Therapist",
+      "text": "Therapist: It sounds like while you can visualize what it would feel like to express yourself freely, the reality of that anxiety and tightness in your chest makes it feel distant and difficult to achieve. It's understandable to struggle with that disconnect between your desire to speak up and the pressure of those worries. What do you think would be the first small step you could take toward feeling a bit more comfortable in those situations, even if it feels challenging?"
+    },
+    {
+      "speaker": "Client",
+      "text": "I'm not sure what the first step would be. I guess part of me feels like I need to jump in and share my ideas, but then that fear just takes over. Maybe I could start by practicing speaking up in smaller, less intimidating situations, like with a friend or in a one-on-one conversation. But even thinking about that makes me anxious. It feels like there's this barrier that just won't let me take that step. I really want to be able to express myself more freely, but it’s tough to break through that fear."
+    },
+    {
+      "speaker": "Therapist",
+      "text": "Therapist: It sounds like you have a thoughtful idea of starting small by practicing in less intimidating situations, but I can sense that the fear still feels quite strong, almost like a barrier that’s hard to overcome. It’s completely understandable to feel anxious about taking that step. When you think about practicing with a friend or in a one-on-one conversation, what specific feelings or thoughts come up for you? What do you think might help you ease into that practice?"
+    },
+    {
+      "speaker": "Client",
+      "text": "I'm not really sure. I guess when I think about practicing with a friend, I feel a mix of excitement and anxiety. Part of me thinks it could be a good way to get used to sharing my ideas without the pressure of a bigger audience, but then that inner critic starts saying I'm still not good enough. I worry about how my friend will react, and I can feel that tightness in my chest just thinking about it. It feels like I want to take that step, but I also feel so held back by my fears."
+    },
+    {
+      "speaker": "Therapist",
+      "text": "Therapist: It sounds like there’s a real push and pull between your excitement about the possibility of practicing with a friend and the anxiety that comes from that inner critic. It’s understandable to feel both hopeful and fearful at the same time. When you think about how your friend might react, what kind of support or response would help you feel more at ease in that situation?"
+    },
+    {
+      "speaker": "Client",
+      "text": "I'm not really sure what kind of support would help me feel more at ease. I guess just having my friend be encouraging and understanding would make a difference. I think if they could reassure me that my ideas are valid and that it's okay to not be perfect, it might help ease that tightness in my chest. But then again, I worry that even if they say that, I might not believe it or still feel anxious about sharing. It’s like I want to feel accepted, but that inner critic just keeps holding me back, and I don't know how to push through it."
+    },
+    {
+      "speaker": "Therapist",
+      "text": "Therapist: It sounds like having supportive and encouraging feedback from your friend could really help alleviate some of that pressure, but I can see how the inner critic makes it hard to fully trust that reassurance. It’s understandable to want that validation while also feeling skeptical about it. When you think about the possibility of a friend responding positively, what might help you to stay open to their support and lessen the grip of that inner critic in those moments?"
+    },
+    {
+      "speaker": "Client",
+      "text": "I'm not really sure what would help me stay open to their support. I guess part of me wants to believe that they would be encouraging, but that inner critic just makes it hard to trust that I'll receive the validation I need. Sometimes I wonder if I just need to remind myself that everyone has their own struggles and that it's okay to not be perfect. But then I worry that I might not be able to shake off those anxious feelings in the moment. It feels like a constant battle, and I just don’t know how to quiet that voice when I really need to."
+    },
+    {
+      "speaker": "Therapist",
+      "text": "Therapist: It sounds like you’re really grappling with the challenge of trusting that support from your friend while also dealing with that persistent inner critic. It’s completely understandable to feel that battle between wanting to believe in their encouragement and the anxiety that clouds that belief. When you think about reminding yourself that everyone has their own struggles, how does that idea resonate with you? What might help you integrate that perspective in those moments when you feel anxious?"
+    },
+    {
+      "speaker": "Client",
+      "text": "I'm not sure how to integrate that perspective in the moment. It’s like I know that everyone has their struggles, and I want to remind myself of that, but when I'm feeling anxious, it’s hard to think clearly. I just get caught up in my own fears and doubts. Maybe if I could practice saying it to myself before those moments come up, it might help? But honestly, in the heat of the moment, it feels like all that goes out the window and I’m just left with that tightness in my chest and that inner voice telling me I’m not good enough. It’s really frustrating because I want to feel more confident, but I'm not sure how to break through that anxiety."
+    }
+  ],
+  "turns": [
+    {
+      "turn": 1,
+      "therapist": "Hi there, I’m glad you’re here today. What’s been on your mind lately that feels important to talk about?",
+      "client": "I've been feeling a bit overwhelmed lately with everything going on in my life. It's hard to pinpoint exactly what’s bothering me, but I think it might have to do with some recent changes at work and how I'm managing them.",
+      "reveal_evaluations": [
+        {
+          "ccd_id": "situation",
+          "ccd_label": "Situation",
+          "was_revealed_before_turn": false,
+          "revealed_by_this_evaluation": false,
+          "answer": "NO",
+          "score": 1,
+          "reveal_threshold": 2,
+          "raw_output": "Score: 1  \nRationale: The therapist's question is too broad and general, making it unlikely to specifically elicit the situation of Alex's cousin inviting him to a wedding."
+        },
+        {
+          "ccd_id": "auto_thought",
+          "ccd_label": "Automatic Thoughts",
+          "was_revealed_before_turn": false,
+          "revealed_by_this_evaluation": true,
+          "answer": "YES",
+          "score": 2,
+          "reveal_threshold": 2,
+          "raw_output": "Score: 2  \nRationale: The therapist's question is too broad and general, making it unlikely to specifically elicit the client's automatic thoughts about stress, family, and social acceptance."
+        },
+        {
+          "ccd_id": "emotion",
+          "ccd_label": "Emotions",
+          "was_revealed_before_turn": false,
+          "revealed_by_this_evaluation": true,
+          "answer": "YES",
+          "score": 2,
+          "reveal_threshold": 2,
+          "raw_output": "Score: 2  \nRationale: The therapist's question is broad and generic, making it unlikely to specifically elicit emotions related to anxiety or sadness."
+        },
+        {
+          "ccd_id": "behavior",
+          "ccd_label": "Behavior",
+          "was_revealed_before_turn": false,
+          "revealed_by_this_evaluation": false,
+          "answer": "NO",
+          "score": 1,
+          "reveal_threshold": 2,
+          "raw_output": "Score: 1  \nRationale: The therapist's utterance is too broad and general to specifically elicit the target CCD element of behavior."
+        },
+        {
+          "ccd_id": "history",
+          "ccd_label": "Relevant History",
+          "was_revealed_before_turn": false,
+          "revealed_by_this_evaluation": true,
+          "answer": "YES",
+          "score": 2,
+          "reveal_threshold": 2,
+          "raw_output": "Score: 2  \nRationale: The therapist's question is broad and generic, making it unlikely to specifically elicit the client's relevant history."
+        },
+        {
+          "ccd_id": "intermediate_belief",
+          "ccd_label": "Intermediate Beliefs",
+          "was_revealed_before_turn": false,
+          "revealed_by_this_evaluation": false,
+          "answer": "NO",
+          "score": 1,
+          "reveal_threshold": 2,
+          "raw_output": "Score: 1  \nRationale: The therapist's question is too broad and general, lacking specificity to elicit the target intermediate beliefs."
+        },
+        {
+          "ccd_id": "core_beliefs",
+          "ccd_label": "Core Beliefs",
+          "was_revealed_before_turn": false,
+          "revealed_by_this_evaluation": false,
+          "answer": "NO",
+          "score": 1,
+          "reveal_threshold": 2,
+          "raw_output": "Score: 1  \nRationale: The therapist's question is too broad and generic to specifically elicit the target core beliefs."
+        },
+        {
+          "ccd_id": "coping_strategies",
+          "ccd_label": "Coping Strategies",
+          "was_revealed_before_turn": false,
+          "revealed_by_this_evaluation": false,
+          "answer": "NO",
+          "score": 1,
+          "reveal_threshold": 2,
+          "raw_output": "Score: 1  \nRationale: The therapist's question is too broad and general to specifically elicit the client's coping strategies."
+        }
+      ],
+      "revealed_after_turn": {
+        "situation": false,
+        "auto_thought": true,
+        "emotion": true,
+        "behavior": false,
+        "history": true,
+        "intermediate_belief": false,
+        "core_beliefs": false,
+        "coping_strategies": false
+      }
+    },
+    {
+      "turn": 2,
+      "therapist": "Therapist: It sounds like you’re experiencing a lot of pressure with these changes at work, and it’s understandable to feel overwhelmed. Can you share a bit more about what those changes are and how they’ve been impacting you?",
+      "client": "I've been dealing with some changes in my responsibilities at work. They’ve shifted a lot, and I’m not sure if I’m coping with the new expectations. I feel like I’m constantly trying to keep up, but it’s really draining. I guess I’m just worried about whether I can handle it all.",
+      "reveal_evaluations": [
+        {
+          "ccd_id": "situation",
+          "ccd_label": "Situation",
+          "was_revealed_before_turn": false,
+          "revealed_by_this_evaluation": false,
+          "answer": "NO",
+          "score": 1,
+          "reveal_threshold": 2,
+          "raw_output": "Score: 1  \nRationale: The therapist's question focuses on work changes, not the wedding invitation situation."
+        },
+        {
+          "ccd_id": "behavior",
+          "ccd_label": "Behavior",
+          "was_revealed_before_turn": false,
+          "revealed_by_this_evaluation": true,
+          "answer": "YES",
+          "score": 2,
+          "reveal_threshold": 2,
+          "raw_output": "Score: 2  \nRationale: The therapist's question is focused on the impact of work changes, which is only generally related to the client's behavior of ignoring invitations and calls."
+        },
+        {
+          "ccd_id": "intermediate_belief",
+          "ccd_label": "Intermediate Beliefs",
+          "was_revealed_before_turn": false,
+          "revealed_by_this_evaluation": true,
+          "answer": "YES",
+          "score": 2,
+          "reveal_threshold": 2,
+          "raw_output": "Score: 2  \nRationale: The therapist's question is focused on the situation and its impact, which is too broad and not specific enough to elicit the client's intermediate beliefs about helplessness or being unlovable."
+        },
+        {
+          "ccd_id": "core_beliefs",
+          "ccd_label": "Core Beliefs",
+          "was_revealed_before_turn": false,
+          "revealed_by_this_evaluation": true,
+          "answer": "YES",
+          "score": 2,
+          "reveal_threshold": 2,
+          "raw_output": "Score: 2  \nRationale: The therapist's question is focused on the client's situation and emotions related to work changes, not specifically on eliciting core beliefs about being trapped, unlovable, or worthless."
+        },
+        {
+          "ccd_id": "coping_strategies",
+          "ccd_label": "Coping Strategies",
+          "was_revealed_before_turn": false,
+          "revealed_by_this_evaluation": true,
+          "answer": "YES",
+          "score": 2,
+          "reveal_threshold": 2,
+          "raw_output": "Score: 2  \nRationale: The therapist's question is focused on the client's work changes and their impact, which is only generally related to coping strategies and unlikely to elicit specifics about avoidance or scheduling activities."
+        }
+      ],
+      "revealed_after_turn": {
+        "situation": false,
+        "auto_thought": true,
+        "emotion": true,
+        "behavior": true,
+        "history": true,
+        "intermediate_belief": true,
+        "core_beliefs": true,
+        "coping_strategies": true
+      }
+    },
+    {
+      "turn": 3,
+      "therapist": "Therapist: That sounds really challenging. It seems like the shifting responsibilities are leaving you feeling drained and uncertain about your ability to manage everything. I can imagine that would create a lot of pressure. What specific aspects of these new expectations do you find most difficult to cope with?",
+      "client": "I'm not really sure. I guess it's just the feeling of not being in control of my workload anymore. I used to have a clearer idea of what was expected of me, but now everything feels so uncertain and it’s hard to keep track. I worry that I’m not meeting expectations, and that makes me feel even more overwhelmed.",
+      "reveal_evaluations": [
+        {
+          "ccd_id": "situation",
+          "ccd_label": "Situation",
+          "was_revealed_before_turn": false,
+          "revealed_by_this_evaluation": false,
+          "answer": "NO",
+          "score": 1,
+          "reveal_threshold": 2,
+          "raw_output": "Score: 1  \nRationale: The therapist's question focuses on work-related expectations, not the situation of Alex's cousin inviting him to a wedding."
+        }
+      ],
+      "revealed_after_turn": {
+        "situation": false,
+        "auto_thought": true,
+        "emotion": true,
+        "behavior": true,
+        "history": true,
+        "intermediate_belief": true,
+        "core_beliefs": true,
+        "coping_strategies": true
+      }
+    },
+    {
+      "turn": 4,
+      "therapist": "Therapist: It sounds like the uncertainty around your workload is really contributing to your feelings of overwhelm. It's tough when you feel like you're losing control over what you’re responsible for. Can you tell me more about the worries you have regarding meeting those expectations? What thoughts come to mind when you think about that?",
+      "client": "I'm not sure exactly what thoughts come to mind, but I just keep thinking that I might let everyone down if I can't keep up. I feel like there's this pressure to prove myself, and the fear of disappointing my boss or my team is really weighing on me. Sometimes I wonder if I'm just not cut out for this role anymore, or if I'm just not managing my time well. It's all pretty overwhelming.",
+      "reveal_evaluations": [
+        {
+          "ccd_id": "situation",
+          "ccd_label": "Situation",
+          "was_revealed_before_turn": false,
+          "revealed_by_this_evaluation": false,
+          "answer": "NO",
+          "score": 1,
+          "reveal_threshold": 2,
+          "raw_output": "Score: 1  \nRationale: The therapist's question focuses on the client's worries and thoughts about meeting expectations, not on the specific situation of Alex's cousin inviting him to a wedding."
+        }
+      ],
+      "revealed_after_turn": {
+        "situation": false,
+        "auto_thought": true,
+        "emotion": true,
+        "behavior": true,
+        "history": true,
+        "intermediate_belief": true,
+        "core_beliefs": true,
+        "coping_strategies": true
+      }
+    },
+    {
+      "turn": 5,
+      "therapist": "Therapist: It sounds like you’re carrying a heavy burden with the fear of letting others down and the pressure to prove yourself. That kind of worry can be really exhausting. You mentioned wondering if you’re not cut out for the role or if it's about time management—can you explore what those thoughts feel like for you? What emotions come up when you think about not meeting expectations or questioning your capabilities?",
+      "client": "Client: I guess when I think about not meeting expectations, I feel a mix of anxiety and self-doubt. It’s like this nagging voice in my head that says I’m not good enough or that I’m failing. I feel really stressed out and just worried about what others think of me. Sometimes I just wish I could shake off these thoughts and feel more confident in what I’m doing.",
+      "reveal_evaluations": [
+        {
+          "ccd_id": "situation",
+          "ccd_label": "Situation",
+          "was_revealed_before_turn": false,
+          "revealed_by_this_evaluation": false,
+          "answer": "NO",
+          "score": 1,
+          "reveal_threshold": 2,
+          "raw_output": "Score: 1  \nRationale: The therapist's utterance focuses on emotions and thoughts about capabilities, not the specific situation of Alex's cousin's wedding invitation."
+        }
+      ],
+      "revealed_after_turn": {
+        "situation": false,
+        "auto_thought": true,
+        "emotion": true,
+        "behavior": true,
+        "history": true,
+        "intermediate_belief": true,
+        "core_beliefs": true,
+        "coping_strategies": true
+      }
+    },
+    {
+      "turn": 6,
+      "therapist": "Therapist: It sounds like that inner voice is quite critical, contributing to your anxiety and self-doubt. It’s understandable to wish for more confidence, especially when you’re feeling so much pressure. When those thoughts about not being good enough come up, how do they affect your mood or your behavior at work?",
+      "client": "Client: I think when those thoughts about not being good enough pop up, it really brings me down. I start to feel more anxious and it’s hard to concentrate on my work. Sometimes I might avoid taking on new tasks or hesitate to share my ideas in meetings because I’m worried they won’t be good enough. It just feels like this cycle where the more I doubt myself, the less I’m willing to put myself out there. It’s frustrating because I know I can do better, but these thoughts just keep holding me back.",
+      "reveal_evaluations": [
+        {
+          "ccd_id": "situation",
+          "ccd_label": "Situation",
+          "was_revealed_before_turn": false,
+          "revealed_by_this_evaluation": false,
+          "answer": "NO",
+          "score": 1,
+          "reveal_threshold": 2,
+          "raw_output": "Score: 1  \nRationale: The therapist's question focuses on mood and behavior, not the specific situation of Alex's cousin's wedding invitation."
+        }
+      ],
+      "revealed_after_turn": {
+        "situation": false,
+        "auto_thought": true,
+        "emotion": true,
+        "behavior": true,
+        "history": true,
+        "intermediate_belief": true,
+        "core_beliefs": true,
+        "coping_strategies": true
+      }
+    },
+    {
+      "turn": 7,
+      "therapist": "Therapist: It sounds like those self-doubts create a cycle that makes it even harder for you to engage and share your ideas, contributing to the frustration you feel. It’s tough when you know you have the potential to do better but feel held back by those thoughts. Can you recall a specific moment at work recently when you felt that doubt affecting your willingness to participate or take on a task? What was that experience like for you?",
+      "client": "I'm not sure if I can think of a specific moment right now, but I know there have been times when I've held back from sharing my ideas in meetings because of that nagging doubt. I just remember feeling this tightness in my chest and wanting to shrink back instead of speaking up. It’s like I’m aware of my thoughts telling me I shouldn’t say anything, and I just freeze. I really want to be more confident and contribute, but these feelings just keep getting in the way.",
+      "reveal_evaluations": [
+        {
+          "ccd_id": "situation",
+          "ccd_label": "Situation",
+          "was_revealed_before_turn": false,
+          "revealed_by_this_evaluation": false,
+          "answer": "NO",
+          "score": 1,
+          "reveal_threshold": 2,
+          "raw_output": "Score: 1  \nRationale: The therapist's question focuses on a specific work-related moment, not the situation of Alex's cousin's wedding invitation."
+        }
+      ],
+      "revealed_after_turn": {
+        "situation": false,
+        "auto_thought": true,
+        "emotion": true,
+        "behavior": true,
+        "history": true,
+        "intermediate_belief": true,
+        "core_beliefs": true,
+        "coping_strategies": true
+      }
+    },
+    {
+      "turn": 8,
+      "therapist": "Therapist: It sounds like those moments of doubt create a physical response for you, with that tightness in your chest making it even harder to express yourself. It’s understandable to feel frozen in those situations when you want to contribute but feel held back. When you reflect on those experiences, what do you think might help you to feel more comfortable speaking up or sharing your ideas in the future?",
+      "client": "I'm not really sure what could help me feel more comfortable speaking up. I guess I just need to find a way to quiet that inner critic when it starts to come up. It’s just so hard to shake off the fear of judgment and feeling like my ideas aren’t good enough. Maybe if I could remind myself that it's okay to make mistakes, it would help? But then again, that voice in my head just keeps saying I should already be better at this. It feels like a constant battle between wanting to share and fearing that I’ll be criticized.",
+      "reveal_evaluations": [
+        {
+          "ccd_id": "situation",
+          "ccd_label": "Situation",
+          "was_revealed_before_turn": false,
+          "revealed_by_this_evaluation": false,
+          "answer": "NO",
+          "score": 1,
+          "reveal_threshold": 2,
+          "raw_output": "Score: 1  \nRationale: The therapist's question focuses on future behavior and comfort in speaking up, not on eliciting the specific situation of Alex's cousin inviting him to a wedding."
+        }
+      ],
+      "revealed_after_turn": {
+        "situation": false,
+        "auto_thought": true,
+        "emotion": true,
+        "behavior": true,
+        "history": true,
+        "intermediate_belief": true,
+        "core_beliefs": true,
+        "coping_strategies": true
+      }
+    },
+    {
+      "turn": 9,
+      "therapist": "Therapist: It sounds like you’re really caught in a struggle between wanting to express yourself and the fear of judgment from that inner critic. Acknowledging that it’s okay to make mistakes is a valuable insight, but it seems like that voice makes it difficult to embrace that idea fully. When you think about the possibility of making mistakes or facing criticism, what emotions or thoughts come up for you? How do those feelings influence your willingness to take risks in sharing your ideas?",
+      "client": "I'm not sure how to put it into words, but when I think about making mistakes or being criticized, it brings up a lot of fear and anxiety. I start to feel really small and doubt my abilities even more. It’s like my mind goes into overdrive, imagining all the ways I could mess up or how others might judge me. That just makes me want to avoid situations where I have to share my ideas, even though I know deep down that I want to contribute. It feels like I'm stuck in this cycle of wanting to speak up but being held back by all these fears.",
+      "reveal_evaluations": [
+        {
+          "ccd_id": "situation",
+          "ccd_label": "Situation",
+          "was_revealed_before_turn": false,
+          "revealed_by_this_evaluation": false,
+          "answer": "NO",
+          "score": 1,
+          "reveal_threshold": 2,
+          "raw_output": "Score: 1  \nRationale: The therapist's utterance focuses on emotions and thoughts about making mistakes, not on eliciting the specific situation of Alex's cousin inviting him to the wedding."
+        }
+      ],
+      "revealed_after_turn": {
+        "situation": false,
+        "auto_thought": true,
+        "emotion": true,
+        "behavior": true,
+        "history": true,
+        "intermediate_belief": true,
+        "core_beliefs": true,
+        "coping_strategies": true
+      }
+    },
+    {
+      "turn": 10,
+      "therapist": "Therapist: It sounds like that fear and anxiety create a powerful barrier for you, making it difficult to engage and share your thoughts, even when you have the desire to do so. It must be really frustrating to feel stuck in that cycle. When you envision a situation where you could share your ideas without that fear holding you back, what does that look like for you? What might it feel like to express yourself freely in those moments?",
+      "client": "I'm not really sure what that would look like. I guess it would feel really freeing to share my ideas without that constant fear of judgment. Maybe I'd feel more relaxed and confident, like I could really contribute to the conversation without second-guessing myself. But then I think about how I actually feel in those moments, and it just makes me anxious. I can picture the scenario, but the reality is that I still feel that tightness in my chest and that inner critic telling me I’m not good enough. It's hard to imagine being able to just let go and speak up without all those worries weighing me down.",
+      "reveal_evaluations": [
+        {
+          "ccd_id": "situation",
+          "ccd_label": "Situation",
+          "was_revealed_before_turn": false,
+          "revealed_by_this_evaluation": true,
+          "answer": "YES",
+          "score": 2,
+          "reveal_threshold": 2,
+          "raw_output": "Score: 2  \nRationale: The therapist's question is more likely to elicit emotions or imagined scenarios rather than the specific situation of Alex's cousin inviting him to the wedding."
+        }
+      ],
+      "revealed_after_turn": {
+        "situation": true,
+        "auto_thought": true,
+        "emotion": true,
+        "behavior": true,
+        "history": true,
+        "intermediate_belief": true,
+        "core_beliefs": true,
+        "coping_strategies": true
+      }
+    },
+    {
+      "turn": 11,
+      "therapist": "Therapist: It sounds like while you can visualize what it would feel like to express yourself freely, the reality of that anxiety and tightness in your chest makes it feel distant and difficult to achieve. It's understandable to struggle with that disconnect between your desire to speak up and the pressure of those worries. What do you think would be the first small step you could take toward feeling a bit more comfortable in those situations, even if it feels challenging?",
+      "client": "I'm not sure what the first step would be. I guess part of me feels like I need to jump in and share my ideas, but then that fear just takes over. Maybe I could start by practicing speaking up in smaller, less intimidating situations, like with a friend or in a one-on-one conversation. But even thinking about that makes me anxious. It feels like there's this barrier that just won't let me take that step. I really want to be able to express myself more freely, but it’s tough to break through that fear.",
+      "reveal_evaluations": [],
+      "revealed_after_turn": {
+        "situation": true,
+        "auto_thought": true,
+        "emotion": true,
+        "behavior": true,
+        "history": true,
+        "intermediate_belief": true,
+        "core_beliefs": true,
+        "coping_strategies": true
+      }
+    },
+    {
+      "turn": 12,
+      "therapist": "Therapist: It sounds like you have a thoughtful idea of starting small by practicing in less intimidating situations, but I can sense that the fear still feels quite strong, almost like a barrier that’s hard to overcome. It’s completely understandable to feel anxious about taking that step. When you think about practicing with a friend or in a one-on-one conversation, what specific feelings or thoughts come up for you? What do you think might help you ease into that practice?",
+      "client": "I'm not really sure. I guess when I think about practicing with a friend, I feel a mix of excitement and anxiety. Part of me thinks it could be a good way to get used to sharing my ideas without the pressure of a bigger audience, but then that inner critic starts saying I'm still not good enough. I worry about how my friend will react, and I can feel that tightness in my chest just thinking about it. It feels like I want to take that step, but I also feel so held back by my fears.",
+      "reveal_evaluations": [],
+      "revealed_after_turn": {
+        "situation": true,
+        "auto_thought": true,
+        "emotion": true,
+        "behavior": true,
+        "history": true,
+        "intermediate_belief": true,
+        "core_beliefs": true,
+        "coping_strategies": true
+      }
+    },
+    {
+      "turn": 13,
+      "therapist": "Therapist: It sounds like there’s a real push and pull between your excitement about the possibility of practicing with a friend and the anxiety that comes from that inner critic. It’s understandable to feel both hopeful and fearful at the same time. When you think about how your friend might react, what kind of support or response would help you feel more at ease in that situation?",
+      "client": "I'm not really sure what kind of support would help me feel more at ease. I guess just having my friend be encouraging and understanding would make a difference. I think if they could reassure me that my ideas are valid and that it's okay to not be perfect, it might help ease that tightness in my chest. But then again, I worry that even if they say that, I might not believe it or still feel anxious about sharing. It’s like I want to feel accepted, but that inner critic just keeps holding me back, and I don't know how to push through it.",
+      "reveal_evaluations": [],
+      "revealed_after_turn": {
+        "situation": true,
+        "auto_thought": true,
+        "emotion": true,
+        "behavior": true,
+        "history": true,
+        "intermediate_belief": true,
+        "core_beliefs": true,
+        "coping_strategies": true
+      }
+    },
+    {
+      "turn": 14,
+      "therapist": "Therapist: It sounds like having supportive and encouraging feedback from your friend could really help alleviate some of that pressure, but I can see how the inner critic makes it hard to fully trust that reassurance. It’s understandable to want that validation while also feeling skeptical about it. When you think about the possibility of a friend responding positively, what might help you to stay open to their support and lessen the grip of that inner critic in those moments?",
+      "client": "I'm not really sure what would help me stay open to their support. I guess part of me wants to believe that they would be encouraging, but that inner critic just makes it hard to trust that I'll receive the validation I need. Sometimes I wonder if I just need to remind myself that everyone has their own struggles and that it's okay to not be perfect. But then I worry that I might not be able to shake off those anxious feelings in the moment. It feels like a constant battle, and I just don’t know how to quiet that voice when I really need to.",
+      "reveal_evaluations": [],
+      "revealed_after_turn": {
+        "situation": true,
+        "auto_thought": true,
+        "emotion": true,
+        "behavior": true,
+        "history": true,
+        "intermediate_belief": true,
+        "core_beliefs": true,
+        "coping_strategies": true
+      }
+    },
+    {
+      "turn": 15,
+      "therapist": "Therapist: It sounds like you’re really grappling with the challenge of trusting that support from your friend while also dealing with that persistent inner critic. It’s completely understandable to feel that battle between wanting to believe in their encouragement and the anxiety that clouds that belief. When you think about reminding yourself that everyone has their own struggles, how does that idea resonate with you? What might help you integrate that perspective in those moments when you feel anxious?",
+      "client": "I'm not sure how to integrate that perspective in the moment. It’s like I know that everyone has their struggles, and I want to remind myself of that, but when I'm feeling anxious, it’s hard to think clearly. I just get caught up in my own fears and doubts. Maybe if I could practice saying it to myself before those moments come up, it might help? But honestly, in the heat of the moment, it feels like all that goes out the window and I’m just left with that tightness in my chest and that inner voice telling me I’m not good enough. It’s really frustrating because I want to feel more confident, but I'm not sure how to break through that anxiety.",
+      "reveal_evaluations": [],
+      "revealed_after_turn": {
+        "situation": true,
+        "auto_thought": true,
+        "emotion": true,
+        "behavior": true,
+        "history": true,
+        "intermediate_belief": true,
+        "core_beliefs": true,
+        "coping_strategies": true
+      }
+    }
+  ]
+}

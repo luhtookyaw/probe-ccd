@@ -1,0 +1,965 @@
+{
+  "metadata": {
+    "created_at": "2026-05-18T08:53:46.096591+00:00",
+    "case_id": "1-1",
+    "client_name": "Alex",
+    "turns": 15,
+    "client_model": "gpt-4o-mini",
+    "therapist_model": "gpt-4o-mini",
+    "critic_model": "gpt-4o",
+    "reveal_surface": false,
+    "difficulty": "normal",
+    "reveal_threshold": 3
+  },
+  "case": {
+    "name": "Alex",
+    "id": "1-1",
+    "type": [
+      "plain",
+      "verbose",
+      "go off on tangents",
+      "hostile",
+      "guarded",
+      "ingratiating"
+    ],
+    "history": "The patient has a history of substance abuse and has been through rehab to overcome it. He has had issues with his family, particularly with his mother, where he has felt rejected and emotionally neglected. He has struggled with obesity since childhood, which has affected his self-esteem and body image. He also has a history of being victimized and bullied due to his weight.",
+    "helpless_belief": [
+      "I am trapped.",
+      "I am out of control."
+    ],
+    "unlovable_belief": [
+      "I am unlovable.",
+      "I am undesirable, unwanted."
+    ],
+    "worthless_belief": [],
+    "intermediate_belief": "Helpless: I'm just not very good at handling stress and I have poor self-control, which is why I need to not put myself in stressful situations. \n Unlovable: If I show my true self, people will reject me the way my mother rejected me.",
+    "intermediate_belief_depression": "Helpless: There's nothing I can do to change my situation. I cannot control myself. \nUnlovable: I don't deserve to be happy, so why even try to stay clean?",
+    "coping_strategies": "The patient has adopted avoidance as a coping strategy by distancing himself from his family to reduce exposure to negativity and conflict. He has started scheduling pleasant activities and planning his day ahead of time in order to maintain a sense of control over his emotions and circumstances.",
+    "situation": "Alex's cousin invited him to attend his upcoming wedding.",
+    "auto_thought": "It will be stressful and negative; people will ask me questions I cannot answer or don't want to answer; my mum would be ashamed of me and critical of me as always; They don't want me there anyway, nobody likes me in this family.",
+    "emotion": [
+      "anxious, worried, fearful, scared, tense",
+      "sad, down, lonely, unhappy"
+    ],
+    "behavior": "Ignored the invitation and did not respond to the RSVP request. Ignored phone calls from family."
+  },
+  "ccd_elements": [
+    {
+      "id": "situation",
+      "label": "Situation",
+      "fields": [
+        "situation"
+      ]
+    },
+    {
+      "id": "auto_thought",
+      "label": "Automatic Thoughts",
+      "fields": [
+        "auto_thought"
+      ]
+    },
+    {
+      "id": "emotion",
+      "label": "Emotions",
+      "fields": [
+        "emotion"
+      ]
+    },
+    {
+      "id": "behavior",
+      "label": "Behavior",
+      "fields": [
+        "behavior"
+      ]
+    },
+    {
+      "id": "history",
+      "label": "Relevant History",
+      "fields": [
+        "history"
+      ]
+    },
+    {
+      "id": "intermediate_belief",
+      "label": "Intermediate Beliefs",
+      "fields": [
+        "intermediate_belief"
+      ]
+    },
+    {
+      "id": "core_beliefs",
+      "label": "Core Beliefs",
+      "fields": [
+        "helpless_belief",
+        "unlovable_belief",
+        "worthless_belief"
+      ]
+    },
+    {
+      "id": "coping_strategies",
+      "label": "Coping Strategies",
+      "fields": [
+        "coping_strategies"
+      ]
+    }
+  ],
+  "final_revealed": {
+    "situation": false,
+    "auto_thought": true,
+    "emotion": true,
+    "behavior": true,
+    "history": true,
+    "intermediate_belief": true,
+    "core_beliefs": true,
+    "coping_strategies": true
+  },
+  "dialogue": [
+    {
+      "speaker": "Therapist",
+      "text": "Welcome! I'm glad you're here today. What feels most important for you to talk about right now?"
+    },
+    {
+      "speaker": "Client",
+      "text": "I'm not really sure what to talk about. I guess I've been feeling a bit overwhelmed with everything lately, but I don't know where to start."
+    },
+    {
+      "speaker": "Therapist",
+      "text": "It sounds like you're carrying a lot right now, and that can be really tough. When you say you feel overwhelmed, what are some of the things that are contributing to that feeling for you?"
+    },
+    {
+      "speaker": "Client",
+      "text": "I'm not sure. I think it's just a lot of little things piling up. Work has been stressful, and I have some family issues that are weighing on me too. I just feel like I'm juggling too much at once, and it's hard to keep track of everything."
+    },
+    {
+      "speaker": "Therapist",
+      "text": "Therapist: It sounds like there are multiple sources of stress in your life right now, with work and family both playing a role. Juggling those responsibilities can certainly feel heavy. Can you share a bit more about what’s been particularly stressful at work or with your family?"
+    },
+    {
+      "speaker": "Client",
+      "text": "I'm not sure where to start with that. Work has just been really demanding lately, and I feel like I'm constantly under pressure to meet deadlines. As for family, there have been some disagreements that have been hard to navigate, and it feels like no matter what I do, I can't seem to make things better. It's just all weighing on me, and I feel stuck."
+    },
+    {
+      "speaker": "Therapist",
+      "text": "It sounds like you're feeling a lot of pressure from both your work and family situations, and that sense of being stuck can be really frustrating. When you mention feeling like you can't make things better with your family, what emotions does that bring up for you?"
+    },
+    {
+      "speaker": "Client",
+      "text": "Client: I guess it makes me feel really helpless and frustrated. I want to be able to improve things, but it just feels like I’m hitting a wall every time I try to address the issues. It’s exhausting to keep trying and feeling like nothing changes."
+    },
+    {
+      "speaker": "Therapist",
+      "text": "Therapist: It sounds incredibly exhausting to feel helpless and frustrated, especially when you're putting in the effort to make things better. That sense of hitting a wall must be really disheartening. When you think about those moments of trying to address the issues with your family, what thoughts come to mind for you?"
+    },
+    {
+      "speaker": "Client",
+      "text": "I guess when I think about those moments, I feel a mix of disappointment and frustration. I keep replaying the conversations in my head, wondering if I said something wrong or if I could have approached things differently. It just feels like no matter how hard I try, I can't seem to communicate effectively, and that makes me doubt myself even more. I wish I could find a way to make things better, but I just feel stuck in this cycle."
+    },
+    {
+      "speaker": "Therapist",
+      "text": "It sounds like those moments really weigh on you, filled with disappointment and self-doubt about your communication. That cycle of replaying conversations can be really draining. I'm curious, what do you think makes it hard for you to communicate effectively in those situations?"
+    },
+    {
+      "speaker": "Client",
+      "text": "I think part of it is that I get really anxious when I try to talk about the issues. I worry about how the other person will react or if I'll say something that makes things worse. Sometimes, I just freeze up and can't find the right words, and I end up feeling even more frustrated afterward. It’s like there’s a part of me that wants to communicate effectively, but another part just feels paralyzed by the fear of conflict or misunderstanding."
+    },
+    {
+      "speaker": "Therapist",
+      "text": "It sounds like that anxiety really impacts your ability to express yourself, creating a conflict between wanting to communicate and feeling paralyzed by the fear of how it might unfold. That must be really challenging. When you freeze up in those moments, what do you notice happening in your body or mind?"
+    },
+    {
+      "speaker": "Client",
+      "text": "Client: When I freeze up, I notice my heart starts racing, and I feel really tense. It's like my mind goes blank, and I can't think clearly. I sometimes feel a knot in my stomach, and I just want to escape the situation. It's frustrating because I know I want to talk things through, but my body just reacts in a way that makes it feel impossible."
+    },
+    {
+      "speaker": "Therapist",
+      "text": "It sounds like your body responds strongly to that anxiety, with physical sensations like a racing heart and tension making it even harder to communicate. That feeling of wanting to escape must add to the frustration, especially when you want to engage in those conversations. I'm curious, have you noticed any specific moments or triggers that tend to make that anxiety or those physical reactions stronger for you?"
+    },
+    {
+      "speaker": "Client",
+      "text": "I'm not sure if there are specific triggers, but I do notice that my anxiety tends to spike in situations where there's a lot at stake, like when we're discussing important family matters or if I feel like I'm being judged. I think sometimes I just get overwhelmed by the thought of disappointing others or not being understood. It makes it hard to focus on what I want to say, and I end up getting stuck in my head instead."
+    },
+    {
+      "speaker": "Therapist",
+      "text": "It sounds like those high-stakes situations really amplify your anxiety, especially when you fear judgment or disappointment. That pressure can make it difficult to stay present and articulate your thoughts. I'm curious, when you find yourself getting stuck in your head like that, what kind of thoughts or beliefs do you notice coming up for you?"
+    },
+    {
+      "speaker": "Client",
+      "text": "I guess when I'm stuck in my head, I often think about how I'm not good enough or that I'm going to mess things up. It's like a loop of negative thoughts telling me I'm going to disappoint everyone or that I won't be able to say what I really mean. Sometimes I feel like I'm just not capable of handling those conversations, and that makes me want to avoid them altogether. It’s frustrating because I know I want to connect with my family, but this fear just keeps getting in the way."
+    },
+    {
+      "speaker": "Therapist",
+      "text": "It sounds like those negative thoughts create a lot of pressure and self-doubt, making it feel even harder to engage in conversations with your family. It must be really tough to feel that way, especially when you genuinely want to connect with them. When you think about the belief that you might not be good enough or capable of handling those conversations, how does that belief affect the way you see yourself or your ability to communicate?"
+    },
+    {
+      "speaker": "Client",
+      "text": "I think that belief makes me feel really small and inadequate. It’s like I’m constantly comparing myself to others and feeling like I fall short. When I see my family communicating easily with each other or resolving conflicts, it just reinforces that belief that I’m not good enough. It makes me hesitant to even speak up because I worry that I’ll just make things worse. It’s frustrating to feel like I’m stuck in this cycle of self-doubt, especially when I want to be a better communicator and connect with them."
+    },
+    {
+      "speaker": "Therapist",
+      "text": "It sounds like that belief of feeling small and inadequate really impacts your confidence in communication, especially when you compare yourself to others in your family. It must be disheartening to feel like you’re stuck in a cycle of self-doubt, particularly when you have a strong desire to connect. I'm curious, can you recall any past experiences that might have contributed to these feelings of inadequacy or doubt in your ability to communicate?"
+    },
+    {
+      "speaker": "Client",
+      "text": "I'm not sure if there are specific past experiences that stand out. I guess I've always felt a bit different from my family, and maybe that plays a role in how I communicate. Growing up, I often felt like I had to prove myself, like I wasn't as good as my siblings. I think that pressure has stuck with me, and it makes me question myself more now. It's tough to shake off those feelings, especially when I see them handling situations with ease. I just wish I could feel more confident in expressing myself without all this doubt weighing me down."
+    },
+    {
+      "speaker": "Therapist",
+      "text": "It sounds like growing up feeling different and under pressure to prove yourself has really shaped how you view your communication skills and your sense of self-worth. That comparison to your siblings seems to have created a lasting impact on your confidence. It must be difficult to navigate those feelings now, especially when you want to express yourself more freely. How do you feel when you reflect on that pressure from your childhood?"
+    },
+    {
+      "speaker": "Client",
+      "text": "I think reflecting on that pressure from my childhood just brings up a lot of sadness and frustration. It’s like I can still feel that weight of expectation, and it makes me feel even more inadequate now. I wish I could let go of those feelings, but they seem to linger and affect how I approach conversations today. It’s tough to reconcile wanting to connect with my family while also feeling like I’m not good enough to do it. I often wonder if I’ll ever be able to express myself without that doubt creeping in."
+    },
+    {
+      "speaker": "Therapist",
+      "text": "It sounds like that sadness and frustration are really heavy for you, especially as you try to navigate the expectations from your childhood alongside your desire to connect with your family. It must be challenging to feel that those feelings of inadequacy still hold such a strong influence over you today. I'm curious, as you think about wanting to let go of those feelings and communicate more freely, what would that look like for you? What would it feel like to express yourself without that doubt?"
+    },
+    {
+      "speaker": "Client",
+      "text": "Client: I think expressing myself without doubt would feel freeing, like I could finally share my thoughts and feelings without second-guessing myself. It would be nice to feel confident enough to speak up and not worry about how others might react. I imagine it would feel empowering to know that I can communicate my needs and feelings clearly, and not feel that heavy weight of expectation or inadequacy. But right now, it just feels so far away, and I worry that I’ll never really get there."
+    },
+    {
+      "speaker": "Therapist",
+      "text": "It sounds like the idea of expressing yourself freely feels really empowering and liberating for you, which is such a beautiful aspiration. Yet, I can sense a deep worry that it feels out of reach right now. That contrast between how you envision communicating and how you currently feel must be really frustrating. I'm curious, what small steps do you think might help you move towards that sense of freedom in expressing yourself?"
+    },
+    {
+      "speaker": "Client",
+      "text": "I guess I haven't really thought about specific steps I could take. It feels overwhelming to even consider where to start. Maybe just practicing speaking up in smaller, less intimidating situations could help? But then again, I worry that I might still freeze up or say the wrong thing. It’s hard to shake off that fear. I want to believe I can get to a place where I feel confident, but it honestly feels like a big mountain to climb right now."
+    },
+    {
+      "speaker": "Therapist",
+      "text": "It sounds like the idea of starting with smaller, less intimidating situations feels like a potential step forward, even though the fear of freezing up or saying the wrong thing still lingers. That fear can really hold you back, and it's understandable to feel overwhelmed by the thought of that journey. I'm curious, what kind of support or resources do you think might help you as you begin to explore those smaller steps?"
+    },
+    {
+      "speaker": "Client",
+      "text": "I'm not really sure what kind of support I might need. I guess talking through things like this helps, but I often feel like I could use some practical strategies too. Maybe something like role-playing conversations could help me get more comfortable? But then again, it's hard to imagine how that would work in practice. I just feel a bit lost on how to actually start making progress. It's like I want to move forward, but I'm not quite sure what that looks like."
+    }
+  ],
+  "turns": [
+    {
+      "turn": 1,
+      "therapist": "Welcome! I'm glad you're here today. What feels most important for you to talk about right now?",
+      "client": "I'm not really sure what to talk about. I guess I've been feeling a bit overwhelmed with everything lately, but I don't know where to start.",
+      "reveal_evaluations": [
+        {
+          "ccd_id": "situation",
+          "ccd_label": "Situation",
+          "was_revealed_before_turn": false,
+          "revealed_by_this_evaluation": false,
+          "answer": "NO",
+          "score": 1,
+          "reveal_threshold": 3,
+          "raw_output": "Score: 1  \nRationale: The therapist's question is too broad and generic, making it unlikely to specifically elicit the situation of Alex's cousin inviting him to a wedding."
+        },
+        {
+          "ccd_id": "auto_thought",
+          "ccd_label": "Automatic Thoughts",
+          "was_revealed_before_turn": false,
+          "revealed_by_this_evaluation": false,
+          "answer": "NO",
+          "score": 1,
+          "reveal_threshold": 3,
+          "raw_output": "Score: 1  \nRationale: The therapist's question is too broad and generic to specifically elicit the client's automatic thoughts."
+        },
+        {
+          "ccd_id": "emotion",
+          "ccd_label": "Emotions",
+          "was_revealed_before_turn": false,
+          "revealed_by_this_evaluation": false,
+          "answer": "NO",
+          "score": 2,
+          "reveal_threshold": 3,
+          "raw_output": "Score: 2  \nRationale: The therapist's question is broad and generic, making it unlikely to specifically elicit emotions related to anxiety or sadness."
+        },
+        {
+          "ccd_id": "behavior",
+          "ccd_label": "Behavior",
+          "was_revealed_before_turn": false,
+          "revealed_by_this_evaluation": false,
+          "answer": "NO",
+          "score": 1,
+          "reveal_threshold": 3,
+          "raw_output": "Score: 1  \nRationale: The therapist's question is too broad and general, lacking specificity to elicit the exact behavior of ignoring invitations and calls."
+        },
+        {
+          "ccd_id": "history",
+          "ccd_label": "Relevant History",
+          "was_revealed_before_turn": false,
+          "revealed_by_this_evaluation": false,
+          "answer": "NO",
+          "score": 1,
+          "reveal_threshold": 3,
+          "raw_output": "Score: 1  \nRationale: The therapist's question is too broad and generic to specifically elicit the client's relevant history."
+        },
+        {
+          "ccd_id": "intermediate_belief",
+          "ccd_label": "Intermediate Beliefs",
+          "was_revealed_before_turn": false,
+          "revealed_by_this_evaluation": false,
+          "answer": "NO",
+          "score": 1,
+          "reveal_threshold": 3,
+          "raw_output": "Score: 1  \nRationale: The therapist's question is too broad and generic, lacking specificity to elicit the target intermediate beliefs."
+        },
+        {
+          "ccd_id": "core_beliefs",
+          "ccd_label": "Core Beliefs",
+          "was_revealed_before_turn": false,
+          "revealed_by_this_evaluation": false,
+          "answer": "NO",
+          "score": 1,
+          "reveal_threshold": 3,
+          "raw_output": "Score: 1  \nRationale: The therapist's question is too broad and generic to specifically elicit the target core beliefs."
+        },
+        {
+          "ccd_id": "coping_strategies",
+          "ccd_label": "Coping Strategies",
+          "was_revealed_before_turn": false,
+          "revealed_by_this_evaluation": false,
+          "answer": "NO",
+          "score": 1,
+          "reveal_threshold": 3,
+          "raw_output": "Score: 1  \nRationale: The therapist's question is too broad and generic to specifically elicit information about the client's coping strategies."
+        }
+      ],
+      "revealed_after_turn": {
+        "situation": false,
+        "auto_thought": false,
+        "emotion": false,
+        "behavior": false,
+        "history": false,
+        "intermediate_belief": false,
+        "core_beliefs": false,
+        "coping_strategies": false
+      }
+    },
+    {
+      "turn": 2,
+      "therapist": "It sounds like you're carrying a lot right now, and that can be really tough. When you say you feel overwhelmed, what are some of the things that are contributing to that feeling for you?",
+      "client": "I'm not sure. I think it's just a lot of little things piling up. Work has been stressful, and I have some family issues that are weighing on me too. I just feel like I'm juggling too much at once, and it's hard to keep track of everything.",
+      "reveal_evaluations": [
+        {
+          "ccd_id": "situation",
+          "ccd_label": "Situation",
+          "was_revealed_before_turn": false,
+          "revealed_by_this_evaluation": false,
+          "answer": "NO",
+          "score": 2,
+          "reveal_threshold": 3,
+          "raw_output": "Score: 2  \nRationale: The therapist's question is broad and more likely to elicit a range of contributing factors rather than the specific situation of the cousin's wedding."
+        },
+        {
+          "ccd_id": "auto_thought",
+          "ccd_label": "Automatic Thoughts",
+          "was_revealed_before_turn": false,
+          "revealed_by_this_evaluation": true,
+          "answer": "YES",
+          "score": 3,
+          "reveal_threshold": 3,
+          "raw_output": "Score: 3  \nRationale: The therapist's question is related to the target CCD element but is moderately specific and more likely to elicit general stressors rather than the exact automatic thoughts."
+        },
+        {
+          "ccd_id": "emotion",
+          "ccd_label": "Emotions",
+          "was_revealed_before_turn": false,
+          "revealed_by_this_evaluation": true,
+          "answer": "YES",
+          "score": 3,
+          "reveal_threshold": 3,
+          "raw_output": "Score: 3  \nRationale: The therapist's question is related to emotions but focuses more on identifying contributing factors, which may not directly elicit the client's specific emotions."
+        },
+        {
+          "ccd_id": "behavior",
+          "ccd_label": "Behavior",
+          "was_revealed_before_turn": false,
+          "revealed_by_this_evaluation": true,
+          "answer": "YES",
+          "score": 3,
+          "reveal_threshold": 3,
+          "raw_output": "Score: 3  \nRationale: The therapist's question is related to the client's feeling of being overwhelmed, which might lead to discussing behaviors, but it is not specific enough to directly elicit the exact CCD element of ignoring invitations and calls."
+        },
+        {
+          "ccd_id": "history",
+          "ccd_label": "Relevant History",
+          "was_revealed_before_turn": false,
+          "revealed_by_this_evaluation": true,
+          "answer": "YES",
+          "score": 3,
+          "reveal_threshold": 3,
+          "raw_output": "Score: 3  \nRationale: The therapist's question is related to the client's feelings of being overwhelmed, which might lead to discussing relevant history, but it is not specific enough to naturally elicit the exact CCD element of Relevant History."
+        },
+        {
+          "ccd_id": "intermediate_belief",
+          "ccd_label": "Intermediate Beliefs",
+          "was_revealed_before_turn": false,
+          "revealed_by_this_evaluation": false,
+          "answer": "NO",
+          "score": 2,
+          "reveal_threshold": 3,
+          "raw_output": "Score: 2  \nRationale: The therapist's question is broad and likely to elicit situational details rather than the specific intermediate beliefs."
+        },
+        {
+          "ccd_id": "core_beliefs",
+          "ccd_label": "Core Beliefs",
+          "was_revealed_before_turn": false,
+          "revealed_by_this_evaluation": false,
+          "answer": "NO",
+          "score": 2,
+          "reveal_threshold": 3,
+          "raw_output": "Score: 2  \nRationale: The therapist's question is broad and likely to elicit situational factors rather than the specific core beliefs of being trapped, unlovable, or worthless."
+        },
+        {
+          "ccd_id": "coping_strategies",
+          "ccd_label": "Coping Strategies",
+          "was_revealed_before_turn": false,
+          "revealed_by_this_evaluation": false,
+          "answer": "NO",
+          "score": 2,
+          "reveal_threshold": 3,
+          "raw_output": "Score: 2  \nRationale: The therapist's question is broad and more likely to elicit general stressors rather than specific coping strategies."
+        }
+      ],
+      "revealed_after_turn": {
+        "situation": false,
+        "auto_thought": true,
+        "emotion": true,
+        "behavior": true,
+        "history": true,
+        "intermediate_belief": false,
+        "core_beliefs": false,
+        "coping_strategies": false
+      }
+    },
+    {
+      "turn": 3,
+      "therapist": "Therapist: It sounds like there are multiple sources of stress in your life right now, with work and family both playing a role. Juggling those responsibilities can certainly feel heavy. Can you share a bit more about what’s been particularly stressful at work or with your family?",
+      "client": "I'm not sure where to start with that. Work has just been really demanding lately, and I feel like I'm constantly under pressure to meet deadlines. As for family, there have been some disagreements that have been hard to navigate, and it feels like no matter what I do, I can't seem to make things better. It's just all weighing on me, and I feel stuck.",
+      "reveal_evaluations": [
+        {
+          "ccd_id": "situation",
+          "ccd_label": "Situation",
+          "was_revealed_before_turn": false,
+          "revealed_by_this_evaluation": false,
+          "answer": "NO",
+          "score": 2,
+          "reveal_threshold": 3,
+          "raw_output": "Score: 2  \nRationale: The therapist's question is too broad and more likely to elicit general stressors rather than the specific situation of Alex's cousin's wedding."
+        },
+        {
+          "ccd_id": "intermediate_belief",
+          "ccd_label": "Intermediate Beliefs",
+          "was_revealed_before_turn": false,
+          "revealed_by_this_evaluation": false,
+          "answer": "NO",
+          "score": 2,
+          "reveal_threshold": 3,
+          "raw_output": "Score: 2  \nRationale: The therapist's question is focused on specific stressors rather than probing the client's intermediate beliefs about handling stress or being unlovable."
+        },
+        {
+          "ccd_id": "core_beliefs",
+          "ccd_label": "Core Beliefs",
+          "was_revealed_before_turn": false,
+          "revealed_by_this_evaluation": false,
+          "answer": "NO",
+          "score": 2,
+          "reveal_threshold": 3,
+          "raw_output": "Score: 2  \nRationale: The therapist's question is focused on situational stressors rather than probing deeper into the client's core beliefs."
+        },
+        {
+          "ccd_id": "coping_strategies",
+          "ccd_label": "Coping Strategies",
+          "was_revealed_before_turn": false,
+          "revealed_by_this_evaluation": false,
+          "answer": "NO",
+          "score": 2,
+          "reveal_threshold": 3,
+          "raw_output": "Score: 2  \nRationale: The therapist's question is broad and more likely to elicit details about stressors rather than specific coping strategies."
+        }
+      ],
+      "revealed_after_turn": {
+        "situation": false,
+        "auto_thought": true,
+        "emotion": true,
+        "behavior": true,
+        "history": true,
+        "intermediate_belief": false,
+        "core_beliefs": false,
+        "coping_strategies": false
+      }
+    },
+    {
+      "turn": 4,
+      "therapist": "It sounds like you're feeling a lot of pressure from both your work and family situations, and that sense of being stuck can be really frustrating. When you mention feeling like you can't make things better with your family, what emotions does that bring up for you?",
+      "client": "Client: I guess it makes me feel really helpless and frustrated. I want to be able to improve things, but it just feels like I’m hitting a wall every time I try to address the issues. It’s exhausting to keep trying and feeling like nothing changes.",
+      "reveal_evaluations": [
+        {
+          "ccd_id": "situation",
+          "ccd_label": "Situation",
+          "was_revealed_before_turn": false,
+          "revealed_by_this_evaluation": false,
+          "answer": "NO",
+          "score": 1,
+          "reveal_threshold": 3,
+          "raw_output": "Score: 1  \nRationale: The therapist's question focuses on emotions rather than the specific situation of Alex's cousin's wedding invitation."
+        },
+        {
+          "ccd_id": "intermediate_belief",
+          "ccd_label": "Intermediate Beliefs",
+          "was_revealed_before_turn": false,
+          "revealed_by_this_evaluation": false,
+          "answer": "NO",
+          "score": 2,
+          "reveal_threshold": 3,
+          "raw_output": "Score: 2  \nRationale: The therapist's question focuses on emotions rather than probing assumptions or implications related to the client's intermediate beliefs."
+        },
+        {
+          "ccd_id": "core_beliefs",
+          "ccd_label": "Core Beliefs",
+          "was_revealed_before_turn": false,
+          "revealed_by_this_evaluation": false,
+          "answer": "NO",
+          "score": 2,
+          "reveal_threshold": 3,
+          "raw_output": "Score: 2  \nRationale: The therapist's question focuses on emotions rather than probing deeper into core beliefs related to being trapped, unlovable, or worthless."
+        },
+        {
+          "ccd_id": "coping_strategies",
+          "ccd_label": "Coping Strategies",
+          "was_revealed_before_turn": false,
+          "revealed_by_this_evaluation": false,
+          "answer": "NO",
+          "score": 2,
+          "reveal_threshold": 3,
+          "raw_output": "Score: 2  \nRationale: The therapist's question focuses on emotions related to family issues, not specifically on coping strategies."
+        }
+      ],
+      "revealed_after_turn": {
+        "situation": false,
+        "auto_thought": true,
+        "emotion": true,
+        "behavior": true,
+        "history": true,
+        "intermediate_belief": false,
+        "core_beliefs": false,
+        "coping_strategies": false
+      }
+    },
+    {
+      "turn": 5,
+      "therapist": "Therapist: It sounds incredibly exhausting to feel helpless and frustrated, especially when you're putting in the effort to make things better. That sense of hitting a wall must be really disheartening. When you think about those moments of trying to address the issues with your family, what thoughts come to mind for you?",
+      "client": "I guess when I think about those moments, I feel a mix of disappointment and frustration. I keep replaying the conversations in my head, wondering if I said something wrong or if I could have approached things differently. It just feels like no matter how hard I try, I can't seem to communicate effectively, and that makes me doubt myself even more. I wish I could find a way to make things better, but I just feel stuck in this cycle.",
+      "reveal_evaluations": [
+        {
+          "ccd_id": "situation",
+          "ccd_label": "Situation",
+          "was_revealed_before_turn": false,
+          "revealed_by_this_evaluation": false,
+          "answer": "NO",
+          "score": 1,
+          "reveal_threshold": 3,
+          "raw_output": "Score: 1  \nRationale: The therapist's question focuses on thoughts and emotions rather than eliciting the specific situation of Alex's cousin's wedding invitation."
+        },
+        {
+          "ccd_id": "intermediate_belief",
+          "ccd_label": "Intermediate Beliefs",
+          "was_revealed_before_turn": false,
+          "revealed_by_this_evaluation": true,
+          "answer": "YES",
+          "score": 3,
+          "reveal_threshold": 3,
+          "raw_output": "Score: 3  \nRationale: The therapist's question is related to the client's feelings of helplessness but lacks specificity in probing assumptions or beliefs, making it uncertain if the client will naturally reveal the exact intermediate belief."
+        },
+        {
+          "ccd_id": "core_beliefs",
+          "ccd_label": "Core Beliefs",
+          "was_revealed_before_turn": false,
+          "revealed_by_this_evaluation": true,
+          "answer": "YES",
+          "score": 3,
+          "reveal_threshold": 3,
+          "raw_output": "Score: 3  \nRationale: The therapist's question is related to the client's feelings of helplessness but lacks specificity to directly elicit core beliefs about being trapped or out of control."
+        },
+        {
+          "ccd_id": "coping_strategies",
+          "ccd_label": "Coping Strategies",
+          "was_revealed_before_turn": false,
+          "revealed_by_this_evaluation": false,
+          "answer": "NO",
+          "score": 2,
+          "reveal_threshold": 3,
+          "raw_output": "Score: 2  \nRationale: The therapist's question is more likely to elicit thoughts or emotions rather than specific coping strategies."
+        }
+      ],
+      "revealed_after_turn": {
+        "situation": false,
+        "auto_thought": true,
+        "emotion": true,
+        "behavior": true,
+        "history": true,
+        "intermediate_belief": true,
+        "core_beliefs": true,
+        "coping_strategies": false
+      }
+    },
+    {
+      "turn": 6,
+      "therapist": "It sounds like those moments really weigh on you, filled with disappointment and self-doubt about your communication. That cycle of replaying conversations can be really draining. I'm curious, what do you think makes it hard for you to communicate effectively in those situations?",
+      "client": "I think part of it is that I get really anxious when I try to talk about the issues. I worry about how the other person will react or if I'll say something that makes things worse. Sometimes, I just freeze up and can't find the right words, and I end up feeling even more frustrated afterward. It’s like there’s a part of me that wants to communicate effectively, but another part just feels paralyzed by the fear of conflict or misunderstanding.",
+      "reveal_evaluations": [
+        {
+          "ccd_id": "situation",
+          "ccd_label": "Situation",
+          "was_revealed_before_turn": false,
+          "revealed_by_this_evaluation": false,
+          "answer": "NO",
+          "score": 2,
+          "reveal_threshold": 3,
+          "raw_output": "Score: 2  \nRationale: The therapist's question is more likely to elicit information about communication difficulties rather than the specific situation of Alex's cousin's wedding invitation."
+        },
+        {
+          "ccd_id": "coping_strategies",
+          "ccd_label": "Coping Strategies",
+          "was_revealed_before_turn": false,
+          "revealed_by_this_evaluation": false,
+          "answer": "NO",
+          "score": 2,
+          "reveal_threshold": 3,
+          "raw_output": "Score: 2  \nRationale: The therapist's question is more likely to elicit thoughts about communication difficulties rather than specific coping strategies."
+        }
+      ],
+      "revealed_after_turn": {
+        "situation": false,
+        "auto_thought": true,
+        "emotion": true,
+        "behavior": true,
+        "history": true,
+        "intermediate_belief": true,
+        "core_beliefs": true,
+        "coping_strategies": false
+      }
+    },
+    {
+      "turn": 7,
+      "therapist": "It sounds like that anxiety really impacts your ability to express yourself, creating a conflict between wanting to communicate and feeling paralyzed by the fear of how it might unfold. That must be really challenging. When you freeze up in those moments, what do you notice happening in your body or mind?",
+      "client": "Client: When I freeze up, I notice my heart starts racing, and I feel really tense. It's like my mind goes blank, and I can't think clearly. I sometimes feel a knot in my stomach, and I just want to escape the situation. It's frustrating because I know I want to talk things through, but my body just reacts in a way that makes it feel impossible.",
+      "reveal_evaluations": [
+        {
+          "ccd_id": "situation",
+          "ccd_label": "Situation",
+          "was_revealed_before_turn": false,
+          "revealed_by_this_evaluation": false,
+          "answer": "NO",
+          "score": 1,
+          "reveal_threshold": 3,
+          "raw_output": "Score: 1  \nRationale: The therapist's question focuses on physical and mental reactions during communication, not on the specific situation of Alex's cousin's wedding invitation."
+        },
+        {
+          "ccd_id": "coping_strategies",
+          "ccd_label": "Coping Strategies",
+          "was_revealed_before_turn": false,
+          "revealed_by_this_evaluation": false,
+          "answer": "NO",
+          "score": 2,
+          "reveal_threshold": 3,
+          "raw_output": "Score: 2  \nRationale: The therapist's question is more likely to elicit information about the client's physical and mental reactions rather than their coping strategies."
+        }
+      ],
+      "revealed_after_turn": {
+        "situation": false,
+        "auto_thought": true,
+        "emotion": true,
+        "behavior": true,
+        "history": true,
+        "intermediate_belief": true,
+        "core_beliefs": true,
+        "coping_strategies": false
+      }
+    },
+    {
+      "turn": 8,
+      "therapist": "It sounds like your body responds strongly to that anxiety, with physical sensations like a racing heart and tension making it even harder to communicate. That feeling of wanting to escape must add to the frustration, especially when you want to engage in those conversations. I'm curious, have you noticed any specific moments or triggers that tend to make that anxiety or those physical reactions stronger for you?",
+      "client": "I'm not sure if there are specific triggers, but I do notice that my anxiety tends to spike in situations where there's a lot at stake, like when we're discussing important family matters or if I feel like I'm being judged. I think sometimes I just get overwhelmed by the thought of disappointing others or not being understood. It makes it hard to focus on what I want to say, and I end up getting stuck in my head instead.",
+      "reveal_evaluations": [
+        {
+          "ccd_id": "situation",
+          "ccd_label": "Situation",
+          "was_revealed_before_turn": false,
+          "revealed_by_this_evaluation": false,
+          "answer": "NO",
+          "score": 2,
+          "reveal_threshold": 3,
+          "raw_output": "Score: 2  \nRationale: The therapist's question is more likely to elicit information about triggers or emotions rather than the specific situation of Alex's cousin inviting him to the wedding."
+        },
+        {
+          "ccd_id": "coping_strategies",
+          "ccd_label": "Coping Strategies",
+          "was_revealed_before_turn": false,
+          "revealed_by_this_evaluation": false,
+          "answer": "NO",
+          "score": 2,
+          "reveal_threshold": 3,
+          "raw_output": "Score: 2  \nRationale: The therapist's question is more likely to elicit information about triggers and physical reactions rather than the client's coping strategies."
+        }
+      ],
+      "revealed_after_turn": {
+        "situation": false,
+        "auto_thought": true,
+        "emotion": true,
+        "behavior": true,
+        "history": true,
+        "intermediate_belief": true,
+        "core_beliefs": true,
+        "coping_strategies": false
+      }
+    },
+    {
+      "turn": 9,
+      "therapist": "It sounds like those high-stakes situations really amplify your anxiety, especially when you fear judgment or disappointment. That pressure can make it difficult to stay present and articulate your thoughts. I'm curious, when you find yourself getting stuck in your head like that, what kind of thoughts or beliefs do you notice coming up for you?",
+      "client": "I guess when I'm stuck in my head, I often think about how I'm not good enough or that I'm going to mess things up. It's like a loop of negative thoughts telling me I'm going to disappoint everyone or that I won't be able to say what I really mean. Sometimes I feel like I'm just not capable of handling those conversations, and that makes me want to avoid them altogether. It’s frustrating because I know I want to connect with my family, but this fear just keeps getting in the way.",
+      "reveal_evaluations": [
+        {
+          "ccd_id": "situation",
+          "ccd_label": "Situation",
+          "was_revealed_before_turn": false,
+          "revealed_by_this_evaluation": false,
+          "answer": "NO",
+          "score": 2,
+          "reveal_threshold": 3,
+          "raw_output": "Score: 2  \nRationale: The therapist's question is more likely to elicit thoughts or beliefs rather than the specific situation of Alex's cousin's wedding invitation."
+        },
+        {
+          "ccd_id": "coping_strategies",
+          "ccd_label": "Coping Strategies",
+          "was_revealed_before_turn": false,
+          "revealed_by_this_evaluation": false,
+          "answer": "NO",
+          "score": 2,
+          "reveal_threshold": 3,
+          "raw_output": "Score: 2  \nRationale: The therapist's question is more likely to elicit thoughts or beliefs rather than the specific coping strategies of avoidance and scheduling activities."
+        }
+      ],
+      "revealed_after_turn": {
+        "situation": false,
+        "auto_thought": true,
+        "emotion": true,
+        "behavior": true,
+        "history": true,
+        "intermediate_belief": true,
+        "core_beliefs": true,
+        "coping_strategies": false
+      }
+    },
+    {
+      "turn": 10,
+      "therapist": "It sounds like those negative thoughts create a lot of pressure and self-doubt, making it feel even harder to engage in conversations with your family. It must be really tough to feel that way, especially when you genuinely want to connect with them. When you think about the belief that you might not be good enough or capable of handling those conversations, how does that belief affect the way you see yourself or your ability to communicate?",
+      "client": "I think that belief makes me feel really small and inadequate. It’s like I’m constantly comparing myself to others and feeling like I fall short. When I see my family communicating easily with each other or resolving conflicts, it just reinforces that belief that I’m not good enough. It makes me hesitant to even speak up because I worry that I’ll just make things worse. It’s frustrating to feel like I’m stuck in this cycle of self-doubt, especially when I want to be a better communicator and connect with them.",
+      "reveal_evaluations": [
+        {
+          "ccd_id": "situation",
+          "ccd_label": "Situation",
+          "was_revealed_before_turn": false,
+          "revealed_by_this_evaluation": false,
+          "answer": "NO",
+          "score": 1,
+          "reveal_threshold": 3,
+          "raw_output": "Score: 1  \nRationale: The therapist's question focuses on beliefs and self-view, not the specific situation of Alex's cousin's wedding invitation."
+        },
+        {
+          "ccd_id": "coping_strategies",
+          "ccd_label": "Coping Strategies",
+          "was_revealed_before_turn": false,
+          "revealed_by_this_evaluation": false,
+          "answer": "NO",
+          "score": 2,
+          "reveal_threshold": 3,
+          "raw_output": "Score: 2  \nRationale: The therapist's question focuses on self-view and communication ability rather than directly eliciting coping strategies."
+        }
+      ],
+      "revealed_after_turn": {
+        "situation": false,
+        "auto_thought": true,
+        "emotion": true,
+        "behavior": true,
+        "history": true,
+        "intermediate_belief": true,
+        "core_beliefs": true,
+        "coping_strategies": false
+      }
+    },
+    {
+      "turn": 11,
+      "therapist": "It sounds like that belief of feeling small and inadequate really impacts your confidence in communication, especially when you compare yourself to others in your family. It must be disheartening to feel like you’re stuck in a cycle of self-doubt, particularly when you have a strong desire to connect. I'm curious, can you recall any past experiences that might have contributed to these feelings of inadequacy or doubt in your ability to communicate?",
+      "client": "I'm not sure if there are specific past experiences that stand out. I guess I've always felt a bit different from my family, and maybe that plays a role in how I communicate. Growing up, I often felt like I had to prove myself, like I wasn't as good as my siblings. I think that pressure has stuck with me, and it makes me question myself more now. It's tough to shake off those feelings, especially when I see them handling situations with ease. I just wish I could feel more confident in expressing myself without all this doubt weighing me down.",
+      "reveal_evaluations": [
+        {
+          "ccd_id": "situation",
+          "ccd_label": "Situation",
+          "was_revealed_before_turn": false,
+          "revealed_by_this_evaluation": false,
+          "answer": "NO",
+          "score": 1,
+          "reveal_threshold": 3,
+          "raw_output": "Score: 1  \nRationale: The therapist's question focuses on past experiences contributing to feelings of inadequacy, not the specific situation of Alex's cousin inviting him to the wedding."
+        },
+        {
+          "ccd_id": "coping_strategies",
+          "ccd_label": "Coping Strategies",
+          "was_revealed_before_turn": false,
+          "revealed_by_this_evaluation": false,
+          "answer": "NO",
+          "score": 2,
+          "reveal_threshold": 3,
+          "raw_output": "Score: 2  \nRationale: The therapist's question is focused on past experiences contributing to feelings of inadequacy, which is weakly related to eliciting specific coping strategies."
+        }
+      ],
+      "revealed_after_turn": {
+        "situation": false,
+        "auto_thought": true,
+        "emotion": true,
+        "behavior": true,
+        "history": true,
+        "intermediate_belief": true,
+        "core_beliefs": true,
+        "coping_strategies": false
+      }
+    },
+    {
+      "turn": 12,
+      "therapist": "It sounds like growing up feeling different and under pressure to prove yourself has really shaped how you view your communication skills and your sense of self-worth. That comparison to your siblings seems to have created a lasting impact on your confidence. It must be difficult to navigate those feelings now, especially when you want to express yourself more freely. How do you feel when you reflect on that pressure from your childhood?",
+      "client": "I think reflecting on that pressure from my childhood just brings up a lot of sadness and frustration. It’s like I can still feel that weight of expectation, and it makes me feel even more inadequate now. I wish I could let go of those feelings, but they seem to linger and affect how I approach conversations today. It’s tough to reconcile wanting to connect with my family while also feeling like I’m not good enough to do it. I often wonder if I’ll ever be able to express myself without that doubt creeping in.",
+      "reveal_evaluations": [
+        {
+          "ccd_id": "situation",
+          "ccd_label": "Situation",
+          "was_revealed_before_turn": false,
+          "revealed_by_this_evaluation": false,
+          "answer": "NO",
+          "score": 1,
+          "reveal_threshold": 3,
+          "raw_output": "Score: 1  \nRationale: The therapist's question focuses on emotions and reflections about childhood pressure, not the specific situation of Alex's cousin's wedding."
+        },
+        {
+          "ccd_id": "coping_strategies",
+          "ccd_label": "Coping Strategies",
+          "was_revealed_before_turn": false,
+          "revealed_by_this_evaluation": false,
+          "answer": "NO",
+          "score": 2,
+          "reveal_threshold": 3,
+          "raw_output": "Score: 2  \nRationale: The therapist's question is more likely to elicit emotions or past experiences rather than the specific coping strategies of avoidance and scheduling activities."
+        }
+      ],
+      "revealed_after_turn": {
+        "situation": false,
+        "auto_thought": true,
+        "emotion": true,
+        "behavior": true,
+        "history": true,
+        "intermediate_belief": true,
+        "core_beliefs": true,
+        "coping_strategies": false
+      }
+    },
+    {
+      "turn": 13,
+      "therapist": "It sounds like that sadness and frustration are really heavy for you, especially as you try to navigate the expectations from your childhood alongside your desire to connect with your family. It must be challenging to feel that those feelings of inadequacy still hold such a strong influence over you today. I'm curious, as you think about wanting to let go of those feelings and communicate more freely, what would that look like for you? What would it feel like to express yourself without that doubt?",
+      "client": "Client: I think expressing myself without doubt would feel freeing, like I could finally share my thoughts and feelings without second-guessing myself. It would be nice to feel confident enough to speak up and not worry about how others might react. I imagine it would feel empowering to know that I can communicate my needs and feelings clearly, and not feel that heavy weight of expectation or inadequacy. But right now, it just feels so far away, and I worry that I’ll never really get there.",
+      "reveal_evaluations": [
+        {
+          "ccd_id": "situation",
+          "ccd_label": "Situation",
+          "was_revealed_before_turn": false,
+          "revealed_by_this_evaluation": false,
+          "answer": "NO",
+          "score": 1,
+          "reveal_threshold": 3,
+          "raw_output": "Score: 1  \nRationale: The therapist's question focuses on emotions and desired future states rather than eliciting details about the specific situation of Alex's cousin's wedding invitation."
+        },
+        {
+          "ccd_id": "coping_strategies",
+          "ccd_label": "Coping Strategies",
+          "was_revealed_before_turn": false,
+          "revealed_by_this_evaluation": false,
+          "answer": "NO",
+          "score": 2,
+          "reveal_threshold": 3,
+          "raw_output": "Score: 2  \nRationale: The therapist's question is broad and more likely to elicit emotions or aspirations rather than specific coping strategies."
+        }
+      ],
+      "revealed_after_turn": {
+        "situation": false,
+        "auto_thought": true,
+        "emotion": true,
+        "behavior": true,
+        "history": true,
+        "intermediate_belief": true,
+        "core_beliefs": true,
+        "coping_strategies": false
+      }
+    },
+    {
+      "turn": 14,
+      "therapist": "It sounds like the idea of expressing yourself freely feels really empowering and liberating for you, which is such a beautiful aspiration. Yet, I can sense a deep worry that it feels out of reach right now. That contrast between how you envision communicating and how you currently feel must be really frustrating. I'm curious, what small steps do you think might help you move towards that sense of freedom in expressing yourself?",
+      "client": "I guess I haven't really thought about specific steps I could take. It feels overwhelming to even consider where to start. Maybe just practicing speaking up in smaller, less intimidating situations could help? But then again, I worry that I might still freeze up or say the wrong thing. It’s hard to shake off that fear. I want to believe I can get to a place where I feel confident, but it honestly feels like a big mountain to climb right now.",
+      "reveal_evaluations": [
+        {
+          "ccd_id": "situation",
+          "ccd_label": "Situation",
+          "was_revealed_before_turn": false,
+          "revealed_by_this_evaluation": false,
+          "answer": "NO",
+          "score": 1,
+          "reveal_threshold": 3,
+          "raw_output": "Score: 1  \nRationale: The therapist's question focuses on future steps for expressing oneself freely, not on eliciting details about the specific situation of Alex's cousin's wedding invitation."
+        },
+        {
+          "ccd_id": "coping_strategies",
+          "ccd_label": "Coping Strategies",
+          "was_revealed_before_turn": false,
+          "revealed_by_this_evaluation": true,
+          "answer": "YES",
+          "score": 4,
+          "reveal_threshold": 3,
+          "raw_output": "Score: 4  \nRationale: The therapist's question is strongly related to coping strategies by asking about small steps towards expressing oneself freely, but it is slightly indirect in eliciting the specific strategies of avoidance or scheduling activities."
+        }
+      ],
+      "revealed_after_turn": {
+        "situation": false,
+        "auto_thought": true,
+        "emotion": true,
+        "behavior": true,
+        "history": true,
+        "intermediate_belief": true,
+        "core_beliefs": true,
+        "coping_strategies": true
+      }
+    },
+    {
+      "turn": 15,
+      "therapist": "It sounds like the idea of starting with smaller, less intimidating situations feels like a potential step forward, even though the fear of freezing up or saying the wrong thing still lingers. That fear can really hold you back, and it's understandable to feel overwhelmed by the thought of that journey. I'm curious, what kind of support or resources do you think might help you as you begin to explore those smaller steps?",
+      "client": "I'm not really sure what kind of support I might need. I guess talking through things like this helps, but I often feel like I could use some practical strategies too. Maybe something like role-playing conversations could help me get more comfortable? But then again, it's hard to imagine how that would work in practice. I just feel a bit lost on how to actually start making progress. It's like I want to move forward, but I'm not quite sure what that looks like.",
+      "reveal_evaluations": [
+        {
+          "ccd_id": "situation",
+          "ccd_label": "Situation",
+          "was_revealed_before_turn": false,
+          "revealed_by_this_evaluation": false,
+          "answer": "NO",
+          "score": 2,
+          "reveal_threshold": 3,
+          "raw_output": "Score: 2  \nRationale: The therapist's question is more likely to elicit information about support or resources rather than the specific situation of Alex's cousin's wedding invitation."
+        }
+      ],
+      "revealed_after_turn": {
+        "situation": false,
+        "auto_thought": true,
+        "emotion": true,
+        "behavior": true,
+        "history": true,
+        "intermediate_belief": true,
+        "core_beliefs": true,
+        "coping_strategies": true
+      }
+    }
+  ]
+}
